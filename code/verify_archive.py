@@ -14,6 +14,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ok = True
 
 
+def sha256(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
 def check(cond, msg):
     global ok
     print(("PASS " if cond else "FAIL ") + msg)
@@ -65,7 +73,24 @@ mf = os.path.join(ROOT, "MANIFEST.sha256")
 check(os.path.exists(mf), "MANIFEST.sha256 exists")
 if os.path.exists(mf):
     lines = [l for l in open(mf).read().splitlines() if l.strip()]
-    check(len(lines) > 100, f"checksum manifest has {len(lines)} entries")
+    check(len(lines) >= 400, f"checksum manifest has {len(lines)} entries")
+    bad_hash = []
+    for line in lines:
+        digest, rel = line.split("  ", 1)
+        p = os.path.join(ROOT, rel.lstrip("./"))
+        if not os.path.exists(p) or sha256(p) != digest:
+            bad_hash.append(rel)
+    check(not bad_hash, f"all {len(lines)} checksums match")
+    for rel in bad_hash[:5]:
+        print("   mismatch:", rel)
+
+den = os.path.join(ROOT, "cascade_denominators.json")
+if os.path.exists(den):
+    d = json.load(open(den))
+    check(all(k in d for k in ("ieee24", "ieee39", "uk")),
+          "population denominators present for all three systems")
+else:
+    check(False, "cascade_denominators.json exists")
 
 print("\nRESULT:", "PASS" if ok else "FAIL")
 sys.exit(0 if ok else 1)

@@ -3,7 +3,7 @@
 Manuscript: JRESS-D-26-06831 (major revision)
 Title: From Explanation Agreement to Operability: A Restricted AC Screening Audit of GNN Explanations for Cascading-Failure Risk Assessment
 
-This archive is the authoritative source for every number, table, and figure in the revision. It is self-contained and does not depend on the GitHub repository being reachable during review.
+This archive is the authoritative source for every number, table, and figure in the revision. Verification and figure regeneration do not depend on the GitHub repository being reachable during review.
 
 ## Contents
 
@@ -18,6 +18,7 @@ data/results_revision/    new results generated for this revision
   results_heldout/        held-out-backbone audit on the exact GIN random-test partition (seed 2)
   results_wrapper/        wrapper AC-call distributions and threshold checks
   results_op/             identical raw top-k sets under public vs sample-conditioned protocols
+  results_statistics/      effect-size and Wilcoxon tables used in Section 3.8
   results_split_indices.json  exact per-seed train/eval indices
 data/figure_csv/          CSV files used to draw Figures 2-5
 figures/Figure1_source.svg  vector source for Figure 1
@@ -55,9 +56,10 @@ redistributed here. Set `ROOT` to a directory containing
 python code/verify_archive.py
 ```
 
-The script checks the manifest, compiles every Python file, counts the formal
-artefacts, and verifies that the table denominators used in the manuscript are
-present in the archive.
+The script validates every SHA-256 checksum in `MANIFEST.sha256`, compiles every
+Python file, counts the 137 formal artefacts, checks the 38/46/99 branch mappings
+and the five figure-level CSV files, and confirms that the population-denominator
+file is present.
 
 ## Reproduction
 
@@ -67,11 +69,11 @@ The supported check is:
 python code/verify_archive.py
 ```
 
-The aggregation, table, and figure scripts are under `code/`. They preserve the
-paths used in the revision and contain a `ROOT` constant; set it to the archive
-root before running them. The mapping from each manuscript table and figure to its
-source files, and the commands used in the revision, are listed in
-`docs/reproduction_notes.md`.
+The aggregation, table, and figure scripts are under `code/`. They read the
+archive root from the `RESS_ROOT` environment variable and default to the archive
+root, so the commands above run from a clean extraction. The mapping from each
+manuscript table and figure to its source files, and the commands used in the
+revision, are listed in `docs/reproduction_notes.md`.
 
 ## Formal versus auxiliary artefacts
 

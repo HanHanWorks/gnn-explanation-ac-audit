@@ -10,7 +10,7 @@ from collections import Counter
 import numpy as np
 
 ROOT = os.environ.get("RESS_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-P1 = os.path.join(ROOT, "server_data", "phase1")
+P1 = os.path.join(ROOT, "data", "results_json")
 
 
 def load(path):
@@ -126,11 +126,11 @@ def main():
     # new analyses
     out["quality"] = {}
     for system in ["ieee24", "ieee39", "uk"]:
-        p = os.path.join(ROOT, "code", "results_quality", f"{system}_quality.json")
+        p = os.path.join(ROOT, "data", "results_revision", "results_quality", f"{system}_quality.json")
         if os.path.exists(p):
             out["quality"][system] = load(p)
     out["matched"] = {}
-    for f in sorted(glob.glob(os.path.join(ROOT, "code", "results_matched", "*.json"))):
+    for f in sorted(glob.glob(os.path.join(ROOT, "data", "results_revision", "results_matched", "*.json"))):
         d = load(f)
         out["matched"][os.path.basename(f)] = {
             "n": d["supervised_edge"]["n"],
@@ -142,7 +142,7 @@ def main():
     for key, sub in [("conn", "results_conn"), ("wrapper", "results_wrapper"),
                      ("op", "results_op"), ("pg_quality", "results_pg_quality")]:
         out[key] = {}
-        for f in sorted(glob.glob(os.path.join(ROOT, "code", sub, "*.json"))):
+        for f in sorted(glob.glob(os.path.join(ROOT, "data", "results_revision", sub, "*.json"))):
             out[key][os.path.basename(f)] = load(f)
     with open(os.path.join(ROOT, "revision_summary.json"), "w") as f:
         json.dump(out, f, indent=1, default=float)

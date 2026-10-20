@@ -32,7 +32,7 @@ mpl.rcParams.update({
 })
 
 ROOT = os.environ.get("RESS_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-OUT = os.path.join(ROOT, "LaTeX_Source_Files", "figures")
+OUT = os.path.join(ROOT, "figures")
 os.makedirs(OUT, exist_ok=True)
 
 SYS = ["ieee24", "ieee39", "uk"]
@@ -53,7 +53,7 @@ def load(path):
 
 
 def archive_method(method, system):
-    base = os.path.join(ROOT, "server_data", "phase1")
+    base = os.path.join(ROOT, "data", "results_json")
     pats = {
         "GNNExplainer": {
             "ieee24": "results_ieee24_gin_unified_v8_eval50_s{}.json",
@@ -118,7 +118,7 @@ def wilson(k, n, z=1.96):
 
 
 def quality(system):
-    return load(os.path.join(ROOT, "code", "results_quality", f"{system}_quality.json"))
+    return load(os.path.join(ROOT, "data", "results_revision", "results_quality", f"{system}_quality.json"))
 
 
 def fig_outcomes():
@@ -227,7 +227,7 @@ def fig_quality():
                        alpha=0.65, linewidths=0.3, edgecolors="white")
     # PGExplainer pooled points if available
     for system in SYS:
-        pg = os.path.join(ROOT, "code", "results_pg_quality")
+        pg = os.path.join(ROOT, "data", "results_revision", "results_pg_quality")
         xs, ys = [], []
         for s in [2, 3, 4, 5, 6]:
             p = os.path.join(pg, f"{system}_pg_s{s}.json")
@@ -354,7 +354,7 @@ def fig_protocol():
                 "uk": [1.0, 1.0, 0.990]}
     op = {}
     for s_ in systems:
-        p = os.path.join(ROOT, "code", "results_op", f"{s_}_op_raw.json")
+        p = os.path.join(ROOT, "data", "results_revision", "results_op", f"{s_}_op_raw.json")
         if os.path.exists(p):
             op[s_] = load(p)
     mpl.rcParams.update({"font.size": 10.5, "axes.titlesize": 10.5,

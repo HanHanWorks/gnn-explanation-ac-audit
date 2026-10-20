@@ -26,6 +26,7 @@ datasets/PowerGraph-Node/13_Power_system/{IEEE24,IEEE39,UK}/System.m
 | Appendix C | `data/results_json/results_*_supervised_v9_contingency_*.json` |
 | Appendix D | `data/results_revision/results_heldout/*.json` |
 | Figures 2-5 | `data/figure_csv/*.csv` |
+| Section 3.8 (Wilcoxon / effect sizes) | `data/results_revision/results_statistics/ress_statistical_revision.json` |
 
 ## Commands
 
@@ -36,15 +37,16 @@ python code/build_revision_summary.py
 python code/make_figures.py
 ```
 
-`build_revision_summary.py` and `make_figures.py` contain a `ROOT` constant; set it
-to the archive root (or the revision working directory) before running.
+`build_revision_summary.py` and `make_figures.py` read the archive root from
+`RESS_ROOT` and default to the archive root; the commands above run from a clean
+extraction.
 
 ## Statistical notes
 
 - Edge balanced accuracy is pooled over all evaluated edges: TP/FP/TN/FN are summed
   across graphs, then BACC = 0.5*(TPR+TNR). Per-graph averaging is not used because a
   graph with no positive edge has an undefined per-graph BACC.
-- PFR intervals are seed-cluster bootstrap intervals (2000 replicates). Table 6 uses a
+- PFR intervals are seed-cluster bootstrap intervals (2000 replicates). Table 8 uses a
   t interval with four degrees of freedom for the five observed seeds.
 - The permutation null retrains the SEP on shuffled training labels with the same
   split, features, class balance, and solver; ten permutations per seed are reported.

@@ -1,0 +1,1120 @@
+{
+  "meta": {
+    "definition_pfr": "conditional counterfactual feasibility rate on accepted positive-class explainable cascade samples S+; NOT a long-run reliability estimate",
+    "subset": "S+ = samples with of_bi==1 and non-null explanation label",
+    "risk_column": "mean_risk = severity-weighted AC infeasibility: feasible=0, voltage-excess/0.25 clipped to [0,1], hard-failure(island/nonconv/overload)=1",
+    "clustering": "seed used as resampling cluster; ieee39 S+ population only 154 -> near-monolayer slice",
+    "covariate_of_ieee39": "ieee39 explainable-positive population is only 154 cascades; 5 seeds draw partially-overlapping slices of the same population, so the reports are cluster-correlated and uncertainty is bootstrap/GEE-based"
+  },
+  "denominators": {
+    "ieee24": {
+      "total": 21500,
+      "positive": 4334,
+      "cascade_rate_positive": 0.2016,
+      "explainable_positive": 3416,
+      "explainable_pos_rate_among_all": 0.1589
+    },
+    "ieee39": {
+      "total": 28000,
+      "positive": 2509,
+      "cascade_rate_positive": 0.0896,
+      "explainable_positive": 154,
+      "explainable_pos_rate_among_all": 0.0055
+    },
+    "uk": {
+      "total": 64000,
+      "positive": 2236,
+      "cascade_rate_positive": 0.0349,
+      "explainable_positive": 2236,
+      "explainable_pos_rate_among_all": 0.0349
+    }
+  },
+  "cells": {
+    "ieee24": {
+      "random": {
+        "k": 551.0,
+        "n": 1000,
+        "pooled": 0.551,
+        "wilson_lo": 0.5200345669542098,
+        "wilson_hi": 0.5815750893899785,
+        "boot_lo": 0.524,
+        "boot_hi": 0.578,
+        "per_seed": [
+          0.515,
+          0.51,
+          0.57,
+          0.585,
+          0.575
+        ]
+      },
+      "truth": {
+        "k": 56.0,
+        "n": 1000,
+        "pooled": 0.056,
+        "wilson_lo": 0.04337460969160231,
+        "wilson_hi": 0.07202367625311248,
+        "boot_lo": 0.047,
+        "boot_hi": 0.066,
+        "per_seed": [
+          0.075,
+          0.06,
+          0.055,
+          0.045,
+          0.045
+        ]
+      },
+      "gnn_explainer": {
+        "k": 394.0,
+        "n": 1000,
+        "pooled": 0.394,
+        "wilson_lo": 0.36417503486514635,
+        "wilson_hi": 0.4246362676351686,
+        "boot_lo": 0.372,
+        "boot_hi": 0.417,
+        "per_seed": [
+          0.405,
+          0.355,
+          0.435,
+          0.39,
+          0.385
+        ]
+      },
+      "pgexplainer": {
+        "k": 6.0,
+        "n": 1000,
+        "pooled": 0.006,
+        "wilson_lo": 0.0027526315709082323,
+        "wilson_hi": 0.013028344232445607,
+        "boot_lo": 0.0,
+        "boot_hi": 0.014,
+        "per_seed": [
+          0.02,
+          0.0,
+          0.01,
+          0.0,
+          0.0
+        ]
+      },
+      "gradcam": {
+        "k": 95.0,
+        "n": 1000,
+        "pooled": 0.095,
+        "wilson_lo": 0.0783449556647148,
+        "wilson_hi": 0.11475483219026154,
+        "boot_lo": 0.057,
+        "boot_hi": 0.139,
+        "per_seed": [
+          0.06,
+          0.085,
+          0.04,
+          0.115,
+          0.175
+        ]
+      },
+      "gsat": {
+        "k": 49.0,
+        "n": 600,
+        "pooled": 0.08166666666666667,
+        "wilson_lo": 0.06232329359267165,
+        "wilson_hi": 0.10633285729193122,
+        "boot_lo": 0.0,
+        "boot_hi": 0.19,
+        "per_seed": [
+          0.0,
+          0.055,
+          0.19
+        ]
+      }
+    },
+    "ieee39": {
+      "random": {
+        "k": 45.0,
+        "n": 520,
+        "pooled": 0.08653846153846154,
+        "wilson_lo": 0.06530322570354735,
+        "wilson_hi": 0.11383794979683291,
+        "boot_lo": 0.06153846153846154,
+        "boot_hi": 0.10961538461538461,
+        "per_seed": [
+          0.09615384615384616,
+          0.125,
+          0.038461538461538464,
+          0.09615384615384616,
+          0.07692307692307693
+        ]
+      },
+      "truth": {
+        "k": 460.0,
+        "n": 520,
+        "pooled": 0.8846153846153846,
+        "wilson_lo": 0.8542903498410594,
+        "wilson_hi": 0.9092992543446332,
+        "boot_lo": 0.8730769230769231,
+        "boot_hi": 0.8961538461538462,
+        "per_seed": [
+          0.8846153846153846,
+          0.9038461538461539,
+          0.8846153846153846,
+          0.8653846153846154,
+          0.8846153846153846
+        ]
+      },
+      "gnn_explainer": {
+        "k": 5.0,
+        "n": 520,
+        "pooled": 0.009615384615384616,
+        "wilson_lo": 0.0041138528733977355,
+        "wilson_hi": 0.022309401789843978,
+        "boot_lo": 0.0019230769230769232,
+        "boot_hi": 0.019230769230769232,
+        "per_seed": [
+          0.009615384615384616,
+          0.0,
+          0.0,
+          0.009615384615384616,
+          0.028846153846153848
+        ]
+      },
+      "pgexplainer": {
+        "k": 0.0,
+        "n": 520,
+        "pooled": 0.0,
+        "wilson_lo": 0.0,
+        "wilson_hi": 0.007333514558599393,
+        "boot_lo": 0.0,
+        "boot_hi": 0.0,
+        "per_seed": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "gradcam": {
+        "k": 14.0,
+        "n": 520,
+        "pooled": 0.026923076923076925,
+        "wilson_lo": 0.016103893841931418,
+        "wilson_hi": 0.04468089300966647,
+        "boot_lo": 0.0,
+        "boot_hi": 0.057692307692307696,
+        "per_seed": [
+          0.0,
+          0.0,
+          0.07692307692307693,
+          0.057692307692307696,
+          0.0
+        ]
+      },
+      "gsat": {
+        "k": 0.0,
+        "n": 312,
+        "pooled": 0.0,
+        "wilson_lo": 0.0,
+        "wilson_hi": 0.012163058951069143,
+        "boot_lo": 0.0,
+        "boot_hi": 0.0,
+        "per_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "uk": {
+      "random": {
+        "k": 1000.0,
+        "n": 1000,
+        "pooled": 1.0,
+        "wilson_lo": 0.9961731014136096,
+        "wilson_hi": 1.0,
+        "boot_lo": 1.0,
+        "boot_hi": 1.0,
+        "per_seed": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "truth": {
+        "k": 774.0,
+        "n": 1000,
+        "pooled": 0.774,
+        "wilson_lo": 0.7470571078650102,
+        "wilson_hi": 0.7988457517096478,
+        "boot_lo": 0.75,
+        "boot_hi": 0.796,
+        "per_seed": [
+          0.81,
+          0.735,
+          0.78,
+          0.79,
+          0.755
+        ]
+      },
+      "gnn_explainer": {
+        "k": 993.0,
+        "n": 1000,
+        "pooled": 0.993,
+        "wilson_lo": 0.985621503073051,
+        "wilson_hi": 0.996605174920768,
+        "boot_lo": 0.986,
+        "boot_hi": 0.999,
+        "per_seed": [
+          0.995,
+          0.99,
+          1.0,
+          0.98,
+          1.0
+        ]
+      },
+      "pgexplainer": {
+        "k": 582.0,
+        "n": 1000,
+        "pooled": 0.582,
+        "wilson_lo": 0.5511724096520938,
+        "wilson_hi": 0.6121999789797381,
+        "boot_lo": 0.486,
+        "boot_hi": 0.746,
+        "per_seed": [
+          0.535,
+          0.5,
+          0.91,
+          0.465,
+          0.5
+        ]
+      },
+      "gradcam": {
+        "k": 819.0,
+        "n": 1000,
+        "pooled": 0.819,
+        "wilson_lo": 0.7939299861359917,
+        "wilson_hi": 0.8416284525658911,
+        "boot_lo": 0.638,
+        "boot_hi": 0.973,
+        "per_seed": [
+          1.0,
+          0.5,
+          0.71,
+          0.905,
+          0.98
+        ]
+      },
+      "gsat": {
+        "k": 200.0,
+        "n": 200,
+        "pooled": 1.0,
+        "wilson_lo": 0.9811539940816792,
+        "wilson_hi": 1.0,
+        "boot_lo": null,
+        "boot_hi": null,
+        "per_seed": [
+          1.0
+        ]
+      }
+    }
+  },
+  "risk_cells": {
+    "ieee24": {
+      "random": {
+        "pooled_risk": 0.4000564935228132,
+        "per_seed": [
+          0.4353535316172067,
+          0.433132437537439,
+          0.39445672080980887,
+          0.3527226883029486,
+          0.3846170893466626
+        ],
+        "mean_voltage_excess": [
+          0.15452602234078222,
+          0.13626487507487808,
+          0.15126866891613563,
+          0.12544537660589716,
+          0.13122673337253726
+        ]
+      },
+      "truth": {
+        "pooled_risk": 0.6798833445686772,
+        "per_seed": [
+          0.6670392266597512,
+          0.6732451093867883,
+          0.6767794231746277,
+          0.6882451093867883,
+          0.6941078542354302
+        ],
+        "mean_voltage_excess": [
+          0.1767156893919748,
+          0.1767156893919748,
+          0.17671568939197485,
+          0.1767156893919748,
+          0.17671568939197477
+        ]
+      },
+      "gnn_explainer": {
+        "pooled_risk": 0.53216241770608,
+        "per_seed": [
+          0.5377092091716494,
+          0.5405450765184122,
+          0.48821753824924785,
+          0.5406957434122366,
+          0.5536445211788535
+        ],
+        "mean_voltage_excess": [
+          0.12085307382252757,
+          0.09638981840942973,
+          0.1128884611593712,
+          0.12223235494350089,
+          0.10444048130722247
+        ]
+      }
+    },
+    "ieee39": {
+      "random": {
+        "pooled_risk": 0.910278153026609,
+        "per_seed": [
+          0.9038461538461539,
+          0.8590830728253527,
+          0.9615384615384616,
+          0.9038461538461539,
+          0.9230769230769231
+        ],
+        "mean_voltage_excess": [
+          0.0,
+          0.04307994672958282,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "truth": {
+        "pooled_risk": 0.11538461538461539,
+        "per_seed": [
+          0.11538461538461539,
+          0.09615384615384616,
+          0.11538461538461539,
+          0.1346153846153846,
+          0.11538461538461539
+        ],
+        "mean_voltage_excess": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "gnn_explainer": {
+        "pooled_risk": 0.9903846153846154,
+        "per_seed": [
+          0.9903846153846154,
+          1.0,
+          1.0,
+          0.9903846153846154,
+          0.9711538461538461
+        ],
+        "mean_voltage_excess": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "uk": {
+      "random": {
+        "pooled_risk": 0.0,
+        "per_seed": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_voltage_excess": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "truth": {
+        "pooled_risk": 0.226,
+        "per_seed": [
+          0.19,
+          0.265,
+          0.22,
+          0.21,
+          0.245
+        ],
+        "mean_voltage_excess": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "gnn_explainer": {
+        "pooled_risk": 0.0051692275799898445,
+        "per_seed": [
+          0.005,
+          0.01,
+          0.0,
+          0.010846137899949225,
+          0.0
+        ],
+        "mean_voltage_excess": [
+          0.0,
+          0.0,
+          0.0,
+          0.021153447498730604,
+          0.0
+        ]
+      }
+    }
+  },
+  "paired_tests": {
+    "family": "PFR(method - random) by seed, two-sided Wilcoxon, Holm across all cells",
+    "tests": [
+      {
+        "system": "ieee24",
+        "metric": "PFR",
+        "method": "gnn_explainer",
+        "mean_diff_method_vs_random": -0.15699999999999997,
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.11,
+          -0.155,
+          -0.135,
+          -0.195,
+          -0.19
+        ],
+        "p_wilcoxon": 0.0625,
+        "n_nonzero": 5,
+        "p_holm": 0.25
+      },
+      {
+        "system": "ieee24",
+        "metric": "PFR",
+        "method": "pgexplainer",
+        "mean_diff_method_vs_random": -0.5449999999999999,
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.495,
+          -0.51,
+          -0.56,
+          -0.585,
+          -0.575
+        ],
+        "p_wilcoxon": 0.0625,
+        "n_nonzero": 5,
+        "p_holm": 0.25
+      },
+      {
+        "system": "ieee24",
+        "metric": "PFR",
+        "method": "gradcam",
+        "mean_diff_method_vs_random": -0.45599999999999996,
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.455,
+          -0.425,
+          -0.53,
+          -0.47,
+          -0.4
+        ],
+        "p_wilcoxon": 0.0625,
+        "n_nonzero": 5,
+        "p_holm": 0.25
+      },
+      {
+        "system": "ieee24",
+        "metric": "PFR",
+        "method": "gsat",
+        "mean_diff_method_vs_random": -0.44999999999999996,
+        "n_seeds": 3,
+        "per_seed_diff": [
+          -0.515,
+          -0.455,
+          -0.38
+        ],
+        "p_wilcoxon": 0.25,
+        "n_nonzero": 3,
+        "p_holm": 0.25
+      },
+      {
+        "system": "ieee39",
+        "metric": "PFR",
+        "method": "gnn_explainer",
+        "mean_diff_method_vs_random": -0.07692307692307693,
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.0865,
+          -0.125,
+          -0.0385,
+          -0.0865,
+          -0.0481
+        ],
+        "p_wilcoxon": 0.0625,
+        "n_nonzero": 5,
+        "p_holm": 0.25
+      },
+      {
+        "system": "ieee39",
+        "metric": "PFR",
+        "method": "pgexplainer",
+        "mean_diff_method_vs_random": -0.08653846153846154,
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.0962,
+          -0.125,
+          -0.0385,
+          -0.0962,
+          -0.0769
+        ],
+        "p_wilcoxon": 0.0625,
+        "n_nonzero": 5,
+        "p_holm": 0.25
+      },
+      {
+        "system": "ieee39",
+        "metric": "PFR",
+        "method": "gradcam",
+        "mean_diff_method_vs_random": -0.05961538461538461,
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.0962,
+          -0.125,
+          0.0385,
+          -0.0385,
+          -0.0769
+        ],
+        "p_wilcoxon": 0.1875,
+        "n_nonzero": 5,
+        "p_holm": 0.25
+      },
+      {
+        "system": "ieee39",
+        "metric": "PFR",
+        "method": "gsat",
+        "mean_diff_method_vs_random": -0.08653846153846152,
+        "n_seeds": 3,
+        "per_seed_diff": [
+          -0.0962,
+          -0.125,
+          -0.0385
+        ],
+        "p_wilcoxon": 0.25,
+        "n_nonzero": 3,
+        "p_holm": 0.25
+      },
+      {
+        "system": "uk",
+        "metric": "PFR",
+        "method": "gnn_explainer",
+        "mean_diff_method_vs_random": -0.007000000000000006,
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.005,
+          -0.01,
+          0.0,
+          -0.02,
+          0.0
+        ],
+        "p_wilcoxon": 0.25,
+        "n_nonzero": 3,
+        "p_holm": 0.25
+      },
+      {
+        "system": "uk",
+        "metric": "PFR",
+        "method": "pgexplainer",
+        "mean_diff_method_vs_random": -0.418,
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.465,
+          -0.5,
+          -0.09,
+          -0.535,
+          -0.5
+        ],
+        "p_wilcoxon": 0.0625,
+        "n_nonzero": 5,
+        "p_holm": 0.25
+      },
+      {
+        "system": "uk",
+        "metric": "PFR",
+        "method": "gradcam",
+        "mean_diff_method_vs_random": -0.181,
+        "n_seeds": 5,
+        "per_seed_diff": [
+          0.0,
+          -0.5,
+          -0.29,
+          -0.095,
+          -0.02
+        ],
+        "p_wilcoxon": 0.125,
+        "n_nonzero": 4,
+        "p_holm": 0.25
+      },
+      {
+        "system": "uk",
+        "metric": "PFR",
+        "method": "gsat",
+        "mean_diff_method_vs_random": 0.0,
+        "n_seeds": 1,
+        "per_seed_diff": [
+          0.0
+        ],
+        "p_wilcoxon": NaN,
+        "n_nonzero": 0,
+        "p_holm": NaN
+      }
+    ],
+    "holm_note": "Holm adjusts within the pooled family across systems/methods."
+  },
+  "risk_pairing_simple": {
+    "note": "severity risk (mean_risk) only available for gnn_explainer/random/truth; per-seed GNN-minus-random differences",
+    "by_system": {
+      "ieee24": {
+        "mean_diff": 0.1321,
+        "per_seed": [
+          0.1024,
+          0.1074,
+          0.0938,
+          0.188,
+          0.169
+        ]
+      },
+      "ieee39": {
+        "mean_diff": 0.0801,
+        "per_seed": [
+          0.0865,
+          0.1409,
+          0.0385,
+          0.0865,
+          0.0481
+        ]
+      },
+      "uk": {
+        "mean_diff": 0.0052,
+        "per_seed": [
+          0.005,
+          0.01,
+          0.0,
+          0.0108,
+          0.0
+        ]
+      }
+    }
+  },
+  "paired_diff": {
+    "ieee24": [
+      {
+        "method": "gnn_explainer",
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.11,
+          -0.155,
+          -0.135,
+          -0.195,
+          -0.19
+        ],
+        "mean_diff": -0.157,
+        "paired_cohen_d": -4.342,
+        "diff_boot_95": [
+          -0.184,
+          -0.129
+        ]
+      },
+      {
+        "method": "pgexplainer",
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.495,
+          -0.51,
+          -0.56,
+          -0.585,
+          -0.575
+        ],
+        "mean_diff": -0.545,
+        "paired_cohen_d": -13.572,
+        "diff_boot_95": [
+          -0.576,
+          -0.514
+        ]
+      },
+      {
+        "method": "gradcam",
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.455,
+          -0.425,
+          -0.53,
+          -0.47,
+          -0.4
+        ],
+        "mean_diff": -0.456,
+        "paired_cohen_d": -9.227,
+        "diff_boot_95": [
+          -0.497,
+          -0.419
+        ]
+      }
+    ],
+    "ieee39": [
+      {
+        "method": "gnn_explainer",
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.0865,
+          -0.125,
+          -0.0385,
+          -0.0865,
+          -0.0481
+        ],
+        "mean_diff": -0.0769,
+        "paired_cohen_d": -2.219,
+        "diff_boot_95": [
+          -0.1019,
+          -0.05
+        ]
+      },
+      {
+        "method": "pgexplainer",
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.0962,
+          -0.125,
+          -0.0385,
+          -0.0962,
+          -0.0769
+        ],
+        "mean_diff": -0.0865,
+        "paired_cohen_d": -2.714,
+        "diff_boot_95": [
+          -0.1096,
+          -0.0615
+        ]
+      },
+      {
+        "method": "gradcam",
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.0962,
+          -0.125,
+          0.0385,
+          -0.0385,
+          -0.0769
+        ],
+        "mean_diff": -0.0596,
+        "paired_cohen_d": -0.943,
+        "diff_boot_95": [
+          -0.1038,
+          -0.0038
+        ]
+      }
+    ],
+    "uk": [
+      {
+        "method": "gnn_explainer",
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.005,
+          -0.01,
+          0.0,
+          -0.02,
+          0.0
+        ],
+        "mean_diff": -0.007,
+        "paired_cohen_d": -0.837,
+        "diff_boot_95": [
+          -0.014,
+          -0.001
+        ]
+      },
+      {
+        "method": "pgexplainer",
+        "n_seeds": 5,
+        "per_seed_diff": [
+          -0.465,
+          -0.5,
+          -0.09,
+          -0.535,
+          -0.5
+        ],
+        "mean_diff": -0.418,
+        "paired_cohen_d": -2.259,
+        "diff_boot_95": [
+          -0.514,
+          -0.254
+        ]
+      },
+      {
+        "method": "gradcam",
+        "n_seeds": 5,
+        "per_seed_diff": [
+          0.0,
+          -0.5,
+          -0.29,
+          -0.095,
+          -0.02
+        ],
+        "mean_diff": -0.181,
+        "paired_cohen_d": -0.854,
+        "diff_boot_95": [
+          -0.358,
+          -0.031
+        ]
+      }
+    ]
+  },
+  "conditioning": {
+    "ieee24": {
+      "public_v7r": 0.55,
+      "sample_v7r": 1.0,
+      "public_random": 0.605,
+      "sample_random": 1.0,
+      "sample_base": 0.995,
+      "sample_truth": 0.57
+    },
+    "ieee39": {
+      "public_v7r": 0.009615384615384616,
+      "sample_v7r": 1.0,
+      "public_random": 0.07692307692307693,
+      "sample_random": 1.0,
+      "sample_base": 1.0,
+      "sample_truth": 1.0
+    },
+    "uk": {
+      "public_v7r": 0.74,
+      "sample_v7r": 0.915,
+      "public_random": 1.0,
+      "sample_random": 0.915,
+      "sample_base": 0.915,
+      "sample_truth": 0.8
+    }
+  },
+  "taxonomy": {
+    "ieee24": {
+      "gnn_explainer": {
+        "feasible": 394,
+        "island": 253,
+        "non_converged": 221,
+        "voltage": 132,
+        "overload": 0,
+        "n": 1000
+      },
+      "random": {
+        "feasible": 551,
+        "island": 233,
+        "non_converged": 105,
+        "voltage": 111,
+        "overload": 0,
+        "n": 1000
+      },
+      "truth": {
+        "feasible": 56,
+        "island": 0,
+        "non_converged": 43,
+        "voltage": 901,
+        "overload": 0,
+        "n": 1000
+      }
+    },
+    "ieee39": {
+      "gnn_explainer": {
+        "feasible": 5,
+        "island": 471,
+        "non_converged": 44,
+        "voltage": 0,
+        "overload": 0,
+        "n": 520
+      },
+      "random": {
+        "feasible": 45,
+        "island": 406,
+        "non_converged": 67,
+        "voltage": 2,
+        "overload": 0,
+        "n": 520
+      },
+      "truth": {
+        "feasible": 460,
+        "island": 4,
+        "non_converged": 56,
+        "voltage": 0,
+        "overload": 0,
+        "n": 520
+      }
+    },
+    "uk": {
+      "gnn_explainer": {
+        "feasible": 993,
+        "island": 0,
+        "non_converged": 5,
+        "voltage": 2,
+        "overload": 0,
+        "n": 1000
+      },
+      "random": {
+        "feasible": 1000,
+        "island": 0,
+        "non_converged": 0,
+        "voltage": 0,
+        "overload": 0,
+        "n": 1000
+      },
+      "truth": {
+        "feasible": 774,
+        "island": 226,
+        "non_converged": 0,
+        "voltage": 0,
+        "overload": 0,
+        "n": 1000
+      }
+    }
+  },
+  "physical_baseline": {
+    "ieee24": {
+      "n": 200,
+      "method": "low_stress",
+      "seed": 2,
+      "single_seed": true,
+      "physics_pfr": 0.34,
+      "physics_types": {
+        "island": 132,
+        "feasible": 68
+      },
+      "truth_pfr": 0.075,
+      "random_pfr_seed2": 0.515,
+      "physics_wrapped_pfr": 1.0,
+      "random_wrapped_pfr": 1.0
+    },
+    "ieee39": {
+      "n": 104,
+      "method": "low_stress",
+      "seed": 2,
+      "single_seed": true,
+      "physics_pfr": 0.009615384615384616,
+      "physics_types": {
+        "island": 103,
+        "feasible": 1
+      },
+      "truth_pfr": 0.8846153846153846,
+      "random_pfr_seed2": 0.09615384615384616,
+      "physics_wrapped_pfr": 1.0,
+      "random_wrapped_pfr": 1.0
+    },
+    "uk": {
+      "n": 200,
+      "method": "low_stress",
+      "seed": 2,
+      "single_seed": true,
+      "physics_pfr": 1.0,
+      "physics_types": {
+        "feasible": 200
+      },
+      "truth_pfr": 0.81,
+      "random_pfr_seed2": 1.0,
+      "physics_wrapped_pfr": 1.0,
+      "random_wrapped_pfr": 1.0
+    }
+  },
+  "wrapper_budget": {
+    "ieee24": {
+      "strategy": "local_swap",
+      "candidate_pool": 8,
+      "n_seeds": 5,
+      "replace_rate_mean": 0.2832,
+      "replace_rate_sd": 0.0816,
+      "per_seed_replace_rate": [
+        0.22,
+        0.215,
+        0.409,
+        0.253,
+        0.319
+      ],
+      "wrapped_pfr": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "incomplete": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "worst_case_ac_audits_per_graph": 40
+    },
+    "ieee39": {
+      "strategy": "local_swap",
+      "candidate_pool": 8,
+      "n_seeds": 5,
+      "replace_rate_mean": 0.2761,
+      "replace_rate_sd": 0.0779,
+      "per_seed_replace_rate": [
+        0.3433,
+        0.3552,
+        0.191,
+        0.1985,
+        0.2925
+      ],
+      "wrapped_pfr": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "incomplete": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "worst_case_ac_audits_per_graph": 40
+    },
+    "uk": {
+      "strategy": "local_swap",
+      "candidate_pool": 8,
+      "n_seeds": 5,
+      "replace_rate_mean": 0.0742,
+      "replace_rate_sd": 0.0089,
+      "per_seed_replace_rate": [
+        0.064,
+        0.08,
+        0.068,
+        0.073,
+        0.086
+      ],
+      "wrapped_pfr": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "incomplete": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "worst_case_ac_audits_per_graph": 40
+    }
+  }
+}
