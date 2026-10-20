@@ -1,0 +1,23 @@
+{
+  "ieee24": {
+    "total": 21500,
+    "positive": 4334,
+    "cascade_rate_positive": 0.2016,
+    "explainable_positive": 3416,
+    "explainable_pos_rate_among_all": 0.1589
+  },
+  "ieee39": {
+    "total": 28000,
+    "positive": 2509,
+    "cascade_rate_positive": 0.0896,
+    "explainable_positive": 154,
+    "explainable_pos_rate_among_all": 0.0055
+  },
+  "uk": {
+    "total": 64000,
+    "positive": 2236,
+    "cascade_rate_positive": 0.0349,
+    "explainable_positive": 2236,
+    "explainable_pos_rate_among_all": 0.0349
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "subgraphx": {
+    "n": 104,
+    "PFR": 0.04807692307692308,
+    "types": {
+      "island": 93,
+      "non_converged": 6,
+      "feasible": 5
+    }
+  },
+  "random": {
+    "n": 104,
+    "PFR": 0.09615384615384616,
+    "types": {
+      "island": 84,
+      "feasible": 10,
+      "non_converged": 10
+    }
+  },
+  "truth": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+      "feasible": 92,
+      "non_converged": 11,
+      "island": 1
+    }
+  },
+  "_meta": {
+    "system": "ieee39",
+    "model": "gin",
+    "method": "subgraphx",
+    "protocol": "unified-eval-start",
+    "n": 104,
+    "topk": 5,
+    "seed": 2,
+    "rollout": 5,
+    "sample_num": 20,
+    "min_atoms": 4,
+    "eval_start": 50,
+    "runtime_seconds": 49.11881184577942
+  }
+}

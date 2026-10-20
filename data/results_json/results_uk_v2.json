@@ -1,0 +1,41 @@
+{
+  "base": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "gnn_explainer": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.82,
+    "types": {
+      "feasible": 41,
+      "island": 9
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "n": 50,
+    "topk": 5,
+    "seed": 2,
+    "model": "transformer",
+    "protocol": "baseline-common-operating-point",
+    "voltage": "[0.85,1.1]",
+    "load_max": 110.0
+  }
+}

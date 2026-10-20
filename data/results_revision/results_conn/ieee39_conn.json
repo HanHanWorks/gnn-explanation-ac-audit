@@ -1,0 +1,52 @@
+{
+ "_meta": {
+  "dataset": "ieee39",
+  "root": ".",
+  "seeds": "2",
+  "num": 50,
+  "train_num": 20,
+  "eval_start": 50,
+  "topk": 5,
+  "output": "results_conn/ieee39_conn.json"
+ },
+ "seeds": {
+  "2": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.02,
+    "types": {
+     "island": 49,
+     "feasible": 1
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 0.72,
+    "types": {
+     "non_converged": 7,
+     "voltage": 7,
+     "feasible": 36
+    }
+   },
+   "raw_types": {
+    "island": 49,
+    "feasible": 1
+   },
+   "connected_types": {
+    "non_converged": 7,
+    "voltage": 7,
+    "feasible": 36
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  }
+ }
+}

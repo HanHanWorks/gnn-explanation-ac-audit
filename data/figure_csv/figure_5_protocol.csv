@@ -1,0 +1,34 @@
+panel,system,item,value
+a,IEEE 24,SEP_k1,0
+a,IEEE 24,SEP_k3,0
+a,IEEE 24,SEP_k5,0
+a,IEEE 24,SEP_k8,0
+a,IEEE 24,random_k1,0.975
+a,IEEE 24,random_k3,0.805
+a,IEEE 24,random_k5,0.52
+a,IEEE 24,random_k8,0.17
+a,IEEE 39,SEP_k1,1.0
+a,IEEE 39,SEP_k3,0.1923
+a,IEEE 39,SEP_k5,0.0096
+a,IEEE 39,SEP_k8,0.0
+a,IEEE 39,random_k1,0.769
+a,IEEE 39,random_k3,0.279
+a,IEEE 39,random_k5,0.087
+a,IEEE 39,random_k8,0.0
+a,UK,SEP_k1,1.0
+a,UK,SEP_k3,1.0
+a,UK,SEP_k5,0.7
+a,UK,SEP_k8,0.055
+a,UK,random_k1,1.0
+a,UK,random_k3,1.0
+a,UK,random_k5,1.0
+a,UK,random_k8,1.0
+c,IEEE 24,public_raw,0.0
+c,IEEE 24,sample_raw,0.71
+c,IEEE 24,sample_base,0.995
+c,IEEE 39,public_raw,0.009615384615384616
+c,IEEE 39,sample_raw,1.0
+c,IEEE 39,sample_base,1.0
+c,UK,public_raw,0.7
+c,UK,sample_raw,0.915
+c,UK,sample_base,0.915

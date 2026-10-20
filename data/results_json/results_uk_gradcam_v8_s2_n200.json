@@ -1,0 +1,43 @@
+{
+  "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "gradcam": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "truth": {
+    "n": 200,
+    "PFR": 0.81,
+    "types": {
+      "feasible": 162,
+      "island": 38
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "model": "gin",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "n": 200,
+    "topk": 5,
+    "seed": 2,
+    "layers": 3,
+    "eval_start": 50,
+    "runtime_seconds": 1.3726904392242432
+  }
+}

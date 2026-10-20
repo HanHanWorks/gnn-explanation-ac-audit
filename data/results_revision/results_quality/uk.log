@@ -1,0 +1,13 @@
+There are 2 branches which are considered as trafos - due to ratio unequal 0 or 1 - but connect same voltage levels.
+some BR_B of transformers in ppc['branch'] are positive, but transformers are inductive, therefore their B should be negative
+seed 2: SEP BACC=0.877 PFR=0.700 absQ BACC=0.473 PFR=1.000 absPQ BACC=0.473 PFR=1.000 random BACC=0.501 PFR=1.000 truth BACC=1.000 PFR=0.810
+  shuffled-label BACC mean=0.518 range=0.473-0.600
+seed 3: SEP BACC=0.860 PFR=0.610 absQ BACC=0.473 PFR=1.000 absPQ BACC=0.473 PFR=1.000 random BACC=0.503 PFR=1.000 truth BACC=1.000 PFR=0.735
+  shuffled-label BACC mean=0.545 range=0.473-0.675
+seed 4: SEP BACC=0.877 PFR=0.675 absQ BACC=0.473 PFR=1.000 absPQ BACC=0.473 PFR=1.000 random BACC=0.504 PFR=1.000 truth BACC=1.000 PFR=0.780
+  shuffled-label BACC mean=0.543 range=0.473-0.695
+seed 5: SEP BACC=0.887 PFR=0.635 absQ BACC=0.473 PFR=1.000 absPQ BACC=0.473 PFR=1.000 random BACC=0.500 PFR=1.000 truth BACC=1.000 PFR=0.790
+  shuffled-label BACC mean=0.538 range=0.473-0.677
+seed 6: SEP BACC=0.849 PFR=0.580 absQ BACC=0.473 PFR=1.000 absPQ BACC=0.473 PFR=1.000 random BACC=0.497 PFR=1.000 truth BACC=1.000 PFR=0.755
+  shuffled-label BACC mean=0.519 range=0.473-0.707
+saved results_quality/uk_quality.json

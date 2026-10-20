@@ -1,0 +1,46 @@
+{
+  "base": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "subgraphx": {
+    "n": 50,
+    "PFR": 0.96,
+    "types": {
+      "feasible": 48,
+      "island": 2
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.78,
+    "types": {
+      "feasible": 39,
+      "island": 11
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "model": "gin",
+    "method": "subgraphx",
+    "protocol": "unified-eval-start",
+    "n": 50,
+    "topk": 5,
+    "seed": 2,
+    "rollout": 5,
+    "sample_num": 20,
+    "min_atoms": 4,
+    "eval_start": 50,
+    "runtime_seconds": 113.98598790168762
+  }
+}

@@ -1,0 +1,15 @@
+PASS manifest lists 137 formal artefacts (found 137)
+PASS all 137 formal artefacts present (found 137)
+PASS all Python files compile (0 failures)
+PASS ieee24 mapping has 38 branches (found 38)
+PASS ieee39 mapping has 46 branches (found 46)
+PASS uk mapping has 99 branches (found 99)
+PASS figure_2_outcomes.csv has required columns
+PASS figure_3_quality.csv has required columns
+PASS figure_3_null.csv has required columns
+PASS figure_4_transfer.csv has required columns
+PASS figure_5_protocol.csv has required columns
+PASS MANIFEST.sha256 exists
+PASS checksum manifest has 464 entries
+
+RESULT: PASS

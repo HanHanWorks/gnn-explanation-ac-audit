@@ -1,0 +1,47 @@
+{
+  "base": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "gradient_x_input": {
+    "n": 50,
+    "PFR": 0.06,
+    "types": {
+      "island": 38,
+      "non_converged": 9,
+      "feasible": 3
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 0.54,
+    "types": {
+      "island": 13,
+      "feasible": 27,
+      "voltage": 7,
+      "non_converged": 3
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.04,
+    "types": {
+      "voltage": 45,
+      "non_converged": 3,
+      "feasible": 2
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "model": "transformer",
+    "method": "gradient_x_input",
+    "protocol": "v3r",
+    "n": 50,
+    "topk": 5,
+    "seed": 4,
+    "runtime_seconds": 0.2681574821472168
+  }
+}

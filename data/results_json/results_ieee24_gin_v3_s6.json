@@ -1,0 +1,48 @@
+{
+  "base": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "gnn_explainer": {
+    "n": 50,
+    "PFR": 0.4,
+    "types": {
+      "feasible": 20,
+      "voltage": 6,
+      "island": 13,
+      "non_converged": 11
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 0.62,
+    "types": {
+      "island": 10,
+      "voltage": 7,
+      "feasible": 31,
+      "non_converged": 2
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.08,
+    "types": {
+      "voltage": 44,
+      "feasible": 4,
+      "non_converged": 2
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "n": 50,
+    "topk": 5,
+    "seed": 6,
+    "model": "gin",
+    "protocol": "baseline-common-operating-point",
+    "voltage": "[0.85,1.1]",
+    "load_max": 110.0
+  }
+}

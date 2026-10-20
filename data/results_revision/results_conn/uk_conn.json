@@ -1,0 +1,48 @@
+{
+ "_meta": {
+  "dataset": "uk",
+  "root": ".",
+  "seeds": "2",
+  "num": 50,
+  "train_num": 20,
+  "eval_start": 50,
+  "topk": 5,
+  "output": "results_conn/uk_conn.json"
+ },
+ "seeds": {
+  "2": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.72,
+    "types": {
+     "feasible": 36,
+     "island": 14
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 50
+    }
+   },
+   "raw_types": {
+    "feasible": 36,
+    "island": 14
+   },
+   "connected_types": {
+    "feasible": 50
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  }
+ }
+}

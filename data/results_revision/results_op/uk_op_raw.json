@@ -1,0 +1,69 @@
+{
+  "public_raw": {
+    "n": 200,
+    "PFR": 0.7,
+    "types": {
+      "feasible": 140,
+      "island": 58,
+      "non_converged": 2
+    }
+  },
+  "sample_raw": {
+    "n": 200,
+    "PFR": 0.915,
+    "types": {
+      "feasible": 183,
+      "non_converged": 17
+    }
+  },
+  "public_random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "sample_random": {
+    "n": 200,
+    "PFR": 0.75,
+    "types": {
+      "feasible": 150,
+      "non_converged": 50
+    }
+  },
+  "sample_truth": {
+    "n": 200,
+    "PFR": 0.8,
+    "types": {
+      "feasible": 160,
+      "non_converged": 40
+    }
+  },
+  "sample_base": {
+    "n": 200,
+    "PFR": 0.915,
+    "types": {
+      "feasible": 183,
+      "non_converged": 17
+    }
+  },
+  "public_base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "protocol": "raw-topk-public-vs-sample-conditioned",
+    "seed": 2,
+    "n": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "ranking_uses_eval_truth": false,
+    "bacc": 0.8888081380759063,
+    "mean_initiating_outage_branches": 1.36
+  }
+}

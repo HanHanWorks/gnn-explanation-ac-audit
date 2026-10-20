@@ -1,0 +1,29 @@
+PGExplainer epoch 1/20 loss=2.830776
+PGExplainer epoch 5/20 loss=0.032531
+PGExplainer epoch 10/20 loss=0.031574
+PGExplainer epoch 15/20 loss=0.031488
+PGExplainer epoch 20/20 loss=0.031480
+  10/200 完成
+  20/200 完成
+  30/200 完成
+  40/200 完成
+  50/200 完成
+  60/200 完成
+  70/200 完成
+  80/200 完成
+  90/200 完成
+  100/200 完成
+  110/200 完成
+  120/200 完成
+  130/200 完成
+  140/200 完成
+  150/200 完成
+  160/200 完成
+  170/200 完成
+  180/200 完成
+  190/200 完成
+  200/200 完成
+pgexplainer: PFR=0.000
+random: PFR=0.575
+truth: PFR=0.045
+结果已保存: results_pg_quality/ieee24_pg_s6.json

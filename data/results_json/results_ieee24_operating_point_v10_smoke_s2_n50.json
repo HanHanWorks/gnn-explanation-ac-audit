@@ -1,0 +1,64 @@
+{
+  "public_v7r": {
+    "n": 50,
+    "PFR": 0.62,
+    "types": {
+      "feasible": 31,
+      "voltage": 6,
+      "island": 13
+    }
+  },
+  "sample_v7r": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "public_random": {
+    "n": 50,
+    "PFR": 0.58,
+    "types": {
+      "feasible": 29,
+      "island": 14,
+      "voltage": 3,
+      "non_converged": 4
+    }
+  },
+  "sample_random": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "sample_truth": {
+    "n": 50,
+    "PFR": 0.48,
+    "types": {
+      "feasible": 24,
+      "voltage": 26
+    }
+  },
+  "sample_base": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "protocol": "public-vs-sample-conditioned",
+    "method": "supervised_edge_logistic",
+    "seed": 2,
+    "n": 50,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "ranking_uses_eval_truth": false,
+    "public_bacc": 0.54446918767507,
+    "sample_bacc": 0.54446918767507,
+    "random_bacc": 0.466030345471522
+  }
+}

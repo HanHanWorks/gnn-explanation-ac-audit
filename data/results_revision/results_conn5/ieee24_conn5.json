@@ -1,0 +1,196 @@
+{
+ "_meta": {
+  "dataset": "ieee24",
+  "root": ".",
+  "seeds": "2,3,4,5,6",
+  "num": 50,
+  "train_num": 20,
+  "eval_start": 50,
+  "topk": 5,
+  "output": "results_conn5/ieee24_conn5.json"
+ },
+ "seeds": {
+  "2": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+     "island": 21,
+     "voltage": 29
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+     "voltage": 50
+    }
+   },
+   "raw_types": {
+    "island": 21,
+    "voltage": 29
+   },
+   "connected_types": {
+    "voltage": 50
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  },
+  "3": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+     "island": 28,
+     "voltage": 22
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+     "voltage": 49,
+     "non_converged": 1
+    }
+   },
+   "raw_types": {
+    "island": 28,
+    "voltage": 22
+   },
+   "connected_types": {
+    "voltage": 49,
+    "non_converged": 1
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  },
+  "4": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+     "non_converged": 44,
+     "voltage": 6
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+     "non_converged": 44,
+     "voltage": 6
+    }
+   },
+   "raw_types": {
+    "non_converged": 44,
+    "voltage": 6
+   },
+   "connected_types": {
+    "non_converged": 44,
+    "voltage": 6
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  },
+  "5": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+     "island": 50
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+     "voltage": 49,
+     "non_converged": 1
+    }
+   },
+   "raw_types": {
+    "island": 50
+   },
+   "connected_types": {
+    "voltage": 49,
+    "non_converged": 1
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  },
+  "6": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.02,
+    "types": {
+     "voltage": 29,
+     "non_converged": 9,
+     "island": 11,
+     "feasible": 1
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 0.02,
+    "types": {
+     "voltage": 33,
+     "non_converged": 16,
+     "feasible": 1
+    }
+   },
+   "raw_types": {
+    "voltage": 29,
+    "non_converged": 9,
+    "island": 11,
+    "feasible": 1
+   },
+   "connected_types": {
+    "voltage": 33,
+    "non_converged": 16,
+    "feasible": 1
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  }
+ }
+}

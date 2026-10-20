@@ -1,0 +1,4 @@
+There are 11 branches which are considered as trafos - due to ratio unequal 0 or 1 - but connect same voltage levels.
+  10/16
+{'gnn_explainer': 0.0, 'pgexplainer': 0.0, 'gradcam': 0.0, 'sep': 0.0, 'random': 0.1875, 'truth': 0.875}
+saved results_heldout/ieee39_heldout_s2.json

@@ -1,0 +1,46 @@
+{
+  "base": {
+    "n": 10,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 10
+    }
+  },
+  "subgraphx": {
+    "n": 10,
+    "PFR": 0.0,
+    "types": {
+      "island": 10
+    }
+  },
+  "random": {
+    "n": 10,
+    "PFR": 0.7,
+    "types": {
+      "island": 2,
+      "feasible": 7,
+      "non_converged": 1
+    }
+  },
+  "truth": {
+    "n": 10,
+    "PFR": 0.0,
+    "types": {
+      "voltage": 10
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "subgraphx",
+    "protocol": "unified-eval-start",
+    "n": 10,
+    "topk": 5,
+    "seed": 2,
+    "rollout": 5,
+    "sample_num": 20,
+    "min_atoms": 4,
+    "eval_start": 50,
+    "runtime_seconds": 1.803788661956787
+  }
+}

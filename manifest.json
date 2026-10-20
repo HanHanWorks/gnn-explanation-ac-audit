@@ -1,0 +1,2450 @@
+[
+  {
+    "source": "results_ieee24_gin_unified_v8_eval50_s2.json",
+    "system": "ieee24",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gin_unified_v8_eval50_s3.json",
+    "system": "ieee24",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gin_unified_v8_eval50_s4.json",
+    "system": "ieee24",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gin_unified_v8_eval50_s5.json",
+    "system": "ieee24",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 5,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gin_unified_v8_eval50_s6.json",
+    "system": "ieee24",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 6,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_pg_unified_v8_eval50_s2.json",
+    "system": "ieee24",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_pg_unified_v8_eval50_s3.json",
+    "system": "ieee24",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_pg_unified_v8_eval50_s4.json",
+    "system": "ieee24",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_pg_unified_v8_eval50_s5.json",
+    "system": "ieee24",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 5,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_pg_unified_v8_eval50_s6.json",
+    "system": "ieee24",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 6,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gin_unified_v8_eval50_s2.json",
+    "system": "ieee39",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 2,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gin_unified_v8_eval50_s3.json",
+    "system": "ieee39",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 3,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gin_unified_v8_eval50_s4.json",
+    "system": "ieee39",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 4,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gin_unified_v8_eval50_s5.json",
+    "system": "ieee39",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 5,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gin_unified_v8_eval50_s6.json",
+    "system": "ieee39",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 6,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_pg_unified_v8_eval50_s2.json",
+    "system": "ieee39",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 2,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_pg_unified_v8_eval50_s3.json",
+    "system": "ieee39",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 3,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_pg_unified_v8_eval50_s4.json",
+    "system": "ieee39",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 4,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_pg_unified_v8_eval50_s5.json",
+    "system": "ieee39",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 5,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_pg_unified_v8_eval50_s6.json",
+    "system": "ieee39",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 6,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gin_unified_v8_full_eval50_s2.json",
+    "system": "uk",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gin_unified_v8_full_eval50_s3.json",
+    "system": "uk",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gin_unified_v8_full_eval50_s4.json",
+    "system": "uk",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gin_unified_v8_full_eval50_s5.json",
+    "system": "uk",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 5,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gin_unified_v8_full_eval50_s6.json",
+    "system": "uk",
+    "method": null,
+    "protocol": "baseline-common-operating-point",
+    "seed": 6,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gnn_explainer",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_pg_unified_v8_full_eval50_s2.json",
+    "system": "uk",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_pg_unified_v8_full_eval50_s3.json",
+    "system": "uk",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_pg_unified_v8_full_eval50_s4.json",
+    "system": "uk",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_pg_unified_v8_full_eval50_s5.json",
+    "system": "uk",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 5,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_pg_unified_v8_full_eval50_s6.json",
+    "system": "uk",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "seed": 6,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "pgexplainer",
+      "pgexplainer_wrapped",
+      "random",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_edge_v7r_eval50_shuffle_s4.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_edge_v7r_eval50_train20_s4.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_edge_v7r_eval50_train50_s4.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_edge_v7r_eval50_train5_s4.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_edge_v7r_n200_s2.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 2,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_edge_v7r_n200_s3.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 3,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_edge_v7r_n200_s4.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_edge_v7r_n200_s5.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 5,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_edge_v7r_n200_s6.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 6,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_edge_v7r_eval50_shuffle_s4.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_edge_v7r_eval50_train50_s4.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_edge_v7r_eval50_train5_s4.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_edge_v7r_n134_s2.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 2,
+    "n": 134,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_edge_v7r_n134_s3.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 3,
+    "n": 134,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_edge_v7r_n134_s4.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 134,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_edge_v7r_n134_s5.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 5,
+    "n": 134,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_edge_v7r_n134_s6.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 6,
+    "n": 134,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_eval50_shuffle_s2.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_eval50_shuffle_s3.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_eval50_shuffle_s4.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_eval50_shuffle_s5.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 5,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_eval50_shuffle_s6.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 6,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_eval50_train50_s4.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_eval50_train5_s4.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_full_n200_s2.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 2,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_full_n200_s3.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 3,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_full_n200_s4.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_full_n200_s5.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 5,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_full_n200_s6.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 6,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_subset16k_n200_s2.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 2,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_subset16k_n200_s3.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 3,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_subset16k_n200_s4.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_subset16k_n200_s5.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 5,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_edge_v7r_subset16k_n200_s6.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 6,
+    "n": 200,
+    "eval_start": null,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gsat_v8_s2_n200.json",
+    "system": "ieee24",
+    "method": "gsat",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gsat",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gsat_v8_s3_n200.json",
+    "system": "ieee24",
+    "method": "gsat",
+    "protocol": "unified-eval-start",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gsat",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gsat_v8_s4_n200.json",
+    "system": "ieee24",
+    "method": "gsat",
+    "protocol": "unified-eval-start",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gsat",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gsat_v8_smoke_s4.json",
+    "system": "ieee24",
+    "method": "gsat",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 10,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gsat",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gsat_v8_s2_n104.json",
+    "system": "ieee39",
+    "method": "gsat",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gsat",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gsat_v8_s3_n104.json",
+    "system": "ieee39",
+    "method": "gsat",
+    "protocol": "unified-eval-start",
+    "seed": 3,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gsat",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gsat_v8_s4_n104.json",
+    "system": "ieee39",
+    "method": "gsat",
+    "protocol": "unified-eval-start",
+    "seed": 4,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gsat",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gsat_v8_s2_n200.json",
+    "system": "uk",
+    "method": "gsat",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gsat",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_v9_contingency_s2_n200.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_v9_contingency_s3_n200.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_v9_contingency_s4_n200.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_v9_contingency_s5_n200.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 5,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_supervised_v9_contingency_s6_n200.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 6,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_v9_contingency_s2_n103.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 2,
+    "n": 103,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_v9_contingency_s3_n98.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 3,
+    "n": 98,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_v9_contingency_s4_n101.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 101,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_v9_contingency_s5_n96.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 5,
+    "n": 96,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_supervised_v9_contingency_s6_n98.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 6,
+    "n": 98,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_v9_contingency_s2_n200.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_v9_contingency_s3_n200.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_v9_contingency_s4_n200.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_v9_contingency_s5_n200.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 5,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_supervised_v9_contingency_s6_n200.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 6,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "random_wrapped",
+      "supervised_edge",
+      "supervised_edge_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_operating_point_v10_s2_n200.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "public-vs-sample-conditioned",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "public_random",
+      "public_v7r",
+      "sample_base",
+      "sample_random",
+      "sample_truth",
+      "sample_v7r"
+    ]
+  },
+  {
+    "source": "results_ieee24_operating_point_v10_smoke_s2_n50.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "public-vs-sample-conditioned",
+    "seed": 2,
+    "n": 50,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "public_random",
+      "public_v7r",
+      "sample_base",
+      "sample_random",
+      "sample_truth",
+      "sample_v7r"
+    ]
+  },
+  {
+    "source": "results_ieee39_operating_point_v10_s2_n104.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "public-vs-sample-conditioned",
+    "seed": 2,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "public_random",
+      "public_v7r",
+      "sample_base",
+      "sample_random",
+      "sample_truth",
+      "sample_v7r"
+    ]
+  },
+  {
+    "source": "results_uk_operating_point_v10_s2_n200.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "public-vs-sample-conditioned",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "public_random",
+      "public_v7r",
+      "sample_base",
+      "sample_random",
+      "sample_truth",
+      "sample_v7r"
+    ]
+  },
+  {
+    "source": "results_ieee24_v7r_sensitivity_v10_pilot_s2_n50.json",
+    "system": "ieee24",
+    "method": null,
+    "protocol": "v7r-fixed-slice-raw-threshold-sensitivity",
+    "seed": 2,
+    "n": 50,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "rows"
+    ]
+  },
+  {
+    "source": "results_ieee24_v7r_sensitivity_v10_s2_n200.json",
+    "system": "ieee24",
+    "method": null,
+    "protocol": "v7r-fixed-slice-raw-threshold-sensitivity",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "rows"
+    ]
+  },
+  {
+    "source": "results_ieee39_v7r_sensitivity_v10_s2_n104.json",
+    "system": "ieee39",
+    "method": null,
+    "protocol": "v7r-fixed-slice-raw-threshold-sensitivity",
+    "seed": 2,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "rows"
+    ]
+  },
+  {
+    "source": "results_uk_v7r_sensitivity_v10_s2_n200.json",
+    "system": "uk",
+    "method": null,
+    "protocol": "v7r-fixed-slice-raw-threshold-sensitivity",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "rows"
+    ]
+  },
+  {
+    "source": "results_ieee24_dc_ac_v10_s2_n200.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "fixed-slice-public-ac-dc",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "random_ac",
+      "random_dc",
+      "truth_ac",
+      "truth_dc",
+      "v7r_ac",
+      "v7r_dc"
+    ]
+  },
+  {
+    "source": "results_ieee24_dc_ac_v10_smoke_s2_n50.json",
+    "system": "ieee24",
+    "method": "supervised_edge_logistic",
+    "protocol": "fixed-slice-public-ac-dc",
+    "seed": 2,
+    "n": 50,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "random_ac",
+      "random_dc",
+      "truth_ac",
+      "truth_dc",
+      "v7r_ac",
+      "v7r_dc"
+    ]
+  },
+  {
+    "source": "results_ieee39_dc_ac_v10_s2_n104.json",
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "fixed-slice-public-ac-dc",
+    "seed": 2,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "random_ac",
+      "random_dc",
+      "truth_ac",
+      "truth_dc",
+      "v7r_ac",
+      "v7r_dc"
+    ]
+  },
+  {
+    "source": "results_uk_dc_ac_v10_s2_n200.json",
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "fixed-slice-public-ac-dc",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "random_ac",
+      "random_dc",
+      "truth_ac",
+      "truth_dc",
+      "v7r_ac",
+      "v7r_dc"
+    ]
+  },
+  {
+    "source": "results_ieee24_gradcam_v8_s2_n200.json",
+    "system": "ieee24",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gradcam_v8_s3_n200.json",
+    "system": "ieee24",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gradcam_v8_s4_n200.json",
+    "system": "ieee24",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gradcam_v8_s5_n200.json",
+    "system": "ieee24",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 5,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_gradcam_v8_s6_n200.json",
+    "system": "ieee24",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 6,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gradcam_v8_s2_n104.json",
+    "system": "ieee39",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gradcam_v8_s3_n104.json",
+    "system": "ieee39",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 3,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gradcam_v8_s4_n104.json",
+    "system": "ieee39",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 4,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gradcam_v8_s5_n104.json",
+    "system": "ieee39",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 5,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_gradcam_v8_s6_n104.json",
+    "system": "ieee39",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 6,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gradcam_v8_s2_n200.json",
+    "system": "uk",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gradcam_v8_s3_n200.json",
+    "system": "uk",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 3,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gradcam_v8_s4_n200.json",
+    "system": "uk",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 4,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gradcam_v8_s5_n200.json",
+    "system": "uk",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 5,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_gradcam_v8_s6_n200.json",
+    "system": "uk",
+    "method": "gradcam",
+    "protocol": "unified-eval-start",
+    "seed": 6,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "gradcam",
+      "random",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_subgraphx_v8_s2_n200.json",
+    "system": "ieee24",
+    "method": "subgraphx",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "subgraphx",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_subgraphx_v8_smoke_s2.json",
+    "system": "ieee24",
+    "method": "subgraphx",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 10,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "subgraphx",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_subgraphx_v8_s2_n104.json",
+    "system": "ieee39",
+    "method": "subgraphx",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "subgraphx",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_subgraphx_v8_pilot50_s2.json",
+    "system": "uk",
+    "method": "subgraphx",
+    "protocol": "unified-eval-start",
+    "seed": 2,
+    "n": 50,
+    "eval_start": 50,
+    "ranking_uses_truth": null,
+    "keys": [
+      "base",
+      "random",
+      "subgraphx",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_physical_v9_lowstress_s2_n200.json",
+    "system": "ieee24",
+    "method": "low_stress",
+    "protocol": "unified-eval-start-physical-unsupervised",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": false,
+    "keys": [
+      "base",
+      "physical",
+      "physical_wrapped",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee24_physical_v9_s2_n200.json",
+    "system": "ieee24",
+    "method": "redundant_low_stress",
+    "protocol": "unified-eval-start-physical-unsupervised",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": false,
+    "keys": [
+      "base",
+      "physical",
+      "physical_wrapped",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_ieee39_physical_v9_lowstress_s2_n104.json",
+    "system": "ieee39",
+    "method": "low_stress",
+    "protocol": "unified-eval-start-physical-unsupervised",
+    "seed": 2,
+    "n": 104,
+    "eval_start": 50,
+    "ranking_uses_truth": false,
+    "keys": [
+      "base",
+      "physical",
+      "physical_wrapped",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "results_uk_physical_v9_lowstress_s2_n200.json",
+    "system": "uk",
+    "method": "low_stress",
+    "protocol": "unified-eval-start-physical-unsupervised",
+    "seed": 2,
+    "n": 200,
+    "eval_start": 50,
+    "ranking_uses_truth": false,
+    "keys": [
+      "base",
+      "physical",
+      "physical_wrapped",
+      "random_wrapped",
+      "truth"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee24/gin_3l_32h_contingency_s2_result.json",
+    "system": "ieee24",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 2,
+    "n": 2160,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee24/gin_3l_32h_contingency_s3_result.json",
+    "system": "ieee24",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 3,
+    "n": 2522,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee24/gin_3l_32h_contingency_s4_result.json",
+    "system": "ieee24",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 4,
+    "n": 2531,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee24/gin_3l_32h_contingency_s5_result.json",
+    "system": "ieee24",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 5,
+    "n": 2522,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee24/gin_3l_32h_contingency_s6_result.json",
+    "system": "ieee24",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 6,
+    "n": 2542,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee39/gin_3l_32h_contingency_s2_result.json",
+    "system": "ieee39",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 2,
+    "n": 3225,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee39/gin_3l_32h_contingency_s3_result.json",
+    "system": "ieee39",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 3,
+    "n": 3000,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee39/gin_3l_32h_contingency_s4_result.json",
+    "system": "ieee39",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 4,
+    "n": 3113,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee39/gin_3l_32h_contingency_s5_result.json",
+    "system": "ieee39",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 5,
+    "n": 4083,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/ieee39/gin_3l_32h_contingency_s6_result.json",
+    "system": "ieee39",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 6,
+    "n": 2808,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/uk/gin_3l_32h_contingency_s2_result.json",
+    "system": "uk",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 2,
+    "n": 6381,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/uk/gin_3l_32h_contingency_s3_result.json",
+    "system": "uk",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 3,
+    "n": 7494,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/uk/gin_3l_32h_contingency_s4_result.json",
+    "system": "uk",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 4,
+    "n": 6497,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/uk/gin_3l_32h_contingency_s5_result.json",
+    "system": "uk",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 5,
+    "n": 6381,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  },
+  {
+    "source": "../phase0/ckpt/uk/gin_3l_32h_contingency_s6_result.json",
+    "system": "uk",
+    "method": "GIN_backbone",
+    "protocol": "phase0-scenario-aware-contingency",
+    "seed": 6,
+    "n": 6381,
+    "eval_start": null,
+    "ranking_uses_truth": false,
+    "keys": [
+      "batch",
+      "dataset",
+      "epochs",
+      "hidden",
+      "layers",
+      "model",
+      "seed",
+      "split",
+      "test_acc",
+      "test_bacc",
+      "test_f1",
+      "train_seconds"
+    ]
+  }
+]

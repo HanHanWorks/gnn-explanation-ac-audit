@@ -1,0 +1,50 @@
+{
+  "k": {
+    "1": {
+      "gnn_explainer": 0.92,
+      "gsat": 0.92,
+      "random": 0.94
+    },
+    "3": {
+      "gnn_explainer": 0.8,
+      "gsat": 0.22,
+      "random": 0.78
+    },
+    "5": {
+      "gnn_explainer": 0.56,
+      "gsat": 0.0,
+      "random": 0.62
+    },
+    "8": {
+      "gnn_explainer": 0.16,
+      "gsat": 0.0,
+      "random": 0.26
+    }
+  },
+  "truth": 0.06,
+  "fidelity": {
+    "gnn_explainer": {
+      "balanced_acc_topkstar": 0.5266341566929802,
+      "n": 50,
+      "x_auroc": 0.49462566844919786
+    },
+    "gsat": {
+      "balanced_acc_topkstar": 0.5054809863339275,
+      "n": 50,
+      "x_auroc": 0.5197963670316611
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "n": 50,
+    "ks": [
+      1,
+      3,
+      5,
+      8
+    ],
+    "seed": 3,
+    "k_star": 4,
+    "model": "transformer"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "base": {
+    "n": 10,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 10
+    }
+  },
+  "gnn_explainer": {
+    "n": 10,
+    "PFR": 0.4,
+    "types": {
+      "island": 3,
+      "voltage": 3,
+      "feasible": 4
+    }
+  },
+  "random": {
+    "n": 10,
+    "PFR": 0.8,
+    "types": {
+      "feasible": 8,
+      "non_converged": 2
+    }
+  },
+  "truth": {
+    "n": 10,
+    "PFR": 0.1,
+    "types": {
+      "voltage": 9,
+      "feasible": 1
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "n": 10,
+    "topk": 5,
+    "seed": 3,
+    "model": "transformer",
+    "protocol": "baseline-common-operating-point",
+    "voltage": "[0.85,1.1]",
+    "load_max": 110.0
+  }
+}

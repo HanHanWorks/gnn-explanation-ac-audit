@@ -1,0 +1,53 @@
+{
+  "base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "physical": {
+    "n": 104,
+    "PFR": 0.009615384615384616,
+    "types": {
+      "island": 103,
+      "feasible": 1
+    }
+  },
+  "physical_wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "random_wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "truth": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+      "feasible": 92,
+      "non_converged": 11,
+      "island": 1
+    }
+  },
+  "_meta": {
+    "system": "ieee39",
+    "method": "low_stress",
+    "protocol": "unified-eval-start-physical-unsupervised",
+    "seed": 2,
+    "eval_start": 50,
+    "n": 104,
+    "topk": 5,
+    "bacc_raw": 0.4428544393135044,
+    "bacc_wrapped": 0.4547534777750429,
+    "random_wrapper_bacc": 0.5276802239939402,
+    "ranking_uses_truth": false
+  }
+}

@@ -1,0 +1,17 @@
+There are 11 branches which are considered as trafos - due to ratio unequal 0 or 1 - but connect same voltage levels.
+  10/104 完成
+  20/104 完成
+  30/104 完成
+  40/104 完成
+  50/104 完成
+  60/104 完成
+  70/104 完成
+  80/104 完成
+  90/104 完成
+  100/104 完成
+supervised_edge: PFR=0.000
+supervised_edge_wrapped: PFR=1.000
+random_wrapped: PFR=1.000
+truth: PFR=0.904
+bacc raw->wrapped=0.785->0.795; random=0.530
+结果已保存: results_matched/ieee39_sep_matched104_s3.json

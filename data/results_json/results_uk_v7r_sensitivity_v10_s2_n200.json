@@ -1,0 +1,255 @@
+{
+  "_meta": {
+    "system": "uk",
+    "protocol": "v7r-fixed-slice-raw-threshold-sensitivity",
+    "seed": 2,
+    "n": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "ks": [
+      1,
+      3,
+      5,
+      8
+    ],
+    "voltage_mins": [
+      0.85,
+      0.9,
+      0.95
+    ],
+    "ranking_uses_eval_truth": false
+  },
+  "rows": {
+    "1": {
+      "v7r_bacc": 0.5928912968221485,
+      "random_bacc": 0.5009091751404574,
+      "thresholds": {
+        "0.85": {
+          "v7r": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          }
+        },
+        "0.90": {
+          "v7r": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          }
+        },
+        "0.95": {
+          "v7r": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "v7r_bacc": 0.8032715948337468,
+      "random_bacc": 0.49811044524816905,
+      "thresholds": {
+        "0.85": {
+          "v7r": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          }
+        },
+        "0.90": {
+          "v7r": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          }
+        },
+        "0.95": {
+          "v7r": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 0.995,
+            "types": {
+              "feasible": 199,
+              "voltage": 1
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "v7r_bacc": 0.8888081380759063,
+      "random_bacc": 0.5020378725040705,
+      "thresholds": {
+        "0.85": {
+          "v7r": {
+            "n": 200,
+            "PFR": 0.7,
+            "types": {
+              "feasible": 140,
+              "island": 58,
+              "non_converged": 2
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          }
+        },
+        "0.90": {
+          "v7r": {
+            "n": 200,
+            "PFR": 0.7,
+            "types": {
+              "feasible": 140,
+              "island": 58,
+              "non_converged": 2
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          }
+        },
+        "0.95": {
+          "v7r": {
+            "n": 200,
+            "PFR": 0.7,
+            "types": {
+              "feasible": 140,
+              "island": 58,
+              "non_converged": 2
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 0.99,
+            "types": {
+              "feasible": 198,
+              "voltage": 2
+            }
+          }
+        }
+      }
+    },
+    "8": {
+      "v7r_bacc": 0.9046821938719602,
+      "random_bacc": 0.4951976182699536,
+      "thresholds": {
+        "0.85": {
+          "v7r": {
+            "n": 200,
+            "PFR": 0.055,
+            "types": {
+              "island": 169,
+              "feasible": 11,
+              "non_converged": 20
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          }
+        },
+        "0.90": {
+          "v7r": {
+            "n": 200,
+            "PFR": 0.055,
+            "types": {
+              "island": 169,
+              "feasible": 11,
+              "non_converged": 20
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 200
+            }
+          }
+        },
+        "0.95": {
+          "v7r": {
+            "n": 200,
+            "PFR": 0.055,
+            "types": {
+              "island": 169,
+              "feasible": 11,
+              "non_converged": 20
+            }
+          },
+          "random": {
+            "n": 200,
+            "PFR": 0.965,
+            "types": {
+              "feasible": 193,
+              "voltage": 7
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "supervised_edge": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+      "island": 100,
+      "non_converged": 4
+    }
+  },
+  "random": {
+    "n": 104,
+    "PFR": 0.038461538461538464,
+    "types": {
+      "non_converged": 13,
+      "feasible": 4,
+      "island": 87
+    }
+  },
+  "truth": {
+    "n": 104,
+    "PFR": 0.9038461538461539,
+    "types": {
+      "feasible": 94,
+      "non_converged": 10
+    }
+  },
+  "supervised_edge_wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "random_wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "_meta": {
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 3,
+    "train_num": 20,
+    "eval_start": 50,
+    "n": 104,
+    "topk": 5,
+    "max_graphs": 0,
+    "split_mode": "random",
+    "train_scenarios": null,
+    "eval_scenarios": null,
+    "C": 1.0,
+    "wrapper_strategy": "local_swap",
+    "candidate_pool": 8,
+    "train_edge_n": 891,
+    "train_positive_rate": 0.037037037037037035,
+    "shuffle_train_labels": false,
+    "runtime_seconds": 181.28263401985168,
+    "wrapper_mean_edges": 5.0,
+    "wrapper_mean_replace_rate": 0.35961538461538467,
+    "wrapper_raw_bacc": 0.7845058786458389,
+    "wrapper_bacc": 0.7950828017227622,
+    "random_wrapper_bacc": 0.5296530764093158,
+    "wrapper_incomplete_n": 0,
+    "random_wrapper_incomplete_n": 0
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "gnn_explainer": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.47943660345985745,
+      "tp": 2,
+      "fp": 248,
+      "tn": 4459,
+      "fn": 171,
+      "tpr": 0.011560693641618497,
+      "tnr": 0.9473125132780964
+    }
+  },
+  "pgexplainer": {
+    "n": 50,
+    "PFR": 0.44,
+    "types": {
+      "island": 28,
+      "feasible": 22
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.7940584125721009,
+      "tp": 107,
+      "fp": 143,
+      "tn": 4564,
+      "fn": 66,
+      "tpr": 0.6184971098265896,
+      "tnr": 0.969619715317612
+    }
+  },
+  "gradcam": {
+    "n": 50,
+    "PFR": 0.96,
+    "types": {
+      "feasible": 48,
+      "island": 2
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.5183897798261352,
+      "tp": 15,
+      "fp": 235,
+      "tn": 4472,
+      "fn": 158,
+      "tpr": 0.08670520231213873,
+      "tnr": 0.9500743573401317
+    }
+  },
+  "sep": {
+    "n": 50,
+    "PFR": 0.42,
+    "types": {
+      "island": 29,
+      "feasible": 21
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.8390043853024213,
+      "tp": 122,
+      "fp": 128,
+      "tn": 4579,
+      "fn": 51,
+      "tpr": 0.7052023121387283,
+      "tnr": 0.9728064584661142
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.74,
+    "types": {
+      "island": 13,
+      "feasible": 37
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "seed": 2,
+    "n": 50,
+    "n_test_explainable_positive": 225,
+    "train_num": 20,
+    "topk": 5,
+    "split": "random 85/5/10 test partition",
+    "checkpoint": "gin_3l_32h_s2_full_b512_best.pth"
+  }
+}

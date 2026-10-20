@@ -1,0 +1,65 @@
+{
+  "v7r_ac": {
+    "n": 104,
+    "PFR": 0.009615384615384616,
+    "types": {
+      "island": 103,
+      "feasible": 1
+    }
+  },
+  "v7r_dc": {
+    "n": 104,
+    "PFR": 0.009615384615384616,
+    "types": {
+      "island": 103,
+      "feasible": 1
+    }
+  },
+  "random_ac": {
+    "n": 104,
+    "PFR": 0.07692307692307693,
+    "types": {
+      "island": 78,
+      "feasible": 8,
+      "non_converged": 17,
+      "voltage": 1
+    }
+  },
+  "random_dc": {
+    "n": 104,
+    "PFR": 0.09615384615384616,
+    "types": {
+      "island": 94,
+      "feasible": 10
+    }
+  },
+  "truth_ac": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+      "feasible": 92,
+      "non_converged": 11,
+      "island": 1
+    }
+  },
+  "truth_dc": {
+    "n": 104,
+    "PFR": 0.9903846153846154,
+    "types": {
+      "feasible": 103,
+      "island": 1
+    }
+  },
+  "_meta": {
+    "system": "ieee39",
+    "method": "supervised_edge_logistic",
+    "protocol": "fixed-slice-public-ac-dc",
+    "seed": 2,
+    "n": 104,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "ranking_uses_eval_truth": false,
+    "v7r_bacc": 0.7686267877019138
+  }
+}

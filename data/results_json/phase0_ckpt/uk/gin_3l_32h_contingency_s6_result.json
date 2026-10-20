@@ -1,0 +1,37 @@
+{
+  "dataset": "uk",
+  "model": "gin",
+  "layers": 3,
+  "hidden": 32,
+  "epochs": 50,
+  "batch": 512,
+  "seed": 6,
+  "split": {
+    "split_mode": "contingency",
+    "seed": 6,
+    "ratios": [
+      0.85,
+      0.05,
+      0.1
+    ],
+    "n": [
+      53013,
+      4606,
+      6381
+    ],
+    "positive_n": [
+      1716,
+      125,
+      395
+    ],
+    "scenario_n": [
+      1090,
+      11,
+      27
+    ]
+  },
+  "test_acc": 0.9973358511924744,
+  "test_bacc": 0.9963154074601088,
+  "test_f1": 0.9974755372739287,
+  "train_seconds": 424.1105988025665
+}

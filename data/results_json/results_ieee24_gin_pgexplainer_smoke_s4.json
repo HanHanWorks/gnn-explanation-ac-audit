@@ -1,0 +1,50 @@
+{
+  "base": {
+    "n": 5,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 5
+    }
+  },
+  "pgexplainer": {
+    "n": 5,
+    "PFR": 0.0,
+    "types": {
+      "island": 5
+    }
+  },
+  "random": {
+    "n": 5,
+    "PFR": 0.4,
+    "types": {
+      "island": 3,
+      "feasible": 2
+    }
+  },
+  "truth": {
+    "n": 5,
+    "PFR": 0.0,
+    "types": {
+      "non_converged": 1,
+      "voltage": 4
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 5,
+    "n": 5,
+    "topk": 5,
+    "seed": 4,
+    "epochs": 3,
+    "losses": [
+      2.4166773319244386,
+      1.7661922931671143,
+      0.7892442107200622
+    ],
+    "runtime_seconds": 0.008864879608154297
+  }
+}

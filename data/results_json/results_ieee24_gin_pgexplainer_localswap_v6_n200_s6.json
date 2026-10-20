@@ -1,0 +1,97 @@
+{
+  "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "pgexplainer": {
+    "n": 200,
+    "PFR": 0.0,
+    "types": {
+      "island": 189,
+      "non_converged": 11
+    }
+  },
+  "random": {
+    "n": 200,
+    "PFR": 0.575,
+    "types": {
+      "voltage": 17,
+      "feasible": 115,
+      "island": 47,
+      "non_converged": 21
+    }
+  },
+  "truth": {
+    "n": 200,
+    "PFR": 0.05,
+    "types": {
+      "voltage": 177,
+      "feasible": 10,
+      "non_converged": 13
+    }
+  },
+  "pgexplainer_wrapped": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "random_wrapped": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "topk": 5,
+    "seed": 6,
+    "epochs": 20,
+    "losses": [
+      2.8307755798101426,
+      0.07815517093986273,
+      0.043843514658510684,
+      0.03454154152423143,
+      0.03253132738173008,
+      0.03203162457793951,
+      0.03181360885500908,
+      0.03167856894433498,
+      0.03158943485468626,
+      0.031573683768510816,
+      0.03152981270104647,
+      0.03151832409203052,
+      0.031498678773641584,
+      0.03149667587131262,
+      0.03148764222860336,
+      0.03148477487266064,
+      0.03148541077971458,
+      0.031481491029262544,
+      0.03148056995123625,
+      0.03148042131215334
+    ],
+    "runtime_seconds": 0.3817431926727295,
+    "physical_wrapper": true,
+    "wrapper_strategy": "local_swap",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": 5.0,
+    "random_wrapper_mean_edges": 5.0,
+    "wrapper_mean_replace_rate": 0.374,
+    "wrapper_raw_bacc": 0.46142272673092444,
+    "wrapper_bacc": 0.44461823897837666,
+    "random_wrapper_bacc": 0.49277266677141524,
+    "wrapper_bacc_valid_n": 188,
+    "wrapper_incomplete_n": 0
+  }
+}

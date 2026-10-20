@@ -1,0 +1,100 @@
+{
+  "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "pgexplainer": {
+    "n": 200,
+    "PFR": 0.01,
+    "types": {
+      "island": 197,
+      "non_converged": 1,
+      "feasible": 2
+    }
+  },
+  "random": {
+    "n": 200,
+    "PFR": 0.57,
+    "types": {
+      "island": 42,
+      "feasible": 114,
+      "voltage": 18,
+      "non_converged": 26
+    }
+  },
+  "truth": {
+    "n": 200,
+    "PFR": 0.055,
+    "types": {
+      "voltage": 183,
+      "feasible": 11,
+      "non_converged": 6
+    }
+  },
+  "pgexplainer_wrapped": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "random_wrapped": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 4,
+    "epochs": 20,
+    "losses": [
+      1.6408720940351487,
+      0.2020106755197048,
+      0.04970044922083616,
+      0.03992911167442799,
+      0.03656516559422016,
+      0.035339725017547605,
+      0.034022939018905164,
+      0.033241071924567225,
+      0.03302917424589395,
+      0.032419192045927046,
+      0.032130223140120505,
+      0.03216574229300022,
+      0.0319792527705431,
+      0.03173773661255837,
+      0.03170995861291885,
+      0.03166349064558745,
+      0.031647620908916,
+      0.031569983996450904,
+      0.031593690440058705,
+      0.03156253900378943
+    ],
+    "runtime_seconds": 0.42923736572265625,
+    "physical_wrapper": true,
+    "wrapper_strategy": "local_swap",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": 5.0,
+    "random_wrapper_mean_edges": 5.0,
+    "wrapper_mean_replace_rate": 0.22,
+    "wrapper_raw_bacc": 0.4414252614876999,
+    "wrapper_bacc": 0.438474695786559,
+    "random_wrapper_bacc": 0.5054428610787467,
+    "wrapper_bacc_valid_n": 179,
+    "wrapper_incomplete_n": 0
+  }
+}

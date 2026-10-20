@@ -1,0 +1,64 @@
+% RESS major revision source.
+\documentclass[final,number]{elsarticle}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage[hyphens]{url}
+\usepackage{natbib}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{threeparttable}
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em}
+% The initial submission was read as containing spurious line-break hyphens
+% (e.g. "com-puted", "counter-factual").  Automatic hyphenation is therefore
+% disabled and overfull lines are absorbed by emergencystretch.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\tolerance=3000
+\graphicspath{{figures/}{./}}
+\journal{Reliability Engineering \& System Safety}
+
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.8}
+
+\begin{document}
+\sloppy
+
+\begin{frontmatter}
+
+\title{From Explanation Agreement to Operability: A Restricted AC Screening Audit of GNN Explanations for Cascading-Failure Risk Assessment}
+
+\author[aff1,aff2]{Zihao Huang\fnref{fn1}}
+\author[aff1,aff2]{Yan Chen\corref{cor1}\fnref{fn2}}
+\ead{cy@gxu.edu.cn}
+\cortext[cor1]{Corresponding author}
+\fntext[fn1]{ORCID: 0009-0006-5842-6516}
+\fntext[fn2]{ORCID: 0000-0002-9950-684X}
+\address[aff1]{Guangxi Key Laboratory of Digital Infrastructure, Guangxi Zhuang Autonomous Region Information Center, Nanning 530000, China}
+\address[aff2]{School of Computer and Electronic Information, Guangxi University, Nanning 530000, China}
+
+\begin{abstract}
+Graph neural networks (GNNs) increasingly support cascading-failure risk assessment, and edge explanations are often read as candidate branches for corrective action. We show that the quantity most often used to validate such explanations, agreement with simulator cascade-path labels, is neither a measure of faithfulness to the classifier nor a measure of intervention operability. We separate three layers that are commonly conflated: edge-label agreement, model fidelity, and a restricted alternating-current (AC) screening test of a standardized top-$k$ branch-deletion counterfactual. The audit covers IEEE 24-bus, IEEE 39-bus, and UK systems; GNNExplainer, PGExplainer, GSAT, Grad-CAM, and SubgraphX; random, label-free, and shuffled-label controls; and a supervised edge-label predictor (SEP). Edge-label agreement is strongly confounded by branch-flow features: a label-free ranking by reactive-flow magnitude reaches 0.861 pooled edge balanced accuracy on IEEE 24, close to the SEP's 0.900, and classifiers trained on shuffled labels can reach similar values. Under a locked public-case AC screen that checks convergence, connectivity, and voltage, the SEP's raw top-5 deletions pass in 0.2\%, 2.5\%, and 64.0\% of accepted positive samples on IEEE 24, IEEE 39, and UK, respectively, whereas matched random deletions pass in 54.5\%, 7.7\%, and 100\%. On IEEE 24 a connectivity-preserving control shows that failures persist on connected networks through voltage violations, so they cannot be attributed to islanding alone; on IEEE 39 and UK the raw failures are primarily topological. Matched-sample, contingency-disjoint, intervention-budget, voltage-threshold, DC-versus-AC, and operating-point analyses bound the conclusions. A finite-budget wrapper can restore screening feasibility, but it rewrites part of the explanation and consumes a measurable number of AC solver calls. We conclude that restricted AC screening must be reported as a separate validation layer, and that edge-label agreement should not be described as faithfulness or operability.
+\end{abstract}
+
+\begin{keyword}
+graph neural networks \sep explainable artificial intelligence \sep cascading failures \sep power-system reliability \sep AC power flow \sep topology intervention \sep explanation evaluation
+\end{keyword}
+
+\end{frontmatter}
+
+\input{manuscript.tex}
+
+\bibliographystyle{elsarticle-num}
+\bibliography{references}
+
+\end{document}

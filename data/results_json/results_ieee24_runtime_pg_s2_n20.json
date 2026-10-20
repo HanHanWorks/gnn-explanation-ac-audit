@@ -1,0 +1,96 @@
+{
+  "base": {
+    "n": 20,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 20
+    }
+  },
+  "pgexplainer": {
+    "n": 20,
+    "PFR": 0.0,
+    "types": {
+      "island": 20
+    }
+  },
+  "random": {
+    "n": 20,
+    "PFR": 0.65,
+    "types": {
+      "island": 4,
+      "feasible": 13,
+      "non_converged": 2,
+      "voltage": 1
+    }
+  },
+  "truth": {
+    "n": 20,
+    "PFR": 0.0,
+    "types": {
+      "voltage": 20
+    }
+  },
+  "pgexplainer_wrapped": {
+    "n": 20,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 20
+    }
+  },
+  "random_wrapped": {
+    "n": 20,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 20
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 20,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 2,
+    "epochs": 20,
+    "losses": [
+      0.7442303754389286,
+      0.03545056059956551,
+      0.032062781788408753,
+      0.031773410737514496,
+      0.03166854716837406,
+      0.031595577113330366,
+      0.03155931625515222,
+      0.03152322731912136,
+      0.03150995429605245,
+      0.031496104598045346,
+      0.031489799916744235,
+      0.031484625302255154,
+      0.03148287441581488,
+      0.03148146755993366,
+      0.031480229645967486,
+      0.03147996068000793,
+      0.031479667872190475,
+      0.031479496508836746,
+      0.03147936817258597,
+      0.03147933203727007
+    ],
+    "runtime_seconds": 0.03721785545349121,
+    "physical_wrapper": true,
+    "wrapper_strategy": "local_swap",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": 5.0,
+    "random_wrapper_mean_edges": 5.0,
+    "wrapper_mean_replace_rate": 0.24000000000000005,
+    "wrapper_raw_bacc": 0.4304453262786596,
+    "wrapper_bacc": 0.4304453262786596,
+    "random_wrapper_bacc": 0.45899470899470907,
+    "wrapper_bacc_valid_n": 18,
+    "wrapper_incomplete_n": 0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "base": {
+    "n": 50,
+    "PFR": 0.86,
+    "types": {
+      "feasible": 43,
+      "voltage": 7
+    }
+  },
+  "gnn_explainer": {
+    "n": 50,
+    "PFR": 0.8,
+    "types": {
+      "feasible": 40,
+      "voltage": 9,
+      "overload": 1
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 0.82,
+    "types": {
+      "feasible": 41,
+      "voltage": 5,
+      "overload": 4
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.38,
+    "types": {
+      "feasible": 19,
+      "voltage": 31
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "n": 50,
+    "topk": 5,
+    "seed": 2,
+    "model": "transformer_3l_32h",
+    "voltage": "[0.9,1.1]",
+    "load_max": 110.0
+  }
+}

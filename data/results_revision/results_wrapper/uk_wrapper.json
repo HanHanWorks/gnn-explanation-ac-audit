@@ -1,0 +1,118 @@
+{
+ "_meta": {
+  "dataset": "uk",
+  "root": ".",
+  "seeds": "2",
+  "num": 50,
+  "train_num": 20,
+  "eval_start": 50,
+  "topk": 5,
+  "thresholds": "0.85,0.90,0.95",
+  "output": "results_wrapper/uk_wrapper.json"
+ },
+ "seeds": {
+  "2": {
+   "n": 50,
+   "raw_pfr_by_threshold": {
+    "0.85": {
+     "n": 50,
+     "PFR": 0.72,
+     "types": {
+      "feasible": 36,
+      "island": 14
+     }
+    },
+    "0.90": {
+     "n": 50,
+     "PFR": 0.72,
+     "types": {
+      "feasible": 36,
+      "island": 14
+     }
+    },
+    "0.95": {
+     "n": 50,
+     "PFR": 0.72,
+     "types": {
+      "feasible": 36,
+      "island": 14
+     }
+    }
+   },
+   "raw_types_085": {
+    "feasible": 36,
+    "island": 14
+   },
+   "wrapper": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 50
+    }
+   },
+   "ac_calls": {
+    "mean": 20.28,
+    "median": 20.0,
+    "p90": 21.0,
+    "p95": 21.0,
+    "max": 21,
+    "min": 20,
+    "values": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     21,
+     20,
+     20,
+     20,
+     20,
+     21,
+     20,
+     20,
+     20,
+     21,
+     20,
+     20,
+     20,
+     20,
+     20,
+     21,
+     20,
+     20,
+     21,
+     20,
+     21,
+     21,
+     20,
+     20,
+     20,
+     20,
+     20,
+     21,
+     21,
+     21,
+     20,
+     20,
+     20,
+     20,
+     21,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     21,
+     21,
+     20,
+     21
+    ]
+   },
+   "replace_rate_mean": 0.055999999999999994,
+   "replace_rate_sd": 0.09071147352221452,
+   "incomplete": 0
+  }
+ }
+}

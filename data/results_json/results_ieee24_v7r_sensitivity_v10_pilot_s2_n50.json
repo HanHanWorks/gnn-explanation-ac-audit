@@ -1,0 +1,273 @@
+{
+  "_meta": {
+    "system": "ieee24",
+    "protocol": "v7r-fixed-slice-raw-threshold-sensitivity",
+    "seed": 2,
+    "n": 50,
+    "train_num": 20,
+    "eval_start": 50,
+    "ks": [
+      1,
+      3,
+      5,
+      8
+    ],
+    "voltage_mins": [
+      0.85,
+      0.9,
+      0.95
+    ],
+    "ranking_uses_eval_truth": false
+  },
+  "rows": {
+    "1": {
+      "v7r_bacc": 0.9357927170868348,
+      "random_bacc": 0.4859822595704948,
+      "thresholds": {
+        "0.85": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "voltage": 50
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 1.0,
+            "types": {
+              "feasible": 50
+            }
+          }
+        },
+        "0.90": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "voltage": 50
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.94,
+            "types": {
+              "feasible": 47,
+              "voltage": 3
+            }
+          }
+        },
+        "0.95": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "voltage": 50
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.52,
+            "types": {
+              "feasible": 26,
+              "voltage": 24
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "v7r_bacc": 0.918328664799253,
+      "random_bacc": 0.48878804855275443,
+      "thresholds": {
+        "0.85": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "voltage": 47,
+              "island": 3
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.82,
+            "types": {
+              "feasible": 41,
+              "island": 5,
+              "voltage": 3,
+              "non_converged": 1
+            }
+          }
+        },
+        "0.90": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "voltage": 47,
+              "island": 3
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.62,
+            "types": {
+              "feasible": 31,
+              "island": 5,
+              "voltage": 13,
+              "non_converged": 1
+            }
+          }
+        },
+        "0.95": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "voltage": 47,
+              "island": 3
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.08,
+            "types": {
+              "voltage": 40,
+              "island": 5,
+              "feasible": 4,
+              "non_converged": 1
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "v7r_bacc": 0.9187077497665732,
+      "random_bacc": 0.5071493930905696,
+      "thresholds": {
+        "0.85": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "island": 21,
+              "voltage": 29
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.5,
+            "types": {
+              "feasible": 25,
+              "island": 15,
+              "voltage": 4,
+              "non_converged": 6
+            }
+          }
+        },
+        "0.90": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "island": 21,
+              "voltage": 29
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.3,
+            "types": {
+              "feasible": 15,
+              "island": 15,
+              "voltage": 14,
+              "non_converged": 6
+            }
+          }
+        },
+        "0.95": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "island": 21,
+              "voltage": 29
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "voltage": 29,
+              "island": 15,
+              "non_converged": 6
+            }
+          }
+        }
+      }
+    },
+    "8": {
+      "v7r_bacc": 0.8875368814192344,
+      "random_bacc": 0.5012236227824464,
+      "thresholds": {
+        "0.85": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "island": 50
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.16,
+            "types": {
+              "non_converged": 25,
+              "island": 16,
+              "feasible": 8,
+              "voltage": 1
+            }
+          }
+        },
+        "0.90": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "island": 50
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.1,
+            "types": {
+              "non_converged": 25,
+              "island": 16,
+              "feasible": 5,
+              "voltage": 4
+            }
+          }
+        },
+        "0.95": {
+          "v7r": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "island": 50
+            }
+          },
+          "random": {
+            "n": 50,
+            "PFR": 0.0,
+            "types": {
+              "non_converged": 25,
+              "island": 16,
+              "voltage": 9
+            }
+          }
+        }
+      }
+    }
+  }
+}

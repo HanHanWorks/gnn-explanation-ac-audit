@@ -1,0 +1,53 @@
+{
+  "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "physical": {
+    "n": 200,
+    "PFR": 0.34,
+    "types": {
+      "island": 132,
+      "feasible": 68
+    }
+  },
+  "physical_wrapped": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "random_wrapped": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "truth": {
+    "n": 200,
+    "PFR": 0.075,
+    "types": {
+      "voltage": 176,
+      "non_converged": 9,
+      "feasible": 15
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "method": "redundant_low_stress",
+    "protocol": "unified-eval-start-physical-unsupervised",
+    "seed": 2,
+    "eval_start": 50,
+    "n": 200,
+    "topk": 5,
+    "bacc_raw": 0.4410061751973516,
+    "bacc_wrapped": 0.4410061751973516,
+    "random_wrapper_bacc": 0.4405073211102622,
+    "ranking_uses_truth": false
+  }
+}

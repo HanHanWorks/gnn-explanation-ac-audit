@@ -1,0 +1,51 @@
+{
+  "base": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "subgraphx": {
+    "n": 50,
+    "PFR": 0.1,
+    "types": {
+      "non_converged": 6,
+      "island": 38,
+      "feasible": 5,
+      "voltage": 1
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 0.5,
+    "types": {
+      "voltage": 6,
+      "feasible": 25,
+      "island": 14,
+      "non_converged": 5
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.08,
+    "types": {
+      "voltage": 44,
+      "feasible": 4,
+      "non_converged": 2
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "subgraphx",
+    "protocol": "v3r",
+    "n": 50,
+    "topk": 5,
+    "seed": 6,
+    "rollout": 5,
+    "sample_num": 20,
+    "min_atoms": 4,
+    "runtime_seconds": 44.61291456222534
+  }
+}

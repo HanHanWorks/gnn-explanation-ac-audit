@@ -1,0 +1,31 @@
+There are 2 branches which are considered as trafos - due to ratio unequal 0 or 1 - but connect same voltage levels.
+some BR_B of transformers in ppc['branch'] are positive, but transformers are inductive, therefore their B should be negative
+PGExplainer epoch 1/20 loss=3.315454
+PGExplainer epoch 5/20 loss=0.180735
+PGExplainer epoch 10/20 loss=0.177069
+PGExplainer epoch 15/20 loss=0.176826
+PGExplainer epoch 20/20 loss=0.176803
+  10/200 完成
+  20/200 完成
+  30/200 完成
+  40/200 完成
+  50/200 完成
+  60/200 完成
+  70/200 完成
+  80/200 完成
+  90/200 完成
+  100/200 完成
+  110/200 完成
+  120/200 完成
+  130/200 完成
+  140/200 完成
+  150/200 完成
+  160/200 完成
+  170/200 完成
+  180/200 完成
+  190/200 完成
+  200/200 完成
+pgexplainer: PFR=0.540
+random: PFR=1.000
+truth: PFR=0.810
+结果已保存: results_pg_quality/uk_pg_s2.json

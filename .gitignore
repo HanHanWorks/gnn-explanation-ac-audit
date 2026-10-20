@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.spl
+paper/*.synctex.gz
+data/recomputed/

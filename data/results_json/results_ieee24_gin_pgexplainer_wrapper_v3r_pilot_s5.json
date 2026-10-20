@@ -1,0 +1,92 @@
+{
+  "base": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "pgexplainer": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+      "island": 43,
+      "non_converged": 7
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 0.62,
+    "types": {
+      "feasible": 31,
+      "non_converged": 3,
+      "island": 11,
+      "voltage": 5
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+      "voltage": 47,
+      "non_converged": 3
+    }
+  },
+  "pgexplainer_wrapped": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "random_wrapped": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 50,
+    "topk": 5,
+    "seed": 5,
+    "epochs": 20,
+    "losses": [
+      0.8302548326551914,
+      0.09707946386188268,
+      0.051610523089766505,
+      0.04050793927162886,
+      0.036125065945088866,
+      0.0344997713342309,
+      0.03370117023587227,
+      0.032781118713319304,
+      0.03223323430866003,
+      0.032093355618417266,
+      0.031988750025629994,
+      0.03178360052406788,
+      0.03167016338557005,
+      0.031669017486274244,
+      0.0315843028947711,
+      0.03155666794627905,
+      0.031540777161717416,
+      0.0315277960151434,
+      0.03151214309036732,
+      0.03150498922914267
+    ],
+    "runtime_seconds": 0.08870911598205566,
+    "physical_wrapper": true,
+    "wrapper_mean_edges": 5.0,
+    "random_wrapper_mean_edges": 5.0,
+    "wrapper_mean_replace_rate": 0.3999999999999999,
+    "wrapper_raw_bacc": 0.42995708921866643,
+    "wrapper_bacc": 0.42995708921866643,
+    "random_wrapper_bacc": 0.503294793094543,
+    "wrapper_bacc_valid_n": 47
+  }
+}

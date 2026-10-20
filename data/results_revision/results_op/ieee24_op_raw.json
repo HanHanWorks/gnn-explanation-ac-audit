@@ -1,0 +1,71 @@
+{
+  "public_raw": {
+    "n": 200,
+    "PFR": 0.0,
+    "types": {
+      "island": 98,
+      "voltage": 102
+    }
+  },
+  "sample_raw": {
+    "n": 200,
+    "PFR": 0.71,
+    "types": {
+      "feasible": 142,
+      "voltage": 58
+    }
+  },
+  "public_random": {
+    "n": 200,
+    "PFR": 0.52,
+    "types": {
+      "feasible": 104,
+      "island": 48,
+      "voltage": 28,
+      "non_converged": 20
+    }
+  },
+  "sample_random": {
+    "n": 200,
+    "PFR": 0.845,
+    "types": {
+      "feasible": 169,
+      "voltage": 31
+    }
+  },
+  "sample_truth": {
+    "n": 200,
+    "PFR": 0.57,
+    "types": {
+      "feasible": 114,
+      "voltage": 86
+    }
+  },
+  "sample_base": {
+    "n": 200,
+    "PFR": 0.995,
+    "types": {
+      "feasible": 199,
+      "voltage": 1
+    }
+  },
+  "public_base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "protocol": "raw-topk-public-vs-sample-conditioned",
+    "seed": 2,
+    "n": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "ranking_uses_eval_truth": false,
+    "bacc": 0.9128306595365419,
+    "mean_initiating_outage_branches": 1.15
+  }
+}

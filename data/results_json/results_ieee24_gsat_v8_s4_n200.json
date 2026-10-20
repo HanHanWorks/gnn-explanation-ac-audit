@@ -1,0 +1,51 @@
+{
+  "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "gsat": {
+    "n": 200,
+    "PFR": 0.19,
+    "types": {
+      "voltage": 30,
+      "island": 111,
+      "feasible": 38,
+      "non_converged": 21
+    }
+  },
+  "random": {
+    "n": 200,
+    "PFR": 0.57,
+    "types": {
+      "island": 42,
+      "feasible": 114,
+      "voltage": 18,
+      "non_converged": 26
+    }
+  },
+  "truth": {
+    "n": 200,
+    "PFR": 0.055,
+    "types": {
+      "voltage": 183,
+      "feasible": 11,
+      "non_converged": 6
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "n": 200,
+    "topk": 5,
+    "seed": 4,
+    "model": "gin_3l_32h",
+    "explainer": "gsat",
+    "protocol": "unified-eval-start",
+    "eval_start": 50,
+    "max_graphs": 0,
+    "voltage": "[0.85,1.1]",
+    "load_max": 110.0
+  }
+}

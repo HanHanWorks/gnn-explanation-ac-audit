@@ -1,0 +1,20 @@
+There are 11 branches which are considered as trafos - due to ratio unequal 0 or 1 - but connect same voltage levels.
+PGExplainer epoch 1/20 loss=0.149579
+PGExplainer epoch 5/20 loss=0.031500
+PGExplainer epoch 10/20 loss=0.031481
+PGExplainer epoch 15/20 loss=0.031479
+PGExplainer epoch 20/20 loss=0.031479
+  10/104 完成
+  20/104 完成
+  30/104 完成
+  40/104 完成
+  50/104 完成
+  60/104 完成
+  70/104 完成
+  80/104 完成
+  90/104 完成
+  100/104 完成
+pgexplainer: PFR=0.000
+random: PFR=0.096
+truth: PFR=0.865
+结果已保存: results_pg_quality/ieee39_pg_s5.json

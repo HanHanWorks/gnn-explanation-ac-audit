@@ -1,0 +1,7 @@
+  10/50
+  20/50
+  30/50
+  40/50
+  50/50
+{'gnn_explainer': 0.38, 'pgexplainer': 0.02, 'gradcam': 0.06, 'sep': 0.0, 'random': 0.7, 'truth': 0.04}
+saved results_heldout/ieee24_heldout_s2.json

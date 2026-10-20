@@ -1,0 +1,89 @@
+{
+  "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "pgexplainer": {
+    "n": 200,
+    "PFR": 0.465,
+    "types": {
+      "island": 107,
+      "feasible": 93
+    }
+  },
+  "random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "truth": {
+    "n": 200,
+    "PFR": 0.79,
+    "types": {
+      "feasible": 158,
+      "island": 42
+    }
+  },
+  "edge_label_agreement": {
+    "pooled_bacc": 0.7802790512857858,
+    "tpr": 0.5925373134328358,
+    "tnr": 0.9680207891387357,
+    "tp": 397,
+    "fp": 603,
+    "tn": 18253,
+    "fn": 273
+  },
+  "_meta": {
+    "system": "uk",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 5,
+    "epochs": 20,
+    "losses": [
+      1.213840514421463,
+      0.4617387935519218,
+      0.44462245255708693,
+      0.4411615803837776,
+      0.4395630210638046,
+      0.43837775737047197,
+      0.4378757461905479,
+      0.43745860606431963,
+      0.43710130304098127,
+      0.43703212291002275,
+      0.4368719086050987,
+      0.43677028864622114,
+      0.43673417866230013,
+      0.4367037728428841,
+      0.43665473610162736,
+      0.43664371073246,
+      0.4366325482726097,
+      0.4366173133254051,
+      0.43660561591386793,
+      0.43660546839237213
+    ],
+    "runtime_seconds": 0.7799842357635498,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+  }
+}

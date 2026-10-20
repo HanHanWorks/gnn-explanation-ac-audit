@@ -1,0 +1,6 @@
+ieee24 seed 2: raw=0.0 connected=0.0 reached_k=50/50 dist={'5': 50}
+ieee24 seed 3: raw=0.0 connected=0.0 reached_k=50/50 dist={'5': 50}
+ieee24 seed 4: raw=0.0 connected=0.0 reached_k=50/50 dist={'5': 50}
+ieee24 seed 5: raw=0.0 connected=0.0 reached_k=50/50 dist={'5': 50}
+ieee24 seed 6: raw=0.02 connected=0.02 reached_k=50/50 dist={'5': 50}
+saved results_conn5/ieee24_conn5.json

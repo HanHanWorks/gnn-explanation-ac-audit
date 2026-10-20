@@ -1,0 +1,44 @@
+{
+  "base": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "gsat": {
+    "n": 50,
+    "PFR": 0.2,
+    "types": {
+      "island": 24,
+      "non_converged": 16,
+      "feasible": 10
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.78,
+    "types": {
+      "island": 11,
+      "feasible": 39
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "n": 50,
+    "topk": 5,
+    "seed": 2,
+    "model": "transformer_3l_32h",
+    "explainer": "gsat",
+    "protocol": "baseline-common",
+    "voltage": "[0.85,1.1]",
+    "load_max": 110.0
+  }
+}

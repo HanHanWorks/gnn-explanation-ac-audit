@@ -1,0 +1,44 @@
+{
+  "base": {
+    "n": 11,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 11
+    }
+  },
+  "gsat": {
+    "n": 11,
+    "PFR": 0.0,
+    "types": {
+      "non_converged": 11
+    }
+  },
+  "random": {
+    "n": 11,
+    "PFR": 0.36363636363636365,
+    "types": {
+      "feasible": 4,
+      "non_converged": 5,
+      "island": 2
+    }
+  },
+  "truth": {
+    "n": 11,
+    "PFR": 0.8181818181818182,
+    "types": {
+      "feasible": 9,
+      "non_converged": 2
+    }
+  },
+  "_meta": {
+    "system": "ieee118",
+    "n": 11,
+    "topk": 5,
+    "seed": 2,
+    "model": "transformer_3l_32h",
+    "explainer": "gsat",
+    "protocol": "baseline-common",
+    "voltage": "[0.85,1.1]",
+    "load_max": 110.0
+  }
+}

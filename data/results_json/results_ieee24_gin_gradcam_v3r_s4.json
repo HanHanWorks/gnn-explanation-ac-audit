@@ -1,0 +1,49 @@
+{
+  "base": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "gradcam": {
+    "n": 50,
+    "PFR": 0.04,
+    "types": {
+      "island": 33,
+      "non_converged": 14,
+      "feasible": 2,
+      "voltage": 1
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 0.52,
+    "types": {
+      "island": 14,
+      "feasible": 26,
+      "voltage": 3,
+      "non_converged": 7
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.04,
+    "types": {
+      "voltage": 45,
+      "non_converged": 3,
+      "feasible": 2
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "gradcam",
+    "protocol": "v3r",
+    "n": 50,
+    "topk": 5,
+    "seed": 4,
+    "layers": 3,
+    "runtime_seconds": 0.27149152755737305
+  }
+}

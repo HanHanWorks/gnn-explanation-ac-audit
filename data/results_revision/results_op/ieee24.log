@@ -1,0 +1,2 @@
+{'public_raw': 0.0, 'sample_raw': 0.71, 'public_random': 0.52, 'sample_random': 0.845, 'sample_truth': 0.57, 'sample_base': 0.995, 'public_base': 1.0}
+BACC=0.913; saved results_op/ieee24_op_raw.json

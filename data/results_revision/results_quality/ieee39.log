@@ -1,0 +1,12 @@
+There are 11 branches which are considered as trafos - due to ratio unequal 0 or 1 - but connect same voltage levels.
+seed 2: SEP BACC=0.742 PFR=0.010 absQ BACC=0.659 PFR=0.000 absPQ BACC=0.538 PFR=0.000 random BACC=0.496 PFR=0.087 truth BACC=1.000 PFR=0.885
+  shuffled-label BACC mean=0.515 range=0.442-0.656
+seed 3: SEP BACC=0.740 PFR=0.000 absQ BACC=0.671 PFR=0.000 absPQ BACC=0.522 PFR=0.000 random BACC=0.515 PFR=0.038 truth BACC=1.000 PFR=0.904
+  shuffled-label BACC mean=0.510 range=0.442-0.631
+seed 4: SEP BACC=0.725 PFR=0.058 absQ BACC=0.677 PFR=0.000 absPQ BACC=0.529 PFR=0.000 random BACC=0.471 PFR=0.077 truth BACC=1.000 PFR=0.885
+  shuffled-label BACC mean=0.514 range=0.442-0.677
+seed 5: SEP BACC=0.810 PFR=0.058 absQ BACC=0.676 PFR=0.000 absPQ BACC=0.529 PFR=0.000 random BACC=0.482 PFR=0.096 truth BACC=1.000 PFR=0.865
+  shuffled-label BACC mean=0.549 range=0.442-0.670
+seed 6: SEP BACC=0.784 PFR=0.000 absQ BACC=0.666 PFR=0.000 absPQ BACC=0.535 PFR=0.000 random BACC=0.509 PFR=0.087 truth BACC=1.000 PFR=0.885
+  shuffled-label BACC mean=0.531 range=0.442-0.746
+saved results_quality/ieee39_quality.json

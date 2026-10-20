@@ -1,0 +1,37 @@
+{
+  "dataset": "ieee24",
+  "model": "gin",
+  "layers": 3,
+  "hidden": 32,
+  "epochs": 50,
+  "batch": 64,
+  "seed": 5,
+  "split": {
+    "split_mode": "contingency",
+    "seed": 5,
+    "ratios": [
+      0.85,
+      0.05,
+      0.1
+    ],
+    "n": [
+      17416,
+      1562,
+      2522
+    ],
+    "positive_n": [
+      3717,
+      197,
+      420
+    ],
+    "scenario_n": [
+      153,
+      9,
+      6
+    ]
+  },
+  "test_acc": 0.9540047645568848,
+  "test_bacc": 0.8588445986883488,
+  "test_f1": 0.949333495066158,
+  "train_seconds": 191.32396006584167
+}

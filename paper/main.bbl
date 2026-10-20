@@ -1,0 +1,317 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{guo2023}
+Z.~Guo, K.~Sun, X.~Su, S.~Simunovic, A review on simulation models of cascading
+  failures in power systems, iEnergy 2~(4) (2023) 284--296.
+\newblock \href {https://doi.org/10.23919/IEN.2023.0039}
+  {\path{doi:10.23919/IEN.2023.0039}}.
+
+\bibitem{cadini2017}
+F.~Cadini, G.~L. Agliardi, E.~Zio, Estimation of rare event probabilities in
+  power transmission networks subject to cascading failures, Reliability
+  Engineering \& System Safety 158 (2017) 9--20.
+\newblock \href {https://doi.org/10.1016/j.ress.2016.09.009}
+  {\path{doi:10.1016/j.ress.2016.09.009}}.
+
+\bibitem{gjorgiev2022}
+B.~Gjorgiev, G.~Sansavini, Identifying and assessing power system
+  vulnerabilities to transmission asset outages via cascading failure analysis,
+  Reliability Engineering \& System Safety 217 (2022) 108085.
+\newblock \href {https://doi.org/10.1016/j.ress.2021.108085}
+  {\path{doi:10.1016/j.ress.2021.108085}}.
+
+\bibitem{varbella2023gdl}
+A.~Varbella, B.~Gjorgiev, G.~Sansavini, Geometric deep learning for online
+  prediction of cascading failures in power grids, Reliability Engineering \&
+  System Safety 237 (2023) 109341.
+\newblock \href {https://doi.org/10.1016/j.ress.2023.109341}
+  {\path{doi:10.1016/j.ress.2023.109341}}.
+
+\bibitem{varbella2024}
+A.~Varbella, K.~Amara, B.~Gjorgiev, M.~El-Assady, G.~Sansavini, {PowerGraph}: A
+  power grid benchmark dataset for graph neural networks, in: Advances in
+  Neural Information Processing Systems 37, 2024, pp. 110784--110804.
+\newblock \href {https://doi.org/10.52202/079017-3517}
+  {\path{doi:10.52202/079017-3517}}.
+
+\bibitem{liao2022}
+W.~Liao, B.~Bak-Jensen, J.~R. Pillai, Y.~Wang, Y.~Wang, A review of graph
+  neural networks and their applications in power systems, Journal of Modern
+  Power Systems and Clean Energy 10~(2) (2022) 345--360.
+\newblock \href {https://doi.org/10.35833/MPCE.2021.000058}
+  {\path{doi:10.35833/MPCE.2021.000058}}.
+
+\bibitem{ying2019}
+R.~Ying, D.~Bourgeois, J.~You, M.~Zitnik, J.~Leskovec, {GNNExplainer}:
+  Generating explanations for graph neural networks, in: Advances in Neural
+  Information Processing Systems 32, 2019, pp. 9240--9251.
+
+\bibitem{luo2020}
+D.~Luo, W.~Cheng, D.~Xu, W.~Yu, B.~Zong, H.~Chen, X.~Zhang, Parameterized
+  explainer for graph neural network, in: Advances in Neural Information
+  Processing Systems 33, 2020, pp. 19620--19631.
+
+\bibitem{yuan2021}
+H.~Yuan, H.~Yu, J.~Wang, K.~Li, S.~Ji, On explainability of graph neural
+  networks via subgraph explorations, in: Proceedings of the 38th International
+  Conference on Machine Learning, 2021, pp. 4567--4577.
+
+\bibitem{miao2022}
+S.~Miao, M.~Liu, P.~Li, Interpretable and generalizable graph learning via
+  stochastic attention mechanism, in: Proceedings of the 39th International
+  Conference on Machine Learning, Vol. 162, 2022, pp. 15524--15543,
+  arXiv:2201.12987.
+
+\bibitem{yuan2022}
+H.~Yuan, H.~Yu, S.~Gui, S.~Ji, Explainability in graph neural networks: A
+  taxonomic survey, IEEE Transactions on Pattern Analysis and Machine
+  Intelligence 45~(5) (2023) 5782--5799.
+\newblock \href {https://doi.org/10.1109/TPAMI.2022.3204236}
+  {\path{doi:10.1109/TPAMI.2022.3204236}}.
+
+\bibitem{jacovi2020}
+A.~Jacovi, Y.~Goldberg, Towards faithfully interpretable {NLP} systems: How
+  should we define and evaluate faithfulness?, in: Proceedings of the 58th
+  Annual Meeting of the Association for Computational Linguistics, 2020, pp.
+  4198--4205.
+\newblock \href {https://doi.org/10.18653/v1/2020.acl-main.386}
+  {\path{doi:10.18653/v1/2020.acl-main.386}}.
+
+\bibitem{doshi2017}
+F.~Doshi-Velez, B.~Kim, Towards a rigorous science of interpretable machine
+  learning (2017).
+\newblock \href {http://arxiv.org/abs/1702.08608} {\path{arXiv:1702.08608}}.
+
+\bibitem{rudin2019}
+C.~Rudin, Stop explaining black box machine learning models for high stakes
+  decisions and use interpretable models instead, Nature Machine Intelligence 1
+  (2019) 206--215.
+\newblock \href {https://doi.org/10.1038/s42256-019-0048-x}
+  {\path{doi:10.1038/s42256-019-0048-x}}.
+
+\bibitem{adebayo2018}
+J.~Adebayo, J.~Gilmer, M.~Muelly, I.~Goodfellow, M.~Hardt, B.~Kim, Sanity
+  checks for saliency maps, in: Advances in Neural Information Processing
+  Systems 31, 2018, pp. 9505--9515.
+
+\bibitem{hooker2019}
+S.~Hooker, D.~Erhan, P.-J. Kindermans, B.~Kim, A benchmark for interpretability
+  methods in deep neural networks, in: Advances in Neural Information
+  Processing Systems 32, 2019, pp. 9737--9748.
+
+\bibitem{samek2017}
+W.~Samek, A.~Binder, G.~Montavon, S.~Lapuschkin, K.-R. M{\"u}ller, Evaluating
+  the visualization of what a deep neural network has learned, IEEE
+  Transactions on Neural Networks and Learning Systems 28~(11) (2017)
+  2660--2673.
+\newblock \href {https://doi.org/10.1109/TNNLS.2016.2599820}
+  {\path{doi:10.1109/TNNLS.2016.2599820}}.
+
+\bibitem{longo2024}
+L.~Longo, M.~Brcic, F.~Cabitza, J.~Choi, R.~Confalonieri, J.~Del~Ser,
+  R.~Guidotti, Y.~Hayashi, F.~Herrera, A.~Holzinger, R.~Jiang, H.~Khosravi,
+  F.~Lecue, G.~Malgieri, A.~P{\'a}ez, W.~Samek, J.~Schneider, T.~Speith,
+  S.~Stumpf, Explainable artificial intelligence ({XAI}) 2.0: A manifesto of
+  open challenges and interdisciplinary research directions, Information Fusion
+  106 (2024) 102301.
+\newblock \href {https://doi.org/10.1016/j.inffus.2024.102301}
+  {\path{doi:10.1016/j.inffus.2024.102301}}.
+
+\bibitem{rolim1999}
+J.~G. Rolim, L.~J.~B. Machado, A study of the use of corrective switching in
+  transmission systems, IEEE Transactions on Power Systems 14~(1) (1999)
+  336--341.
+\newblock \href {https://doi.org/10.1109/59.744552}
+  {\path{doi:10.1109/59.744552}}.
+
+\bibitem{li2019}
+X.~Li, K.~W. Hedman, Enhanced energy management system with corrective
+  transmission switching strategy---part {I}: Methodology, IEEE Transactions on
+  Power Systems 34~(6) (2019) 4490--4502.
+\newblock \href {https://doi.org/10.1109/TPWRS.2019.2922880}
+  {\path{doi:10.1109/TPWRS.2019.2922880}}.
+
+\bibitem{korad2013}
+A.~S. Korad, K.~W. Hedman, Robust corrective topology control for system
+  reliability, IEEE Transactions on Power Systems 28~(4) (2013) 4042--4051.
+\newblock \href {https://doi.org/10.1109/TPWRS.2013.2267751}
+  {\path{doi:10.1109/TPWRS.2013.2267751}}.
+
+\bibitem{li2017}
+X.~Li, P.~Balasubramanian, M.~Sahraei-Ardakani, M.~Abdi-Khorsand, K.~W. Hedman,
+  R.~Podmore, Real-time contingency analysis with corrective transmission
+  switching, IEEE Transactions on Power Systems 32~(4) (2017) 2604--2617.
+\newblock \href {https://doi.org/10.1109/TPWRS.2016.2616903}
+  {\path{doi:10.1109/TPWRS.2016.2616903}}.
+
+\bibitem{zhang2022cyber}
+X.~Zhang, D.~Liu, H.~Tu, C.~K. Tse, An integrated modeling framework for
+  cascading failure study and robustness assessment of cyber-coupled power
+  grids, Reliability Engineering \& System Safety 226 (2022) 108654.
+\newblock \href {https://doi.org/10.1016/j.ress.2022.108654}
+  {\path{doi:10.1016/j.ress.2022.108654}}.
+
+\bibitem{zhu2023}
+D.~Zhu, W.-M. Cheng, J.~Duan, H.~Wang, J.~Bai, Identifying and assessing risk
+  of cascading failure sequence in {AC}/{DC} hybrid power grid based on
+  non-cooperative game theory, Reliability Engineering \& System Safety 237
+  (2023) 109359.
+\newblock \href {https://doi.org/10.1016/j.ress.2023.109359}
+  {\path{doi:10.1016/j.ress.2023.109359}}.
+
+\bibitem{gao2025}
+Z.~Gao, M.~Illindala, J.~Lei, Leveraging data mining for critical branch
+  identification through simultaneity and causality correlation analysis under
+  cascading failures in power systems, Reliability Engineering \& System Safety
+  264 (2025) 111298.
+\newblock \href {https://doi.org/10.1016/j.ress.2025.111298}
+  {\path{doi:10.1016/j.ress.2025.111298}}.
+
+\bibitem{rahman2011}
+S.~Rahman, Global sensitivity analysis by polynomial dimensional decomposition,
+  Reliability Engineering \& System Safety 96 (2011) 825--837.
+\newblock \href {https://doi.org/10.1016/j.ress.2011.03.002}
+  {\path{doi:10.1016/j.ress.2011.03.002}}.
+
+\bibitem{zhang2014}
+X.~Zhang, M.~D. Pandey, An effective approximation for variance-based global
+  sensitivity analysis, Reliability Engineering \& System Safety 121 (2014)
+  164--174.
+\newblock \href {https://doi.org/10.1016/j.ress.2013.07.010}
+  {\path{doi:10.1016/j.ress.2013.07.010}}.
+
+\bibitem{yao2023}
+W.~Yao, X.~Zheng, J.~Zhang, N.~Wang, G.~Tang, Deep adaptive arbitrary
+  polynomial chaos expansion: {A} mini-data-driven semi-supervised method for
+  uncertainty quantification, Reliability Engineering \& System Safety 229
+  (2023) 108813.
+\newblock \href {https://doi.org/10.1016/j.ress.2022.108813}
+  {\path{doi:10.1016/j.ress.2022.108813}}.
+
+\bibitem{dehghani2021}
+N.~L. Dehghani, S.~Zamanian, A.~Shafieezadeh, Adaptive network reliability
+  analysis: Methodology and applications to power grid, Reliability Engineering
+  \& System Safety 216 (2021) 107973.
+\newblock \href {https://doi.org/10.1016/j.ress.2021.107973}
+  {\path{doi:10.1016/j.ress.2021.107973}}.
+
+\bibitem{ding2016}
+T.~Ding, C.~Zhao, Robust optimal transmission switching with the consideration
+  of corrective actions for {N}-{k} contingencies, IET Generation, Transmission
+  \& Distribution 10~(13) (2016) 3288--3295.
+\newblock \href {https://doi.org/10.1049/iet-gtd.2016.0126}
+  {\path{doi:10.1049/iet-gtd.2016.0126}}.
+
+\bibitem{zhang2024rl}
+X.~Zhang, Q.~Wang, X.~Bi, D.~Li, D.~Liu, Y.~Yu, C.~K. Tse, Mitigating cascading
+  failure in power grids with deep reinforcement learning-based remedial
+  actions, Reliability Engineering \& System Safety 250 (2024) 110242.
+\newblock \href {https://doi.org/10.1016/j.ress.2024.110242}
+  {\path{doi:10.1016/j.ress.2024.110242}}.
+
+\bibitem{su2023}
+T.~Su, J.~Zhao, Y.~Pei, F.~Ding, Probabilistic physics-informed graph
+  convolutional network for active distribution system voltage prediction, IEEE
+  Transactions on Power Systems 38~(6) (2023) 5969--5972.
+\newblock \href {https://doi.org/10.1109/TPWRS.2023.3311638}
+  {\path{doi:10.1109/TPWRS.2023.3311638}}.
+
+\bibitem{ngo2024}
+Q.-H. Ngo, B.~L.~H. Nguyen, T.~V. Vu, J.~Zhang, T.~Ngo, Physics-informed
+  graphical neural network for power system state estimation, Applied Energy
+  358 (2024) 122602.
+\newblock \href {https://doi.org/10.1016/j.apenergy.2023.122602}
+  {\path{doi:10.1016/j.apenergy.2023.122602}}.
+
+\bibitem{varbella2023}
+A.~Varbella, K.~Amara, B.~Gjorgiev, M.~El-Assady, G.~Sansavini, {PowerGraph}
+  [data set] (2023).
+\newblock \href {https://doi.org/10.6084/m9.figshare.22820534}
+  {\path{doi:10.6084/m9.figshare.22820534}}.
+
+\bibitem{bosso2025}
+R.~Bosso, C.~Chang, M.~Zarif, Y.~Tang, Explainable graph neural networks for
+  power grid fault detection, IEEE Access 13 (2025) 129520--129533.
+\newblock \href {https://doi.org/10.1109/ACCESS.2025.3591604}
+  {\path{doi:10.1109/ACCESS.2025.3591604}}.
+
+\bibitem{gjorgiev2023}
+B.~Gjorgiev, L.~Das, S.~Merkel, M.~Rohrer, E.~Auger, G.~Sansavini,
+  Simulation-driven deep learning for locating faulty insulators in a power
+  line, Reliability Engineering \& System Safety 231 (2023) 108989.
+\newblock \href {https://doi.org/10.1016/j.ress.2022.108989}
+  {\path{doi:10.1016/j.ress.2022.108989}}.
+
+\bibitem{hsu2025}
+C.-C. Hsu, G.~Frusque, F.~Forest, F.~Macedo, C.~M. Franck, O.~Fink, Explainable
+  {AI} guided unsupervised fault diagnostics for high-voltage circuit breakers,
+  Reliability Engineering \& System Safety 263 (2025) 111199.
+\newblock \href {https://doi.org/10.1016/j.ress.2025.111199}
+  {\path{doi:10.1016/j.ress.2025.111199}}.
+
+\bibitem{misyris2020}
+G.~S. Misyris, A.~Venzke, S.~Chatzivasileiadis, Physics-informed neural
+  networks for power systems, in: 2020 IEEE Power \& Energy Society General
+  Meeting, 2020, pp. 1--5.
+\newblock \href {https://doi.org/10.1109/PESGM41954.2020.9282004}
+  {\path{doi:10.1109/PESGM41954.2020.9282004}}.
+
+\bibitem{xu2023}
+Y.~Xu, S.~Kohtz, J.~Boakye, P.~Gardoni, P.~Wang, Physics-informed machine
+  learning for reliability and systems safety applications: State of the art
+  and challenges, Reliability Engineering \& System Safety 230 (2023) 108900.
+\newblock \href {https://doi.org/10.1016/j.ress.2022.108900}
+  {\path{doi:10.1016/j.ress.2022.108900}}.
+
+\bibitem{zhou2023pin}
+T.~Zhou, X.~Zhang, E.~L. Droguett, A.~Mosleh, A generic physics-informed neural
+  network-based framework for reliability assessment of multi-state systems,
+  Reliability Engineering \& System Safety 229 (2023) 108835.
+\newblock \href {https://doi.org/10.1016/j.ress.2022.108835}
+  {\path{doi:10.1016/j.ress.2022.108835}}.
+
+\bibitem{mei2024}
+F.~Mei, H.~Chen, W.~Yang, G.~Zhai, A hybrid physics-informed machine learning
+  approach for time-dependent reliability assessment of electromagnetic relays,
+  Reliability Engineering \& System Safety 252 (2024) 110385.
+\newblock \href {https://doi.org/10.1016/j.ress.2024.110385}
+  {\path{doi:10.1016/j.ress.2024.110385}}.
+
+\bibitem{li2026}
+C.~Li, P.~Dong, Y.~Jin, J.~X. Liao, S.~H. Chung, C.~Jiang, X.~Zhang,
+  Chaos-inspired active learning for physics-informed neural networks to assess
+  the reliability of multi-state systems, Reliability Engineering \& System
+  Safety 267 (2026) 111849.
+\newblock \href {https://doi.org/10.1016/j.ress.2025.111849}
+  {\path{doi:10.1016/j.ress.2025.111849}}.
+
+\bibitem{he2025}
+Y.~He, E.~Zio, Z.~Yang, Q.~Xiang, L.~Fan, Q.~He, S.~Peng, Z.~Zhang, H.~Su,
+  J.~Zhang, A systematic resilience assessment framework for multi-state
+  systems based on physics-informed neural network, Reliability Engineering \&
+  System Safety 257 (2025) 110866.
+\newblock \href {https://doi.org/10.1016/j.ress.2025.110866}
+  {\path{doi:10.1016/j.ress.2025.110866}}.
+
+\bibitem{thurner2018}
+L.~Thurner, A.~Scheidler, F.~Sch{\"a}fer, J.-H. Menke, J.~Dollichon, F.~Meier,
+  S.~Meinecke, M.~Braun, pandapower---an open-source {Python} tool for
+  convenient modeling, analysis, and optimization of electric power systems,
+  IEEE Transactions on Power Systems 33~(6) (2018) 6510--6521.
+\newblock \href {https://doi.org/10.1109/TPWRS.2018.2829021}
+  {\path{doi:10.1109/TPWRS.2018.2829021}}.
+
+\bibitem{zimmerman2011}
+R.~D. Zimmerman, C.~E. Murillo-S{\'a}nchez, R.~J. Thomas, {MATPOWER}:
+  Steady-state operations, planning, and analysis tools for power systems
+  research and education, IEEE Transactions on Power Systems 26~(1) (2011)
+  12--19.
+\newblock \href {https://doi.org/10.1109/TPWRS.2010.2051168}
+  {\path{doi:10.1109/TPWRS.2010.2051168}}.
+
+\end{thebibliography}

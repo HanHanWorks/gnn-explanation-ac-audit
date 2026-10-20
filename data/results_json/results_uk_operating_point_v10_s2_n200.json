@@ -1,0 +1,64 @@
+{
+  "public_v7r": {
+    "n": 200,
+    "PFR": 0.74,
+    "types": {
+      "feasible": 148,
+      "island": 50,
+      "non_converged": 2
+    }
+  },
+  "sample_v7r": {
+    "n": 200,
+    "PFR": 0.915,
+    "types": {
+      "feasible": 183,
+      "incomplete": 17
+    }
+  },
+  "public_random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "sample_random": {
+    "n": 200,
+    "PFR": 0.915,
+    "types": {
+      "feasible": 183,
+      "incomplete": 17
+    }
+  },
+  "sample_truth": {
+    "n": 200,
+    "PFR": 0.8,
+    "types": {
+      "feasible": 160,
+      "non_converged": 40
+    }
+  },
+  "sample_base": {
+    "n": 200,
+    "PFR": 0.915,
+    "types": {
+      "feasible": 183,
+      "non_converged": 17
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "protocol": "public-vs-sample-conditioned",
+    "method": "supervised_edge_logistic",
+    "seed": 2,
+    "n": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "ranking_uses_eval_truth": false,
+    "public_bacc": 0.8620399353027313,
+    "sample_bacc": 0.8620399353027313,
+    "random_bacc": 0.501015969029808
+  }
+}

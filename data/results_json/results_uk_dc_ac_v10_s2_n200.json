@@ -1,0 +1,61 @@
+{
+  "v7r_ac": {
+    "n": 200,
+    "PFR": 0.7,
+    "types": {
+      "feasible": 140,
+      "island": 58,
+      "non_converged": 2
+    }
+  },
+  "v7r_dc": {
+    "n": 200,
+    "PFR": 0.71,
+    "types": {
+      "feasible": 142,
+      "island": 58
+    }
+  },
+  "random_ac": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "random_dc": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "truth_ac": {
+    "n": 200,
+    "PFR": 0.81,
+    "types": {
+      "feasible": 162,
+      "island": 38
+    }
+  },
+  "truth_dc": {
+    "n": 200,
+    "PFR": 0.81,
+    "types": {
+      "feasible": 162,
+      "island": 38
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "fixed-slice-public-ac-dc",
+    "seed": 2,
+    "n": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "ranking_uses_eval_truth": false,
+    "v7r_bacc": 0.8888081380759063
+  }
+}

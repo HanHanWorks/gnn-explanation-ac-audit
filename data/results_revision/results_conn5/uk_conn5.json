@@ -1,0 +1,196 @@
+{
+ "_meta": {
+  "dataset": "uk",
+  "root": ".",
+  "seeds": "2,3,4,5,6",
+  "num": 50,
+  "train_num": 20,
+  "eval_start": 50,
+  "topk": 5,
+  "output": "results_conn5/uk_conn5.json"
+ },
+ "seeds": {
+  "2": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.72,
+    "types": {
+     "feasible": 36,
+     "island": 14
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 50
+    }
+   },
+   "raw_types": {
+    "feasible": 36,
+    "island": 14
+   },
+   "connected_types": {
+    "feasible": 50
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  },
+  "3": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.56,
+    "types": {
+     "island": 20,
+     "feasible": 28,
+     "non_converged": 2
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 0.96,
+    "types": {
+     "feasible": 48,
+     "non_converged": 2
+    }
+   },
+   "raw_types": {
+    "island": 20,
+    "feasible": 28,
+    "non_converged": 2
+   },
+   "connected_types": {
+    "feasible": 48,
+    "non_converged": 2
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  },
+  "4": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.68,
+    "types": {
+     "feasible": 34,
+     "island": 16
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 50
+    }
+   },
+   "raw_types": {
+    "feasible": 34,
+    "island": 16
+   },
+   "connected_types": {
+    "feasible": 50
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  },
+  "5": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.62,
+    "types": {
+     "feasible": 31,
+     "island": 15,
+     "non_converged": 4
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 0.92,
+    "types": {
+     "feasible": 46,
+     "non_converged": 4
+    }
+   },
+   "raw_types": {
+    "feasible": 31,
+    "island": 15,
+    "non_converged": 4
+   },
+   "connected_types": {
+    "feasible": 46,
+    "non_converged": 4
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  },
+  "6": {
+   "n": 50,
+   "raw": {
+    "n": 50,
+    "PFR": 0.6,
+    "types": {
+     "feasible": 30,
+     "island": 19,
+     "non_converged": 1
+    }
+   },
+   "connected": {
+    "n": 50,
+    "PFR": 0.98,
+    "types": {
+     "feasible": 49,
+     "non_converged": 1
+    }
+   },
+   "raw_types": {
+    "feasible": 30,
+    "island": 19,
+    "non_converged": 1
+   },
+   "connected_types": {
+    "feasible": 49,
+    "non_converged": 1
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 50,
+    "distribution": {
+     "5": 50
+    }
+   }
+  }
+ }
+}

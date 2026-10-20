@@ -1,0 +1,70 @@
+{
+  "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "supervised_edge": {
+    "n": 200,
+    "PFR": 0.68,
+    "types": {
+      "feasible": 136,
+      "island": 62,
+      "non_converged": 2
+    }
+  },
+  "random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "truth": {
+    "n": 200,
+    "PFR": 0.785,
+    "types": {
+      "feasible": 157,
+      "island": 43
+    }
+  },
+  "supervised_edge_wrapped": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "random_wrapped": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 200
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "method": "supervised_edge_logistic",
+    "protocol": "v4_train_eval_disjoint_exactk",
+    "seed": 2,
+    "train_num": 20,
+    "n": 200,
+    "topk": 5,
+    "max_graphs": 0,
+    "C": 1.0,
+    "wrapper_strategy": "local_swap",
+    "candidate_pool": 8,
+    "train_edge_n": 1953,
+    "train_positive_rate": 0.03123399897593446,
+    "runtime_seconds": 163.1755862236023,
+    "wrapper_mean_edges": 5.0,
+    "wrapper_mean_replace_rate": 0.06399999999999999,
+    "wrapper_raw_bacc": 0.8975650615029873,
+    "wrapper_bacc": 0.8850987373310953,
+    "random_wrapper_bacc": 0.5097087162490151,
+    "wrapper_incomplete_n": 0,
+    "random_wrapper_incomplete_n": 0
+  }
+}

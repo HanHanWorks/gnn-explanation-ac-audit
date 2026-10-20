@@ -1,0 +1,98 @@
+{
+  "base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "pgexplainer": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+      "non_converged": 83,
+      "island": 21
+    }
+  },
+  "random": {
+    "n": 104,
+    "PFR": 0.038461538461538464,
+    "types": {
+      "island": 83,
+      "non_converged": 17,
+      "feasible": 4
+    }
+  },
+  "truth": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+      "feasible": 92,
+      "non_converged": 11,
+      "island": 1
+    }
+  },
+  "pgexplainer_wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "random_wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 104
+    }
+  },
+  "_meta": {
+    "system": "ieee39",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 104,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 4,
+    "epochs": 20,
+    "losses": [
+      1.358358631283045,
+      0.06623148284852505,
+      0.03891397640109062,
+      0.03585669659078121,
+      0.0341862116008997,
+      0.03340284507721662,
+      0.0328283803537488,
+      0.03256858959794044,
+      0.032178538665175435,
+      0.03196865059435368,
+      0.031803295575082303,
+      0.031779715232551096,
+      0.03165794033557177,
+      0.0316257419064641,
+      0.03158050831407309,
+      0.031548718363046645,
+      0.03151920456439257,
+      0.03150522038340568,
+      0.031509135477244855,
+      0.03150665182620287
+    ],
+    "runtime_seconds": 0.25304460525512695,
+    "physical_wrapper": true,
+    "wrapper_strategy": "local_swap",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": 5.0,
+    "random_wrapper_mean_edges": 5.0,
+    "wrapper_mean_replace_rate": 0.7403846153846154,
+    "wrapper_raw_bacc": 0.5464412439728265,
+    "wrapper_bacc": 0.4575779472635148,
+    "random_wrapper_bacc": 0.5022763915527244,
+    "wrapper_bacc_valid_n": 103,
+    "wrapper_incomplete_n": 0
+  }
+}

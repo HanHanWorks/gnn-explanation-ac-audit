@@ -1,0 +1,94 @@
+{
+  "gnn_explainer": {
+    "n": 16,
+    "PFR": 0.0,
+    "types": {
+      "island": 16
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.5376877609674096,
+      "tp": 5,
+      "fp": 75,
+      "tn": 608,
+      "fn": 22,
+      "tpr": 0.18518518518518517,
+      "tnr": 0.890190336749634
+    }
+  },
+  "pgexplainer": {
+    "n": 16,
+    "PFR": 0.0,
+    "types": {
+      "island": 2,
+      "non_converged": 14
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.44143484626647145,
+      "tp": 0,
+      "fp": 80,
+      "tn": 603,
+      "fn": 27,
+      "tpr": 0.0,
+      "tnr": 0.8828696925329429
+    }
+  },
+  "gradcam": {
+    "n": 16,
+    "PFR": 0.0,
+    "types": {
+      "island": 16
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.49918659508703433,
+      "tp": 3,
+      "fp": 77,
+      "tn": 606,
+      "fn": 24,
+      "tpr": 0.1111111111111111,
+      "tnr": 0.8872620790629575
+    }
+  },
+  "sep": {
+    "n": 16,
+    "PFR": 0.0,
+    "types": {
+      "island": 15,
+      "voltage": 1
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.6146900927281601,
+      "tp": 9,
+      "fp": 71,
+      "tn": 612,
+      "fn": 18,
+      "tpr": 0.3333333333333333,
+      "tnr": 0.8960468521229868
+    }
+  },
+  "random": {
+    "n": 16,
+    "PFR": 0.1875,
+    "types": {
+      "island": 13,
+      "feasible": 3
+    }
+  },
+  "truth": {
+    "n": 16,
+    "PFR": 0.875,
+    "types": {
+      "non_converged": 2,
+      "feasible": 14
+    }
+  },
+  "_meta": {
+    "system": "ieee39",
+    "seed": 2,
+    "n": 16,
+    "n_test_explainable_positive": 16,
+    "train_num": 20,
+    "topk": 5,
+    "split": "random 85/5/10 test partition",
+    "checkpoint": "gin_3l_32h_s2_best.pth"
+  }
+}

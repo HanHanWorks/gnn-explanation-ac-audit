@@ -1,0 +1,13 @@
+{
+  "gnn_explainer": {
+    "fid_plus": 0.72,
+    "fid_minus": 0.14,
+    "fid_plus_n": 50
+  },
+  "_meta": {
+    "system": "uk",
+    "n": 50,
+    "topk": 5,
+    "seed": 5
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "gnn_explainer": {
+    "n": 50,
+    "PFR": 0.38,
+    "types": {
+      "island": 17,
+      "voltage": 7,
+      "feasible": 19,
+      "non_converged": 7
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.5351028615329166,
+      "tp": 12,
+      "fp": 238,
+      "tn": 1549,
+      "fn": 47,
+      "tpr": 0.2033898305084746,
+      "tnr": 0.8668158925573587
+    }
+  },
+  "pgexplainer": {
+    "n": 50,
+    "PFR": 0.02,
+    "types": {
+      "feasible": 1,
+      "island": 49
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.43880473855434254,
+      "tp": 1,
+      "fp": 249,
+      "tn": 1538,
+      "fn": 58,
+      "tpr": 0.01694915254237288,
+      "tnr": 0.8606603245663123
+    }
+  },
+  "gradcam": {
+    "n": 50,
+    "PFR": 0.06,
+    "types": {
+      "non_converged": 11,
+      "island": 36,
+      "feasible": 3
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.5263484867166827,
+      "tp": 11,
+      "fp": 239,
+      "tn": 1548,
+      "fn": 48,
+      "tpr": 0.1864406779661017,
+      "tnr": 0.8662562954672636
+    }
+  },
+  "sep": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+      "island": 31,
+      "voltage": 19
+    },
+    "edge_label_agreement": {
+      "pooled_bacc": 0.894032228998511,
+      "tp": 53,
+      "fp": 197,
+      "tn": 1590,
+      "fn": 6,
+      "tpr": 0.8983050847457628,
+      "tnr": 0.8897593732512591
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 0.7,
+    "types": {
+      "feasible": 35,
+      "voltage": 4,
+      "island": 8,
+      "non_converged": 3
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.04,
+    "types": {
+      "voltage": 47,
+      "feasible": 2,
+      "non_converged": 1
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "seed": 2,
+    "n": 50,
+    "n_test_explainable_positive": 363,
+    "train_num": 20,
+    "topk": 5,
+    "split": "random 85/5/10 test partition",
+    "checkpoint": "gin_3l_32h_s2_best.pth"
+  }
+}

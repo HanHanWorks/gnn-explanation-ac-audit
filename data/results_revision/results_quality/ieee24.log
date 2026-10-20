@@ -1,0 +1,11 @@
+seed 2: SEP BACC=0.880 PFR=0.000 absQ BACC=0.849 PFR=0.000 absPQ BACC=0.853 PFR=0.000 random BACC=0.497 PFR=0.520 truth BACC=1.000 PFR=0.075
+  shuffled-label BACC mean=0.612 range=0.430-0.851
+seed 3: SEP BACC=0.920 PFR=0.000 absQ BACC=0.873 PFR=0.000 absPQ BACC=0.882 PFR=0.000 random BACC=0.485 PFR=0.570 truth BACC=1.000 PFR=0.060
+  shuffled-label BACC mean=0.531 range=0.430-0.866
+seed 4: SEP BACC=0.890 PFR=0.000 absQ BACC=0.865 PFR=0.000 absPQ BACC=0.872 PFR=0.000 random BACC=0.500 PFR=0.550 truth BACC=1.000 PFR=0.055
+  shuffled-label BACC mean=0.646 range=0.432-0.855
+seed 5: SEP BACC=0.883 PFR=0.000 absQ BACC=0.872 PFR=0.000 absPQ BACC=0.877 PFR=0.000 random BACC=0.504 PFR=0.525 truth BACC=1.000 PFR=0.045
+  shuffled-label BACC mean=0.489 range=0.430-0.845
+seed 6: SEP BACC=0.876 PFR=0.010 absQ BACC=0.859 PFR=0.010 absPQ BACC=0.866 PFR=0.000 random BACC=0.490 PFR=0.560 truth BACC=1.000 PFR=0.045
+  shuffled-label BACC mean=0.492 range=0.430-0.747
+saved results_quality/ieee24_quality.json

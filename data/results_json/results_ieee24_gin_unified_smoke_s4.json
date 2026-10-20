@@ -1,0 +1,61 @@
+{
+  "base": {
+    "n": 10,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 10
+    },
+    "mean_risk": 0.0,
+    "risk_n": 10,
+    "mean_voltage_excess": 0.0
+  },
+  "gnn_explainer": {
+    "n": 10,
+    "PFR": 0.4,
+    "types": {
+      "voltage": 2,
+      "feasible": 4,
+      "non_converged": 3,
+      "island": 1
+    },
+    "mean_risk": 0.48784215505212647,
+    "risk_n": 10,
+    "mean_voltage_excess": 0.109802693815158
+  },
+  "random": {
+    "n": 10,
+    "PFR": 0.4,
+    "types": {
+      "island": 5,
+      "feasible": 4,
+      "voltage": 1
+    },
+    "mean_risk": 0.5016005077052803,
+    "risk_n": 10,
+    "mean_voltage_excess": 0.0040012692632008795
+  },
+  "truth": {
+    "n": 10,
+    "PFR": 0.4,
+    "types": {
+      "voltage": 6,
+      "feasible": 4
+    },
+    "mean_risk": 0.4241176545407395,
+    "risk_n": 10,
+    "mean_voltage_excess": 0.1767156893919748
+  },
+  "_meta": {
+    "system": "ieee24",
+    "n": 10,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 4,
+    "model": "gin",
+    "protocol": "baseline-common-operating-point",
+    "voltage": "[0.85,1.1]",
+    "load_max": 110.0,
+    "per_instance_seed": "1000*seed+n"
+  }
+}

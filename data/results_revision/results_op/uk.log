@@ -1,0 +1,4 @@
+There are 2 branches which are considered as trafos - due to ratio unequal 0 or 1 - but connect same voltage levels.
+some BR_B of transformers in ppc['branch'] are positive, but transformers are inductive, therefore their B should be negative
+{'public_raw': 0.7, 'sample_raw': 0.915, 'public_random': 1.0, 'sample_random': 0.75, 'sample_truth': 0.8, 'sample_base': 0.915, 'public_base': 1.0}
+BACC=0.889; saved results_op/uk_op_raw.json

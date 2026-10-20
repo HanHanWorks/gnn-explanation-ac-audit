@@ -1,0 +1,48 @@
+{
+ "_meta": {
+  "dataset": "ieee24",
+  "root": ".",
+  "seeds": "2",
+  "num": 200,
+  "train_num": 20,
+  "eval_start": 50,
+  "topk": 5,
+  "output": "results_conn/ieee24_conn.json"
+ },
+ "seeds": {
+  "2": {
+   "n": 200,
+   "raw": {
+    "n": 200,
+    "PFR": 0.0,
+    "types": {
+     "island": 98,
+     "voltage": 102
+    }
+   },
+   "connected": {
+    "n": 200,
+    "PFR": 0.0,
+    "types": {
+     "voltage": 200
+    }
+   },
+   "raw_types": {
+    "island": 98,
+    "voltage": 102
+   },
+   "connected_types": {
+    "voltage": 200
+   },
+   "largest_connected_prefix": {
+    "mean": 5.0,
+    "min": 5,
+    "max": 5,
+    "reached_k": 200,
+    "distribution": {
+     "5": 200
+    }
+   }
+  }
+ }
+}
