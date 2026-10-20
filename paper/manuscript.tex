@@ -115,7 +115,7 @@ Layer & Quantity & Definition & Supports & Does not support \\
 
 \subsection{Operating states at each stage}\label{operating_states}
 
-The interpretation of any screening rate depends on the topology and operating state used at each stage. Table~\ref{tab:states} states these choices explicitly; this resolves an ambiguity in the initial submission, where the initial submission described a fixed public MATPOWER operating point in its methods while its experiments described a sample-conditioned reconstruction.
+The interpretation of any screening rate depends on the topology and operating state used at each stage. Table~\ref{tab:states} states these choices explicitly; this resolves an ambiguity in the initial submission, where the methods described a fixed public MATPOWER operating point while the experiments described a sample-conditioned reconstruction.
 
 The prediction and explanation stages use the PowerGraph sample graph. Its topology is the original network with the initiating-outage branches removed, where the initiating outage is operationalized as the set of branches whose four post-contingency features are exactly zero. The node features are the three benchmark bus features, and the branch features are the post-contingency active flow, reactive flow, reactance, and rating. The graph label is binary demand-not-served. Explanations are generated only for the currently available branches; the removed outage branches are not candidates.
 
@@ -391,7 +391,7 @@ Counts are pooled over seeds. The random row is the matched random control; each
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/figure_2_outcomes.pdf}
-\caption{Raw top-5 interventions under the public-case restricted AC screen. (a) Pooled screening pass rate with 95\% Wilson intervals; the random row is the matched random control. (b) Mutually exclusive failure taxonomy; bars sum to the audited samples. The figure includes the random control, the supervised SEP, and the learned rankings; the label-free $|Q|$ and $|P|+|Q|$ controls are shown in Figure~\ref{fig:quality}. Single-seed methods are shown without intervals. Thermal overload is not a rejection condition and is omitted.}
+\caption{Raw top-5 interventions under the public-case restricted AC screen. (a) Pooled screening pass rate with 95\% Wilson intervals; the random row is the matched random control. Wilson intervals treat the pooled samples as independent and are drawn for display; the seed-cluster bootstrap interval for the same pass rate is the inferential interval and is reported in Table~\ref{tab:outcomes}. (b) Mutually exclusive failure taxonomy; bars sum to the audited samples. The figure includes the random control, the supervised SEP, and the learned rankings; the label-free $|Q|$ and $|P|+|Q|$ controls are shown in Figure~\ref{fig:quality}. Single-seed methods are shown without intervals. Thermal overload is not a rejection condition and is omitted.}
 \label{fig:outcomes}
 \end{figure}
 
