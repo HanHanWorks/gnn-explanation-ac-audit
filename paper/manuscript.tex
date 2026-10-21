@@ -389,10 +389,13 @@ Counts are pooled over seeds. The random row is the matched random control; each
 \end{table*}
 
 \begin{figure}[!htbp]
+\makebox[\textwidth][c]{%
+\begin{minipage}{1.15\textwidth}
 \centering
-\includegraphics[width=\textwidth]{figures/figure_2_outcomes.pdf}
+\includegraphics[width=\linewidth]{figures/figure_2_outcomes.pdf}
 \caption{Raw top-5 interventions under the public-case restricted AC screen. (a) Pooled screening pass rate with 95\% Wilson intervals; the random row is the matched random control. Wilson intervals treat the pooled samples as independent and are drawn for display; the seed-cluster bootstrap interval for the same pass rate is the inferential interval and is reported in Table~\ref{tab:outcomes}. (b) Mutually exclusive failure taxonomy; bars sum to the audited samples. The figure includes the random control, the supervised SEP, and the learned rankings; the label-free $|Q|$ and $|P|+|Q|$ controls are shown in Figure~\ref{fig:quality}. Single-seed methods are shown without intervals. Thermal overload is not a rejection condition and is omitted.}
 \label{fig:outcomes}
+\end{minipage}}
 \end{figure}
 
 
