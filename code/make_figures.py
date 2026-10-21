@@ -202,8 +202,8 @@ def fig_outcomes():
         ax.set_axisbelow(True)
         if j == 2:
             handles, labels_ = ax.get_legend_handles_labels()
-            fig.legend(handles, labels_, loc="lower center", ncol=4, frameon=False, fontsize=9.8,
-                       bbox_to_anchor=(0.5, -0.015), columnspacing=1.6, handlelength=1.4)
+            fig.legend(handles, labels_, loc="lower center", ncol=4, frameon=False, fontsize=12.0,
+                       bbox_to_anchor=(0.5, -0.06), columnspacing=1.8, handlelength=1.5)
     fig.text(0.5, 1.01, "(a) Pooled pass rate and 95% Wilson interval", ha="center", fontsize=11.5, weight="bold")
     
     fig.savefig(os.path.join(OUT, "figure_2_outcomes.pdf"))
@@ -276,11 +276,12 @@ def fig_quality():
     ax.grid(axis="y", color="#e5e5e5", lw=0.5)
     ax.set_axisbelow(True)
     ax.legend(frameon=True, facecolor="white", edgecolor="#999999",
-              framealpha=1.0, fontsize=7.8, loc="lower right",
-              borderpad=0.5, handletextpad=0.5, borderaxespad=0.25, labelspacing=0.35)
+              framealpha=1.0, fontsize=9.2, loc="upper center", ncol=2,
+              borderpad=0.45, handletextpad=0.5, borderaxespad=0.3,
+              columnspacing=1.2)
     ax.set_title("(b) Shuffled-label permutation null", fontsize=10.5)
-    fig.legend(handles=handles, loc="lower center", ncol=3, frameon=False, fontsize=8.0,
-               bbox_to_anchor=(0.5, -0.035))
+    fig.legend(handles=handles, loc="lower center", ncol=3, frameon=False, fontsize=10.0,
+               bbox_to_anchor=(0.5, -0.04))
     fig.tight_layout(rect=[0, 0.11, 1, 1])
     fig.savefig(os.path.join(OUT, "figure_3_quality.pdf"))
     plt.close(fig)
@@ -376,8 +377,9 @@ def fig_protocol():
     sys_handles = [plt.Line2D([], [], color=cols[s_], lw=1.2, label=SYS_LABEL[s_])
                    for s_ in systems]
     ax.legend(handles=sys_handles, frameon=True, facecolor="white",
-              edgecolor="#999999", framealpha=1.0, fontsize=8.0,
-              loc="upper right", borderpad=0.5, borderaxespad=0.3)
+              edgecolor="#999999", framealpha=1.0, fontsize=9.5,
+              loc="upper right", bbox_to_anchor=(0.99, 0.88),
+              borderpad=0.5, borderaxespad=0.0)
     ax = axes[0, 1]
     thr = [0.85, 0.90, 0.95]
     for s_ in systems:
@@ -390,8 +392,9 @@ def fig_protocol():
     ax.set_title("(b) SEP (solid) and random (dashed), $k=5$")
     ax.grid(color="#e5e5e5", lw=0.5)
     ax.legend(handles=sys_handles, frameon=True, facecolor="white",
-              edgecolor="#999999", framealpha=1.0, fontsize=8.0,
-              loc="center right", borderpad=0.5, borderaxespad=0.3)
+              edgecolor="#999999", framealpha=1.0, fontsize=9.5,
+              loc="center right", bbox_to_anchor=(0.99, 0.44),
+              borderpad=0.5, borderaxespad=0.0)
     ax = axes[1, 0]
     if op:
         labels = [SYS_LABEL[s_] for s_ in systems if s_ in op]
@@ -430,7 +433,7 @@ def fig_protocol():
     handles, labels_ = axes[1, 0].get_legend_handles_labels()
     handles2, labels2 = axes[1, 1].get_legend_handles_labels()
     fig.legend(handles + handles2, labels_ + labels2, loc="lower center", ncol=4,
-               frameon=False, fontsize=8.0, bbox_to_anchor=(0.5, -0.02))
+               frameon=False, fontsize=10.0, bbox_to_anchor=(0.5, -0.028))
     fig.tight_layout(rect=[0, 0.05, 1, 1])
     fig.savefig(os.path.join(OUT, "figure_5_protocol.pdf"))
     plt.close(fig)
