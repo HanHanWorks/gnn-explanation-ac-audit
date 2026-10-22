@@ -39,14 +39,16 @@ check(len(formal) == 137, f"manifest lists 137 formal artefacts (found {len(form
 check(len(present) == 137, f"all 137 formal artefacts present (found {len(present)})")
 
 bad = []
+n_py = 0
 for dirpath, _, files in os.walk(os.path.join(ROOT, "code")):
     for f in files:
         if f.endswith(".py"):
+            n_py += 1
             try:
                 py_compile.compile(os.path.join(dirpath, f), doraise=True)
             except Exception as exc:
                 bad.append((f, str(exc).splitlines()[-1]))
-check(not bad, f"all Python files compile ({len(bad)} failures)")
+check(not bad, f"all {n_py} Python files compile ({len(bad)} failures)")
 for f, e in bad:
     print("  ", f, e)
 

@@ -57,10 +57,10 @@ redistributed here. Set `ROOT` to a directory containing
 python code/verify_archive.py
 ```
 
-The script validates every SHA-256 checksum in `MANIFEST.sha256`, compiles every
-Python file, counts the 137 formal artefacts, checks the 38/46/99 branch mappings
-and the five figure-level CSV files, and confirms that the population-denominator
-file is present.
+The script validates every SHA-256 checksum in `MANIFEST.sha256`, compiles all
+47 Python files, counts the 137 formal artefacts, checks the 38/46/99 branch
+mappings and the five figure-level CSV files, and confirms that the
+population-denominator file is present.
 
 ## Reproduction
 
@@ -83,3 +83,7 @@ in `data/results_json/` and listed in `manifest.json`. The directory also contai
 148 pilot, smoke-test, phase-0 checkpoint, and unindexed artefacts that were retained for transparency;
 they are not used for any formal claim. `verify_archive.py` checks the 137 formal
 files separately.
+
+## Legacy operating-point artefacts
+
+`data/results_json/results_*_operating_point_v10_s2_n*.json` are initial-submission artefacts retained to preserve the 137-artefact provenance. They are superseded by the corrected `data/results_revision/results_op/*_op_raw.json` files and must not be used for Table 9, Figure 5, or Section 5.7.

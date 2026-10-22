@@ -56,3 +56,9 @@ extraction.
 - The wrapper AC-call count includes the greedy phase and the local-swap phase. The
   `kP = 40` bound covers only the local-swap phase; the correct worst-case bound is
   `N_avail + kP`.
+
+## Legacy operating-point artefacts
+
+Files named `data/results_json/results_*_operating_point_v10_s2_n*.json` are initial-submission artefacts retained only to preserve the 137-artefact provenance. They used an earlier sample-conditioned implementation and are superseded by `data/results_revision/results_op/*_op_raw.json`. Do not use the legacy files for Table 9, Figure 5, or Section 5.7.
+
+The corrected Table 9 operating-point block and the `conditioning` block of `data/results_revision/results_statistics/ress_statistical_revision.json` are generated from the corrected `results_op/*_op_raw.json` files.

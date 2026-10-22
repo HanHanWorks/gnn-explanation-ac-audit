@@ -1,7 +1,8 @@
-Python: Python 3.11.13
+Python: Python 3.11.7
+Command: python code/verify_archive.py
 PASS manifest lists 137 formal artefacts (found 137)
 PASS all 137 formal artefacts present (found 137)
-PASS all Python files compile (0 failures)
+PASS all 47 Python files compile (0 failures)
 PASS ieee24 mapping has 38 branches (found 38)
 PASS ieee39 mapping has 46 branches (found 46)
 PASS uk mapping has 99 branches (found 99)

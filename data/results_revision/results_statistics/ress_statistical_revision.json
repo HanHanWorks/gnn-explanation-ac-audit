@@ -878,28 +878,28 @@
   },
   "conditioning": {
     "ieee24": {
-      "public_v7r": 0.55,
-      "sample_v7r": 1.0,
-      "public_random": 0.605,
-      "sample_random": 1.0,
-      "sample_base": 0.995,
-      "sample_truth": 0.57
+      "public_v7r": 0.0,
+      "sample_v7r": 0.0,
+      "public_random": 0.52,
+      "sample_random": 0.46,
+      "sample_base": 0.97,
+      "sample_truth": 0.08
     },
     "ieee39": {
       "public_v7r": 0.009615384615384616,
-      "sample_v7r": 1.0,
-      "public_random": 0.07692307692307693,
-      "sample_random": 1.0,
-      "sample_base": 1.0,
-      "sample_truth": 1.0
+      "sample_v7r": 0.0,
+      "public_random": 0.08653846153846154,
+      "sample_random": 0.009615384615384616,
+      "sample_base": 0.8846153846153846,
+      "sample_truth": 0.125
     },
     "uk": {
-      "public_v7r": 0.74,
-      "sample_v7r": 0.915,
+      "public_v7r": 0.7,
+      "sample_v7r": 0.08,
       "public_random": 1.0,
-      "sample_random": 0.915,
-      "sample_base": 0.915,
-      "sample_truth": 0.8
+      "sample_random": 1.0,
+      "sample_base": 1.0,
+      "sample_truth": 0.69
     }
   },
   "taxonomy": {

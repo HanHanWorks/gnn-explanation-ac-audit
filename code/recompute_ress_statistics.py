@@ -307,13 +307,32 @@ def main():
             })
         report["paired_diff"][sys] = sysdiff
 
-    # ---- E. conditioning (public vs sample)
+    # ---- E. conditioning (public vs sample; corrected raw-top-k audit)
     report["conditioning"] = {}
-    for sys, n in [("ieee24", 200), ("ieee39", 104), ("uk", 200)]:
-        p = os.path.join(ROOT, "experiments", "phase1",
-                         f"results_{sys}_operating_point_v10_s2_n{n}.json")
-        if os.path.exists(p):
-            d = json.load(open(p))
+    archive_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    for sys in ["ieee24", "ieee39", "uk"]:
+        candidates = [
+            os.path.join(archive_root, "data", "results_revision", "results_op", f"{sys}_op_raw.json"),
+            os.path.join(ROOT, "data", "results_revision", "results_op", f"{sys}_op_raw.json"),
+            os.path.join(ROOT, "experiments", "phase1", "results_revision", "results_op", f"{sys}_op_raw.json"),
+        ]
+        op_path = next((p for p in candidates if os.path.exists(p)), None)
+        if op_path:
+            d = json.load(open(op_path))
+            report["conditioning"][sys] = {
+                "public_v7r": d["public_raw"]["PFR"],
+                "sample_v7r": d["sample_raw"]["PFR"],
+                "public_random": d["public_random"]["PFR"],
+                "sample_random": d["sample_random"]["PFR"],
+                "sample_base": d["sample_base"]["PFR"],
+                "sample_truth": d["sample_truth"]["PFR"],
+            }
+            continue
+        # Historical fallback: initial-submission operating-point artefacts.
+        legacy = os.path.join(ROOT, "experiments", "phase1",
+                              f"results_{sys}_operating_point_v10_s2_n{200 if sys != 'ieee39' else 104}.json")
+        if os.path.exists(legacy):
+            d = json.load(open(legacy))
             report["conditioning"][sys] = {
                 "public_v7r": d["public_v7r"]["PFR"], "sample_v7r": d["sample_v7r"]["PFR"],
                 "public_random": d["public_random"]["PFR"], "sample_random": d["sample_random"]["PFR"],
