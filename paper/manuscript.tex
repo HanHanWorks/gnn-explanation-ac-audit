@@ -92,7 +92,7 @@ The third layer measures computational and intervention burden, including wall-c
 \begingroup\hyphenpenalty=100\exhyphenpenalty=100\tolerance=2000
 \scriptsize
 \setlength{\tabcolsep}{3pt}
-\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=1.5\hsize}X>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=0.7\hsize}X@{}}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=1.2\hsize}X>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=1.2\hsize}X@{}}
 \toprule
 Layer & Quantity & Definition & Supports & Does not support \\
 \midrule
@@ -130,7 +130,7 @@ The sample-conditioned sensitivity protocol is different and is reported separat
 \begingroup\hyphenpenalty=100\exhyphenpenalty=100\tolerance=2000
 \scriptsize
 \setlength{\tabcolsep}{3pt}
-\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash\hsize=1.1\hsize}X>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=1.1\hsize}X@{}}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash\hsize=1.1\hsize}X>{\raggedright\arraybackslash\hsize=1.0\hsize}X>{\raggedright\arraybackslash\hsize=0.8\hsize}X>{\raggedright\arraybackslash\hsize=1.1\hsize}X@{}}
 \toprule
 Stage & Topology & Injections / dispatch & Initiating outage & Purpose \\
 \midrule
@@ -138,7 +138,7 @@ Prediction & Sample graph: outage branches removed; available branches only & Be
 Explanation & Same sample graph & Same features & Not a candidate & Rank available branches \\
 Contingency signature & Zero-flow branch set in $E_f$ & Not used & Defines the group & Contingency-disjoint split \\
 Public-case screen (primary) & Full public MATPOWER case & Public case dispatch & \emph{Not retained} & Standardized counterfactual screen \\
-Sample-conditioned screen (sensitivity) & Public case minus outage branches and minus $S_k$ & Reconstructed from $E_f$ & \emph{Retained} & State-conditional sensitivity \\
+Sample-conditioned screen (sensitivity) & Public case minus outage branches and minus $S_k$ & Rebuilt from $E_f$ & \emph{Retained} & State-conditional sensitivity \\
 Wrapper & Public case minus the repaired set & Public case dispatch & Not retained & Finite-budget feasibility repair \\
 \bottomrule
 \end{tabularx}
