@@ -1,3 +1,4 @@
+Python: Python 3.11.13
 PASS manifest lists 137 formal artefacts (found 137)
 PASS all 137 formal artefacts present (found 137)
 PASS all Python files compile (0 failures)
