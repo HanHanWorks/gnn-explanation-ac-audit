@@ -92,15 +92,15 @@ The third layer measures computational and intervention burden, including wall-c
 \begingroup\hyphenpenalty=100\exhyphenpenalty=100\tolerance=2000
 \scriptsize
 \setlength{\tabcolsep}{2pt}
-\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=1.2\hsize}X>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=1.2\hsize}X@{}}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=1.3\hsize}X>{\raggedright\arraybackslash\hsize=0.9\hsize}X>{\raggedright\arraybackslash\hsize=0.9\hsize}X@{}}
 \toprule
 Layer & Quantity & Definition & Supports & Does not support \\
 \midrule
-1a. Prediction & $A_{\mathrm{graph}}$ & Graph-level balanced accuracy of $f_\theta$ & Predictive performance on the declared split & Explanation quality or transfer \\
-1b. Edge-label agreement & $A_{\mathrm{edge}}$ (Eq.~\ref{eq:bacc}) & Pooled edge BACC against simulator cascade-path masks & Agreement with the benchmark label & Faithfulness, causal recovery, or operability \\
-1c. Model fidelity & $\mathrm{Fid}^{+}$, $\mathrm{Fid}^{-}$ (Eq.~\ref{eq:fidelity}) & Prediction change after retaining/removing explained edges & Whether the explanation drives the classifier & Physical \mbox{consequence} or label correctness \\
-2. Physical screening & $\mathrm{PFR@}k$ (Eq.~\ref{eq:pfr}) & Pass rate of convergence, connectivity, and voltage checks after top-$k$ deletion & A declared counterfactual screen & Comprehensive AC operability, reliability, or switching policy \\
-3. Burden & Time, replacements, AC calls & Measured or bounded cost of producing the intervention & Auditable cost accounting & Economic switching cost or universal speed ranking \\
+1a. Prediction & $A_{\mathrm{graph}}$ & Graph-level BACC of $f_\theta$ & Predictive performance on the declared split & Explanation quality or transfer \\
+1b. Edge-label agreement & $A_{\mathrm{edge}}$ (Eq.~\ref{eq:bacc}) & Pooled edge BACC vs.\ simulator masks & Agreement with the benchmark label & Faithfulness, causal recovery, or operability \\
+1c. Model fidelity & $\mathrm{Fid}^{+}$, $\mathrm{Fid}^{-}$ (Eq.~\ref{eq:fidelity}) & Prediction change after edge keep/delete & Whether it drives the classifier & Physical consequence or label correctness \\
+2. Physical screening & $\mathrm{PFR@}k$ (Eq.~\ref{eq:pfr}) & Restricted screen after top-$k$ deletion & Declared deletion screen & Full AC operability or reliability \\
+3. Burden & Time, swaps, AC calls & Measured/bounded intervention cost & Auditable cost accounting & Economic cost or speed ranking \\
 \bottomrule
 \end{tabularx}
 \endgroup
