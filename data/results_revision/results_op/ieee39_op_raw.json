@@ -9,9 +9,9 @@
   },
   "sample_raw": {
     "n": 104,
-    "PFR": 1.0,
+    "PFR": 0.0,
     "types": {
-      "feasible": 104
+      "island": 104
     }
   },
   "public_random": {
@@ -26,24 +26,27 @@
   },
   "sample_random": {
     "n": 104,
-    "PFR": 0.9903846153846154,
+    "PFR": 0.009615384615384616,
     "types": {
-      "feasible": 103,
+      "island": 102,
+      "feasible": 1,
       "voltage": 1
     }
   },
   "sample_truth": {
     "n": 104,
-    "PFR": 1.0,
+    "PFR": 0.125,
     "types": {
-      "feasible": 104
+      "island": 91,
+      "feasible": 13
     }
   },
   "sample_base": {
     "n": 104,
-    "PFR": 1.0,
+    "PFR": 0.8846153846153846,
     "types": {
-      "feasible": 104
+      "feasible": 92,
+      "island": 12
     }
   },
   "public_base": {

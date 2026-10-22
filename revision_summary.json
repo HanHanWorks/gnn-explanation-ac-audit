@@ -1,0 +1,5498 @@
+{
+ "ieee24": {
+  "GNNExplainer": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 200,
+     "feasible": 81,
+     "types": {
+      "feasible": 81,
+      "non_converged": 47,
+      "voltage": 22,
+      "island": 50
+     },
+     "pfr": 0.405,
+     "random_pfr": 0.515,
+     "truth_pfr": 0.075,
+     "bacc": null
+    },
+    {
+     "seed": 3,
+     "n": 200,
+     "feasible": 71,
+     "types": {
+      "feasible": 71,
+      "non_converged": 47,
+      "voltage": 34,
+      "island": 48
+     },
+     "pfr": 0.355,
+     "random_pfr": 0.51,
+     "truth_pfr": 0.06,
+     "bacc": null
+    },
+    {
+     "seed": 4,
+     "n": 200,
+     "feasible": 87,
+     "types": {
+      "voltage": 28,
+      "feasible": 87,
+      "non_converged": 40,
+      "island": 45
+     },
+     "pfr": 0.435,
+     "random_pfr": 0.57,
+     "truth_pfr": 0.055,
+     "bacc": null
+    },
+    {
+     "seed": 5,
+     "n": 200,
+     "feasible": 78,
+     "types": {
+      "non_converged": 35,
+      "voltage": 27,
+      "feasible": 78,
+      "island": 60
+     },
+     "pfr": 0.39,
+     "random_pfr": 0.585,
+     "truth_pfr": 0.045,
+     "bacc": null
+    },
+    {
+     "seed": 6,
+     "n": 200,
+     "feasible": 77,
+     "types": {
+      "island": 50,
+      "feasible": 77,
+      "non_converged": 52,
+      "voltage": 21
+     },
+     "pfr": 0.385,
+     "random_pfr": 0.575,
+     "truth_pfr": 0.045,
+     "bacc": null
+    }
+   ],
+   "n": 1000,
+   "types": {
+    "feasible": 394,
+    "non_converged": 221,
+    "voltage": 132,
+    "island": 253
+   },
+   "pfr": 0.394,
+   "ci": [
+    0.372,
+    0.419
+   ],
+   "delta": {
+    "mean": -0.15699999999999997,
+    "n": 5,
+    "values": [
+     -0.10999999999999999,
+     -0.15500000000000003,
+     -0.13499999999999995,
+     -0.19499999999999995,
+     -0.18999999999999995
+    ],
+    "sd": 0.03615936946352907,
+    "cohen_d": -4.341889870572902,
+    "ci": [
+     -0.18499999999999997,
+     -0.12899999999999998
+    ]
+   }
+  },
+  "PGExplainer": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 200,
+     "feasible": 4,
+     "types": {
+      "island": 193,
+      "feasible": 4,
+      "non_converged": 3
+     },
+     "pfr": 0.02,
+     "random_pfr": 0.515,
+     "truth_pfr": 0.075,
+     "bacc": 0.4450429841819917
+    },
+    {
+     "seed": 3,
+     "n": 200,
+     "feasible": 0,
+     "types": {
+      "island": 185,
+      "non_converged": 15
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.51,
+     "truth_pfr": 0.06,
+     "bacc": 0.44668924112729563
+    },
+    {
+     "seed": 4,
+     "n": 200,
+     "feasible": 2,
+     "types": {
+      "island": 197,
+      "non_converged": 1,
+      "feasible": 2
+     },
+     "pfr": 0.01,
+     "random_pfr": 0.57,
+     "truth_pfr": 0.055,
+     "bacc": 0.4414252614876999
+    },
+    {
+     "seed": 5,
+     "n": 200,
+     "feasible": 0,
+     "types": {
+      "island": 181,
+      "non_converged": 19
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.585,
+     "truth_pfr": 0.045,
+     "bacc": 0.4567009522891875
+    },
+    {
+     "seed": 6,
+     "n": 200,
+     "feasible": 0,
+     "types": {
+      "island": 190,
+      "non_converged": 10
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.575,
+     "truth_pfr": 0.045,
+     "bacc": 0.4642100650705156
+    }
+   ],
+   "n": 1000,
+   "types": {
+    "island": 946,
+    "feasible": 6,
+    "non_converged": 48
+   },
+   "pfr": 0.006,
+   "ci": [
+    0.0,
+    0.014
+   ],
+   "delta": {
+    "mean": -0.5449999999999999,
+    "n": 5,
+    "values": [
+     -0.495,
+     -0.51,
+     -0.5599999999999999,
+     -0.585,
+     -0.575
+    ],
+    "sd": 0.040155946010522504,
+    "cohen_d": -13.572087178750255,
+    "ci": [
+     -0.576,
+     -0.514
+    ]
+   }
+  },
+  "Grad-CAM": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 200,
+     "feasible": 12,
+     "types": {
+      "island": 155,
+      "non_converged": 30,
+      "feasible": 12,
+      "voltage": 3
+     },
+     "pfr": 0.06,
+     "random_pfr": 0.515,
+     "truth_pfr": 0.075,
+     "bacc": null
+    },
+    {
+     "seed": 3,
+     "n": 200,
+     "feasible": 17,
+     "types": {
+      "island": 152,
+      "non_converged": 28,
+      "feasible": 17,
+      "voltage": 3
+     },
+     "pfr": 0.085,
+     "random_pfr": 0.51,
+     "truth_pfr": 0.06,
+     "bacc": null
+    },
+    {
+     "seed": 4,
+     "n": 200,
+     "feasible": 8,
+     "types": {
+      "island": 130,
+      "voltage": 15,
+      "feasible": 8,
+      "non_converged": 47
+     },
+     "pfr": 0.04,
+     "random_pfr": 0.57,
+     "truth_pfr": 0.055,
+     "bacc": null
+    },
+    {
+     "seed": 5,
+     "n": 200,
+     "feasible": 23,
+     "types": {
+      "non_converged": 73,
+      "island": 102,
+      "feasible": 23,
+      "voltage": 2
+     },
+     "pfr": 0.115,
+     "random_pfr": 0.585,
+     "truth_pfr": 0.045,
+     "bacc": null
+    },
+    {
+     "seed": 6,
+     "n": 200,
+     "feasible": 35,
+     "types": {
+      "island": 122,
+      "feasible": 35,
+      "non_converged": 34,
+      "voltage": 9
+     },
+     "pfr": 0.175,
+     "random_pfr": 0.575,
+     "truth_pfr": 0.045,
+     "bacc": null
+    }
+   ],
+   "n": 1000,
+   "types": {
+    "island": 661,
+    "non_converged": 212,
+    "feasible": 95,
+    "voltage": 32
+   },
+   "pfr": 0.095,
+   "ci": [
+    0.057,
+    0.139
+   ],
+   "delta": {
+    "mean": -0.45599999999999996,
+    "n": 5,
+    "values": [
+     -0.455,
+     -0.425,
+     -0.5299999999999999,
+     -0.47,
+     -0.39999999999999997
+    ],
+    "sd": 0.049421655172606244,
+    "cohen_d": -9.226724568560273,
+    "ci": [
+     -0.497,
+     -0.421
+    ]
+   }
+  },
+  "GSAT": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 200,
+     "feasible": 0,
+     "types": {
+      "island": 191,
+      "non_converged": 9
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.515,
+     "truth_pfr": 0.075,
+     "bacc": null
+    },
+    {
+     "seed": 3,
+     "n": 200,
+     "feasible": 11,
+     "types": {
+      "island": 174,
+      "non_converged": 14,
+      "feasible": 11,
+      "voltage": 1
+     },
+     "pfr": 0.055,
+     "random_pfr": 0.51,
+     "truth_pfr": 0.06,
+     "bacc": null
+    },
+    {
+     "seed": 4,
+     "n": 200,
+     "feasible": 38,
+     "types": {
+      "voltage": 30,
+      "island": 111,
+      "feasible": 38,
+      "non_converged": 21
+     },
+     "pfr": 0.19,
+     "random_pfr": 0.57,
+     "truth_pfr": 0.055,
+     "bacc": null
+    }
+   ],
+   "n": 600,
+   "types": {
+    "island": 476,
+    "non_converged": 44,
+    "feasible": 49,
+    "voltage": 31
+   },
+   "pfr": 0.08166666666666667,
+   "ci": [
+    0.0,
+    0.19
+   ],
+   "delta": {
+    "mean": -0.44999999999999996,
+    "n": 3,
+    "values": [
+     -0.515,
+     -0.455,
+     -0.37999999999999995
+    ],
+    "sd": 0.06763874629234344,
+    "cohen_d": -6.652991438591152,
+    "ci": [
+     -0.515,
+     -0.37999999999999995
+    ]
+   }
+  },
+  "SubgraphX": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 200,
+     "feasible": 9,
+     "types": {
+      "island": 184,
+      "non_converged": 7,
+      "feasible": 9
+     },
+     "pfr": 0.045,
+     "random_pfr": 0.515,
+     "truth_pfr": 0.075,
+     "bacc": null
+    }
+   ],
+   "n": 200,
+   "types": {
+    "island": 184,
+    "non_converged": 7,
+    "feasible": 9
+   },
+   "pfr": 0.045,
+   "ci": null,
+   "delta": {
+    "mean": -0.47000000000000003,
+    "n": 1,
+    "values": [
+     -0.47000000000000003
+    ]
+   }
+  }
+ },
+ "ieee39": {
+  "GNNExplainer": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 104,
+     "feasible": 1,
+     "types": {
+      "island": 100,
+      "non_converged": 3,
+      "feasible": 1
+     },
+     "pfr": 0.009615384615384616,
+     "random_pfr": 0.09615384615384616,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": null
+    },
+    {
+     "seed": 3,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "island": 97,
+      "non_converged": 7
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.125,
+     "truth_pfr": 0.9038461538461539,
+     "bacc": null
+    },
+    {
+     "seed": 4,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "island": 95,
+      "non_converged": 9
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.038461538461538464,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": null
+    },
+    {
+     "seed": 5,
+     "n": 104,
+     "feasible": 1,
+     "types": {
+      "non_converged": 12,
+      "island": 91,
+      "feasible": 1
+     },
+     "pfr": 0.009615384615384616,
+     "random_pfr": 0.09615384615384616,
+     "truth_pfr": 0.8653846153846154,
+     "bacc": null
+    },
+    {
+     "seed": 6,
+     "n": 104,
+     "feasible": 3,
+     "types": {
+      "island": 88,
+      "non_converged": 13,
+      "feasible": 3
+     },
+     "pfr": 0.028846153846153848,
+     "random_pfr": 0.07692307692307693,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": null
+    }
+   ],
+   "n": 520,
+   "types": {
+    "island": 471,
+    "non_converged": 44,
+    "feasible": 5
+   },
+   "pfr": 0.009615384615384616,
+   "ci": [
+    0.0019230769230769232,
+    0.019230769230769232
+   ],
+   "delta": {
+    "mean": -0.07692307692307693,
+    "n": 5,
+    "values": [
+     -0.08653846153846154,
+     -0.125,
+     -0.038461538461538464,
+     -0.08653846153846154,
+     -0.04807692307692308
+    ],
+    "sd": 0.034668762264076815,
+    "cohen_d": -2.218800784900917,
+    "ci": [
+     -0.10192307692307694,
+     -0.05
+    ]
+   }
+  },
+  "PGExplainer": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "non_converged": 89,
+      "island": 15
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.09615384615384616,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": 0.5690845453551345
+    },
+    {
+     "seed": 3,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "non_converged": 43,
+      "island": 61
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.125,
+     "truth_pfr": 0.9038461538461539,
+     "bacc": 0.5380794433634054
+    },
+    {
+     "seed": 4,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "non_converged": 83,
+      "island": 21
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.038461538461538464,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": 0.5464412439728265
+    },
+    {
+     "seed": 5,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "island": 26,
+      "non_converged": 78
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.09615384615384616,
+     "truth_pfr": 0.8653846153846154,
+     "bacc": 0.5239973909961491
+    },
+    {
+     "seed": 6,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "non_converged": 91,
+      "island": 13
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.07692307692307693,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": 0.5776474902750449
+    }
+   ],
+   "n": 520,
+   "types": {
+    "non_converged": 384,
+    "island": 136
+   },
+   "pfr": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "delta": {
+    "mean": -0.08653846153846154,
+    "n": 5,
+    "values": [
+     -0.09615384615384616,
+     -0.125,
+     -0.038461538461538464,
+     -0.09615384615384616,
+     -0.07692307692307693
+    ],
+    "sd": 0.03189062298418654,
+    "cohen_d": -2.7136021011998723,
+    "ci": [
+     -0.10961538461538463,
+     -0.057692307692307696
+    ]
+   }
+  },
+  "Grad-CAM": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "island": 101,
+      "non_converged": 3
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.09615384615384616,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": null
+    },
+    {
+     "seed": 3,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "island": 101,
+      "non_converged": 3
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.125,
+     "truth_pfr": 0.9038461538461539,
+     "bacc": null
+    },
+    {
+     "seed": 4,
+     "n": 104,
+     "feasible": 8,
+     "types": {
+      "island": 95,
+      "feasible": 8,
+      "non_converged": 1
+     },
+     "pfr": 0.07692307692307693,
+     "random_pfr": 0.038461538461538464,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": null
+    },
+    {
+     "seed": 5,
+     "n": 104,
+     "feasible": 6,
+     "types": {
+      "island": 93,
+      "feasible": 6,
+      "voltage": 5
+     },
+     "pfr": 0.057692307692307696,
+     "random_pfr": 0.09615384615384616,
+     "truth_pfr": 0.8653846153846154,
+     "bacc": null
+    },
+    {
+     "seed": 6,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "island": 100,
+      "non_converged": 4
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.07692307692307693,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": null
+    }
+   ],
+   "n": 520,
+   "types": {
+    "island": 490,
+    "non_converged": 11,
+    "feasible": 14,
+    "voltage": 5
+   },
+   "pfr": 0.026923076923076925,
+   "ci": [
+    0.0,
+    0.057692307692307696
+   ],
+   "delta": {
+    "mean": -0.05961538461538461,
+    "n": 5,
+    "values": [
+     -0.09615384615384616,
+     -0.125,
+     0.038461538461538464,
+     -0.038461538461538464,
+     -0.07692307692307693
+    ],
+    "sd": 0.06319875663521148,
+    "cohen_d": -0.943299960147786,
+    "ci": [
+     -0.10384615384615385,
+     -0.003846153846153849
+    ]
+   }
+  },
+  "GSAT": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "island": 104
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.09615384615384616,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": null
+    },
+    {
+     "seed": 3,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "island": 99,
+      "non_converged": 5
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.125,
+     "truth_pfr": 0.9038461538461539,
+     "bacc": null
+    },
+    {
+     "seed": 4,
+     "n": 104,
+     "feasible": 0,
+     "types": {
+      "non_converged": 2,
+      "island": 102
+     },
+     "pfr": 0.0,
+     "random_pfr": 0.038461538461538464,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": null
+    }
+   ],
+   "n": 312,
+   "types": {
+    "island": 305,
+    "non_converged": 7
+   },
+   "pfr": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "delta": {
+    "mean": -0.08653846153846152,
+    "n": 3,
+    "values": [
+     -0.09615384615384616,
+     -0.125,
+     -0.038461538461538464
+    ],
+    "sd": 0.04406322783611385,
+    "cohen_d": -1.963961012123931,
+    "ci": [
+     -0.125,
+     -0.038461538461538464
+    ]
+   }
+  },
+  "SubgraphX": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 104,
+     "feasible": 5,
+     "types": {
+      "island": 93,
+      "non_converged": 6,
+      "feasible": 5
+     },
+     "pfr": 0.04807692307692308,
+     "random_pfr": 0.09615384615384616,
+     "truth_pfr": 0.8846153846153846,
+     "bacc": null
+    }
+   ],
+   "n": 104,
+   "types": {
+    "island": 93,
+    "non_converged": 6,
+    "feasible": 5
+   },
+   "pfr": 0.04807692307692308,
+   "ci": null,
+   "delta": {
+    "mean": -0.04807692307692308,
+    "n": 1,
+    "values": [
+     -0.04807692307692308
+    ]
+   }
+  }
+ },
+ "uk": {
+  "GNNExplainer": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 200,
+     "feasible": 199,
+     "types": {
+      "feasible": 199,
+      "non_converged": 1
+     },
+     "pfr": 0.995,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.81,
+     "bacc": null
+    },
+    {
+     "seed": 3,
+     "n": 200,
+     "feasible": 198,
+     "types": {
+      "feasible": 198,
+      "non_converged": 2
+     },
+     "pfr": 0.99,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.735,
+     "bacc": null
+    },
+    {
+     "seed": 4,
+     "n": 200,
+     "feasible": 200,
+     "types": {
+      "feasible": 200
+     },
+     "pfr": 1.0,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.78,
+     "bacc": null
+    },
+    {
+     "seed": 5,
+     "n": 200,
+     "feasible": 196,
+     "types": {
+      "feasible": 196,
+      "non_converged": 2,
+      "voltage": 2
+     },
+     "pfr": 0.98,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.79,
+     "bacc": null
+    },
+    {
+     "seed": 6,
+     "n": 200,
+     "feasible": 200,
+     "types": {
+      "feasible": 200
+     },
+     "pfr": 1.0,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.755,
+     "bacc": null
+    }
+   ],
+   "n": 1000,
+   "types": {
+    "feasible": 993,
+    "non_converged": 5,
+    "voltage": 2
+   },
+   "pfr": 0.993,
+   "ci": [
+    0.986,
+    0.999
+   ],
+   "delta": {
+    "mean": -0.007000000000000006,
+    "n": 5,
+    "values": [
+     -0.0050000000000000044,
+     -0.010000000000000009,
+     0.0,
+     -0.020000000000000018,
+     0.0
+    ],
+    "sd": 0.008366600265340763,
+    "cohen_d": -0.8366600265340755,
+    "ci": [
+     -0.014000000000000012,
+     -0.0010000000000000009
+    ]
+   }
+  },
+  "PGExplainer": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 200,
+     "feasible": 107,
+     "types": {
+      "island": 93,
+      "feasible": 107
+     },
+     "pfr": 0.535,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.81,
+     "bacc": 0.8432274099175849
+    },
+    {
+     "seed": 3,
+     "n": 200,
+     "feasible": 100,
+     "types": {
+      "island": 100,
+      "feasible": 100
+     },
+     "pfr": 0.5,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.735,
+     "bacc": 0.8470946301376051
+    },
+    {
+     "seed": 4,
+     "n": 200,
+     "feasible": 182,
+     "types": {
+      "feasible": 182,
+      "island": 18
+     },
+     "pfr": 0.91,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.78,
+     "bacc": 0.6936757481275593
+    },
+    {
+     "seed": 5,
+     "n": 200,
+     "feasible": 93,
+     "types": {
+      "island": 107,
+      "feasible": 93
+     },
+     "pfr": 0.465,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.79,
+     "bacc": 0.840795887234009
+    },
+    {
+     "seed": 6,
+     "n": 200,
+     "feasible": 100,
+     "types": {
+      "island": 100,
+      "feasible": 100
+     },
+     "pfr": 0.5,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.755,
+     "bacc": 0.8253205808532837
+    }
+   ],
+   "n": 1000,
+   "types": {
+    "island": 418,
+    "feasible": 582
+   },
+   "pfr": 0.582,
+   "ci": [
+    0.486,
+    0.753
+   ],
+   "delta": {
+    "mean": -0.418,
+    "n": 5,
+    "values": [
+     -0.46499999999999997,
+     -0.5,
+     -0.08999999999999997,
+     -0.5349999999999999,
+     -0.5
+    ],
+    "sd": 0.18502026915989503,
+    "cohen_d": -2.2592119333626264,
+    "ci": [
+     -0.514,
+     -0.24699999999999997
+    ]
+   }
+  },
+  "Grad-CAM": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 200,
+     "feasible": 200,
+     "types": {
+      "feasible": 200
+     },
+     "pfr": 1.0,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.81,
+     "bacc": null
+    },
+    {
+     "seed": 3,
+     "n": 200,
+     "feasible": 100,
+     "types": {
+      "feasible": 100,
+      "island": 59,
+      "non_converged": 41
+     },
+     "pfr": 0.5,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.735,
+     "bacc": null
+    },
+    {
+     "seed": 4,
+     "n": 200,
+     "feasible": 142,
+     "types": {
+      "island": 57,
+      "feasible": 142,
+      "non_converged": 1
+     },
+     "pfr": 0.71,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.78,
+     "bacc": null
+    },
+    {
+     "seed": 5,
+     "n": 200,
+     "feasible": 181,
+     "types": {
+      "feasible": 181,
+      "non_converged": 9,
+      "island": 10
+     },
+     "pfr": 0.905,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.79,
+     "bacc": null
+    },
+    {
+     "seed": 6,
+     "n": 200,
+     "feasible": 196,
+     "types": {
+      "feasible": 196,
+      "island": 4
+     },
+     "pfr": 0.98,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.755,
+     "bacc": null
+    }
+   ],
+   "n": 1000,
+   "types": {
+    "feasible": 819,
+    "island": 130,
+    "non_converged": 51
+   },
+   "pfr": 0.819,
+   "ci": [
+    0.638,
+    0.973
+   ],
+   "delta": {
+    "mean": -0.181,
+    "n": 5,
+    "values": [
+     0.0,
+     -0.5,
+     -0.29000000000000004,
+     -0.09499999999999997,
+     -0.020000000000000018
+    ],
+    "sd": 0.21196697856034086,
+    "cohen_d": -0.853906590683768,
+    "ci": [
+     -0.362,
+     -0.027000000000000003
+    ]
+   }
+  },
+  "GSAT": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 200,
+     "feasible": 200,
+     "types": {
+      "feasible": 200
+     },
+     "pfr": 1.0,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.81,
+     "bacc": null
+    }
+   ],
+   "n": 200,
+   "types": {
+    "feasible": 200
+   },
+   "pfr": 1.0,
+   "ci": null,
+   "delta": {
+    "mean": 0.0,
+    "n": 1,
+    "values": [
+     0.0
+    ]
+   }
+  },
+  "SubgraphX": {
+   "rows": [
+    {
+     "seed": 2,
+     "n": 50,
+     "feasible": 48,
+     "types": {
+      "feasible": 48,
+      "island": 2
+     },
+     "pfr": 0.96,
+     "random_pfr": 1.0,
+     "truth_pfr": 0.78,
+     "bacc": null
+    }
+   ],
+   "n": 50,
+   "types": {
+    "feasible": 48,
+    "island": 2
+   },
+   "pfr": 0.96,
+   "ci": null,
+   "delta": {
+    "mean": -0.040000000000000036,
+    "n": 1,
+    "values": [
+     -0.040000000000000036
+    ]
+   }
+  }
+ },
+ "quality": {
+  "ieee24": {
+   "_meta": {
+    "dataset": "ieee24",
+    "root": ".",
+    "seeds": "2,3,4,5,6",
+    "num": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "shuffles": 10,
+    "output": "results_quality/ieee24_quality.json"
+   },
+   "seeds": {
+    "2": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.880119485205308,
+       "tpr": 0.8704453441295547,
+       "tnr": 0.8897936262810614,
+       "tp": 215,
+       "fp": 785,
+       "tn": 6338,
+       "fn": 32,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "island": 98,
+         "voltage": 102
+        }
+       },
+       "types": {
+        "island": 98,
+        "voltage": 102
+       }
+      },
+      "absQ": {
+       "bacc": 0.8487021855982303,
+       "tpr": 0.8097165991902834,
+       "tnr": 0.8876877720061772,
+       "tp": 200,
+       "fp": 800,
+       "tn": 6323,
+       "fn": 47,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "non_converged": 84,
+         "voltage": 116
+        }
+       },
+       "types": {
+        "non_converged": 84,
+        "voltage": 116
+       }
+      },
+      "absPQ": {
+       "bacc": 0.8528911588791739,
+       "tpr": 0.8178137651821862,
+       "tnr": 0.8879685525761617,
+       "tp": 202,
+       "fp": 798,
+       "tn": 6325,
+       "fn": 45,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "island": 185,
+         "non_converged": 15
+        }
+       },
+       "types": {
+        "island": 185,
+        "non_converged": 15
+       }
+      },
+      "random": {
+       "bacc": 0.4968284299989599,
+       "tpr": 0.12955465587044535,
+       "tnr": 0.8641022041274744,
+       "tp": 32,
+       "fp": 968,
+       "tn": 6155,
+       "fn": 215,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.52,
+        "types": {
+         "feasible": 104,
+         "island": 48,
+         "voltage": 28,
+         "non_converged": 20
+        }
+       },
+       "types": {
+        "feasible": 104,
+        "island": 48,
+        "voltage": 28,
+        "non_converged": 20
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 247,
+       "fp": 0,
+       "tn": 7123,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.075,
+        "types": {
+         "voltage": 176,
+         "non_converged": 9,
+         "feasible": 15
+        }
+       },
+       "types": {
+        "voltage": 176,
+        "non_converged": 9,
+        "feasible": 15
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.6124440925530059,
+      "min": 0.4298048575038607,
+      "max": 0.8507966722387021,
+      "values": [
+       0.4318993441443326,
+       0.46122215711093845,
+       0.8340407791149274,
+       0.4549386971895229,
+       0.4821670235156569,
+       0.4298048575038607,
+       0.8507966722387021,
+       0.5303402162465094,
+       0.8214738592720963,
+       0.8277573191935118
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "3": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.9196359152607242,
+       "tpr": 0.9484978540772532,
+       "tnr": 0.8907739764441952,
+       "tp": 221,
+       "fp": 779,
+       "tn": 6353,
+       "fn": 12,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "island": 114,
+         "voltage": 86
+        }
+       },
+       "types": {
+        "island": 114,
+        "voltage": 86
+       }
+      },
+      "absQ": {
+       "bacc": 0.8730992997768625,
+       "tpr": 0.8583690987124464,
+       "tnr": 0.8878295008412788,
+       "tp": 200,
+       "fp": 800,
+       "tn": 6332,
+       "fn": 33,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "non_converged": 78,
+         "voltage": 122
+        }
+       },
+       "types": {
+        "non_converged": 78,
+        "voltage": 122
+       }
+      },
+      "absPQ": {
+       "bacc": 0.8819634170118839,
+       "tpr": 0.8755364806866953,
+       "tnr": 0.8883903533370724,
+       "tp": 204,
+       "fp": 796,
+       "tn": 6336,
+       "fn": 29,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "island": 185,
+         "non_converged": 15
+        }
+       },
+       "types": {
+        "island": 185,
+        "non_converged": 15
+       }
+      },
+      "random": {
+       "bacc": 0.4852941707446822,
+       "tpr": 0.1072961373390558,
+       "tnr": 0.8632922041503085,
+       "tp": 25,
+       "fp": 975,
+       "tn": 6157,
+       "fn": 208,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.57,
+        "types": {
+         "island": 39,
+         "voltage": 22,
+         "feasible": 114,
+         "non_converged": 25
+        }
+       },
+       "types": {
+        "island": 39,
+        "voltage": 22,
+        "feasible": 114,
+        "non_converged": 25
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 233,
+       "fp": 0,
+       "tn": 7132,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.06,
+        "types": {
+         "voltage": 182,
+         "feasible": 12,
+         "non_converged": 6
+        }
+       },
+       "types": {
+        "voltage": 182,
+        "feasible": 12,
+        "non_converged": 6
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5309443745050417,
+      "min": 0.4298934380257992,
+      "max": 0.8664512118505966,
+      "values": [
+       0.8642351825418413,
+       0.45426976042210765,
+       0.4697819655833949,
+       0.4321094673345545,
+       0.456485789730863,
+       0.45426976042210765,
+       0.8664512118505966,
+       0.4520537311133524,
+       0.4298934380257992,
+       0.4298934380257992
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "4": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.8895310702776695,
+       "tpr": 0.8898305084745762,
+       "tnr": 0.8892316320807627,
+       "tp": 210,
+       "fp": 790,
+       "tn": 6342,
+       "fn": 26,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "non_converged": 182,
+         "voltage": 16,
+         "island": 2
+        }
+       },
+       "types": {
+        "non_converged": 182,
+        "voltage": 16,
+        "island": 2
+       }
+      },
+      "absQ": {
+       "bacc": 0.8654548133501906,
+       "tpr": 0.8432203389830508,
+       "tnr": 0.8876892877173304,
+       "tp": 199,
+       "fp": 801,
+       "tn": 6331,
+       "fn": 37,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "non_converged": 74,
+         "voltage": 126
+        }
+       },
+       "types": {
+        "non_converged": 74,
+        "voltage": 126
+       }
+      },
+      "absPQ": {
+       "bacc": 0.8720210652395031,
+       "tpr": 0.8559322033898306,
+       "tnr": 0.8881099270891756,
+       "tp": 202,
+       "fp": 798,
+       "tn": 6334,
+       "fn": 34,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "island": 180,
+         "non_converged": 20
+        }
+       },
+       "types": {
+        "island": 180,
+        "non_converged": 20
+       }
+      },
+      "random": {
+       "bacc": 0.49993345817846513,
+       "tpr": 0.13559322033898305,
+       "tnr": 0.8642736960179472,
+       "tp": 32,
+       "fp": 968,
+       "tn": 6164,
+       "fn": 204,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.55,
+        "types": {
+         "voltage": 22,
+         "feasible": 110,
+         "island": 45,
+         "non_converged": 23
+        }
+       },
+       "types": {
+        "voltage": 22,
+        "feasible": 110,
+        "island": 45,
+        "non_converged": 23
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 236,
+       "fp": 0,
+       "tn": 7132,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.055,
+        "types": {
+         "voltage": 183,
+         "feasible": 11,
+         "non_converged": 6
+        }
+       },
+       "types": {
+        "voltage": 183,
+        "feasible": 11,
+        "non_converged": 6
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.6461420002471553,
+      "min": 0.43208218865557,
+      "max": 0.8545110602013366,
+      "values": [
+       0.8545110602013366,
+       0.48023470251052786,
+       0.7450735287127961,
+       0.8435673070524825,
+       0.766961035010504,
+       0.47366845062121543,
+       0.7188085211555462,
+       0.4649134481021322,
+       0.43208218865557,
+       0.6815997604494425
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "5": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.8830047510056873,
+       "tpr": 0.8765432098765432,
+       "tnr": 0.8894662921348314,
+       "tp": 213,
+       "fp": 787,
+       "tn": 6333,
+       "fn": 30,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "island": 194,
+         "voltage": 4,
+         "non_converged": 2
+        }
+       },
+       "types": {
+        "island": 194,
+        "voltage": 4,
+        "non_converged": 2
+       }
+      },
+      "absQ": {
+       "bacc": 0.8723655615665603,
+       "tpr": 0.8559670781893004,
+       "tnr": 0.8887640449438202,
+       "tp": 208,
+       "fp": 792,
+       "tn": 6328,
+       "fn": 35,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "non_converged": 79,
+         "voltage": 121
+        }
+       },
+       "types": {
+        "non_converged": 79,
+        "voltage": 121
+       }
+      },
+      "absPQ": {
+       "bacc": 0.8766212373422111,
+       "tpr": 0.8641975308641975,
+       "tnr": 0.8890449438202247,
+       "tp": 210,
+       "fp": 790,
+       "tn": 6330,
+       "fn": 33,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "island": 183,
+         "non_converged": 15,
+         "voltage": 2
+        }
+       },
+       "types": {
+        "island": 183,
+        "non_converged": 15,
+        "voltage": 2
+       }
+      },
+      "random": {
+       "bacc": 0.5042496069727656,
+       "tpr": 0.1440329218106996,
+       "tnr": 0.8644662921348315,
+       "tp": 35,
+       "fp": 965,
+       "tn": 6155,
+       "fn": 208,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.525,
+        "types": {
+         "island": 43,
+         "feasible": 105,
+         "voltage": 25,
+         "non_converged": 27
+        }
+       },
+       "types": {
+        "island": 43,
+        "feasible": 105,
+        "voltage": 25,
+        "non_converged": 27
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 243,
+       "fp": 0,
+       "tn": 7120,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.045,
+        "types": {
+         "voltage": 182,
+         "non_converged": 9,
+         "feasible": 9
+        }
+       },
+       "types": {
+        "voltage": 182,
+        "non_converged": 9,
+        "feasible": 9
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.4885036066028576,
+      "min": 0.4297752808988764,
+      "max": 0.8447036690248301,
+      "values": [
+       0.4297752808988764,
+       0.44467014611365424,
+       0.4723320386553845,
+       0.44679798400147963,
+       0.46594852499190825,
+       0.45743717344060664,
+       0.44679798400147963,
+       0.4297752808988764,
+       0.44679798400147963,
+       0.8447036690248301
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "6": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.8761773512998503,
+       "tpr": 0.8629032258064516,
+       "tnr": 0.889451476793249,
+       "tp": 214,
+       "fp": 786,
+       "tn": 6324,
+       "fn": 34,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.01,
+        "types": {
+         "voltage": 106,
+         "non_converged": 42,
+         "island": 50,
+         "feasible": 2
+        }
+       },
+       "types": {
+        "voltage": 106,
+        "non_converged": 42,
+        "island": 50,
+        "feasible": 2
+       }
+      },
+      "absQ": {
+       "bacc": 0.8594857311374258,
+       "tpr": 0.8306451612903226,
+       "tnr": 0.8883263009845288,
+       "tp": 206,
+       "fp": 794,
+       "tn": 6316,
+       "fn": 42,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.01,
+        "types": {
+         "voltage": 125,
+         "non_converged": 73,
+         "feasible": 2
+        }
+       },
+       "types": {
+        "voltage": 125,
+        "non_converged": 73,
+        "feasible": 2
+       }
+      },
+      "absPQ": {
+       "bacc": 0.8657450886983349,
+       "tpr": 0.842741935483871,
+       "tnr": 0.8887482419127989,
+       "tp": 209,
+       "fp": 791,
+       "tn": 6319,
+       "fn": 39,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.0,
+        "types": {
+         "island": 187,
+         "voltage": 1,
+         "non_converged": 12
+        }
+       },
+       "types": {
+        "island": 187,
+        "voltage": 1,
+        "non_converged": 12
+       }
+      },
+      "random": {
+       "bacc": 0.49018363504378204,
+       "tpr": 0.11693548387096774,
+       "tnr": 0.8634317862165963,
+       "tp": 29,
+       "fp": 971,
+       "tn": 6139,
+       "fn": 219,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.56,
+        "types": {
+         "voltage": 30,
+         "feasible": 112,
+         "island": 32,
+         "non_converged": 26
+        }
+       },
+       "types": {
+        "voltage": 30,
+        "feasible": 112,
+        "island": 32,
+        "non_converged": 26
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 248,
+       "fp": 0,
+       "tn": 7110,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.045,
+        "types": {
+         "voltage": 178,
+         "non_converged": 13,
+         "feasible": 9
+        }
+       },
+       "types": {
+        "voltage": 178,
+        "non_converged": 13,
+        "feasible": 9
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.492270087564085,
+      "min": 0.42967651195499296,
+      "max": 0.7468172950410599,
+      "values": [
+       0.44219522707681136,
+       0.46931910984075137,
+       0.46514620480014524,
+       0.7468172950410599,
+       0.5632094732543895,
+       0.4526274896783267,
+       0.4547139421986298,
+       0.42967651195499296,
+       0.42967651195499296,
+       0.46931910984075137
+      ],
+      "n_ge_sep": 0
+     }
+    }
+   }
+  },
+  "ieee39": {
+   "_meta": {
+    "dataset": "ieee39",
+    "root": ".",
+    "seeds": "2,3,4,5,6",
+    "num": 104,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "shuffles": 10,
+    "output": "results_quality/ieee39_quality.json"
+   },
+   "seeds": {
+    "2": {
+     "n": 104,
+     "methods": {
+      "SEP": {
+       "bacc": 0.7424617875128803,
+       "tpr": 0.5802469135802469,
+       "tnr": 0.9046766614455135,
+       "tp": 94,
+       "fp": 426,
+       "tn": 4043,
+       "fn": 68,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.009615384615384616,
+        "types": {
+         "island": 103,
+         "feasible": 1
+        }
+       },
+       "types": {
+        "island": 103,
+        "feasible": 1
+       }
+      },
+      "absQ": {
+       "bacc": 0.6593059457607828,
+       "tpr": 0.41975308641975306,
+       "tnr": 0.8988588051018125,
+       "tp": 68,
+       "fp": 452,
+       "tn": 4017,
+       "fn": 94,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "island": 88,
+         "non_converged": 16
+        }
+       },
+       "types": {
+        "island": 88,
+        "non_converged": 16
+       }
+      },
+      "absPQ": {
+       "bacc": 0.5377704847384865,
+       "tpr": 0.18518518518518517,
+       "tnr": 0.8903557842917879,
+       "tp": 30,
+       "fp": 490,
+       "tn": 3979,
+       "fn": 132,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "island": 77,
+         "non_converged": 27
+        }
+       },
+       "types": {
+        "island": 77,
+        "non_converged": 27
+       }
+      },
+      "random": {
+       "bacc": 0.4961925638624378,
+       "tpr": 0.10493827160493827,
+       "tnr": 0.8874468561199373,
+       "tp": 17,
+       "fp": 503,
+       "tn": 3966,
+       "fn": 145,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.08653846153846154,
+        "types": {
+         "island": 83,
+         "feasible": 9,
+         "non_converged": 11,
+         "voltage": 1
+        }
+       },
+       "types": {
+        "island": 83,
+        "feasible": 9,
+        "non_converged": 11,
+        "voltage": 1
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 162,
+       "fp": 0,
+       "tn": 4469,
+       "fn": 0,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.8846153846153846,
+        "types": {
+         "feasible": 92,
+         "non_converged": 11,
+         "island": 1
+        }
+       },
+       "types": {
+        "feasible": 92,
+        "non_converged": 11,
+        "island": 1
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5153823734975371,
+      "min": 0.4418214365629895,
+      "max": 0.6561076441549328,
+      "values": [
+       0.6177280248847341,
+       0.4418214365629895,
+       0.5281755799209369,
+       0.4450197381688394,
+       0.6241246280964339,
+       0.4450197381688394,
+       0.4770027542273384,
+       0.4738044526214885,
+       0.4450197381688394,
+       0.6561076441549328
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "3": {
+     "n": 104,
+     "methods": {
+      "SEP": {
+       "bacc": 0.740449032878689,
+       "tpr": 0.5769230769230769,
+       "tnr": 0.903974988834301,
+       "tp": 90,
+       "fp": 430,
+       "tn": 4048,
+       "fn": 66,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "island": 100,
+         "non_converged": 4
+        }
+       },
+       "types": {
+        "island": 100,
+        "non_converged": 4
+       }
+      },
+      "absQ": {
+       "bacc": 0.6707965437867179,
+       "tpr": 0.4423076923076923,
+       "tnr": 0.8992853952657436,
+       "tp": 69,
+       "fp": 451,
+       "tn": 4027,
+       "fn": 87,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "island": 93,
+         "non_converged": 11
+        }
+       },
+       "types": {
+        "island": 93,
+        "non_converged": 11
+       }
+      },
+      "absPQ": {
+       "bacc": 0.5215412100182086,
+       "tpr": 0.15384615384615385,
+       "tnr": 0.8892362661902635,
+       "tp": 24,
+       "fp": 496,
+       "tn": 3982,
+       "fn": 132,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "island": 77,
+         "non_converged": 27
+        }
+       },
+       "types": {
+        "island": 77,
+        "non_converged": 27
+       }
+      },
+      "random": {
+       "bacc": 0.5149076396284972,
+       "tpr": 0.14102564102564102,
+       "tnr": 0.8887896382313533,
+       "tp": 22,
+       "fp": 498,
+       "tn": 3980,
+       "fn": 134,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.038461538461538464,
+        "types": {
+         "non_converged": 13,
+         "feasible": 4,
+         "island": 87
+        }
+       },
+       "types": {
+        "non_converged": 13,
+        "feasible": 4,
+        "island": 87
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 156,
+       "fp": 0,
+       "tn": 4478,
+       "fn": 0,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.9038461538461539,
+        "types": {
+         "feasible": 94,
+         "non_converged": 10
+        }
+       },
+       "types": {
+        "feasible": 94,
+        "non_converged": 10
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5099324618362134,
+      "min": 0.4419383653416704,
+      "max": 0.6309951214484488,
+      "values": [
+       0.4585222913159492,
+       0.47842300248508374,
+       0.5746097731359008,
+       0.4518887209262377,
+       0.5945104843050355,
+       0.6309951214484488,
+       0.4684726469005165,
+       0.49169014326450683,
+       0.4419383653416704,
+       0.5082740692387856
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "4": {
+     "n": 104,
+     "methods": {
+      "SEP": {
+       "bacc": 0.724980585720815,
+       "tpr": 0.546583850931677,
+       "tnr": 0.903377320509953,
+       "tp": 88,
+       "fp": 432,
+       "tn": 4039,
+       "fn": 73,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.057692307692307696,
+        "types": {
+         "island": 84,
+         "voltage": 14,
+         "feasible": 6
+        }
+       },
+       "types": {
+        "island": 84,
+        "voltage": 14,
+        "feasible": 6
+       }
+      },
+      "absQ": {
+       "bacc": 0.676719257714658,
+       "tpr": 0.453416149068323,
+       "tnr": 0.9000223663609931,
+       "tp": 73,
+       "fp": 447,
+       "tn": 4024,
+       "fn": 88,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "island": 91,
+         "non_converged": 13
+        }
+       },
+       "types": {
+        "island": 91,
+        "non_converged": 13
+       }
+      },
+      "absPQ": {
+       "bacc": 0.5287178518291099,
+       "tpr": 0.16770186335403728,
+       "tnr": 0.8897338403041825,
+       "tp": 27,
+       "fp": 493,
+       "tn": 3978,
+       "fn": 134,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "non_converged": 24,
+         "island": 80
+        }
+       },
+       "types": {
+        "non_converged": 24,
+        "island": 80
+       }
+      },
+      "random": {
+       "bacc": 0.4708042582217215,
+       "tpr": 0.055900621118012424,
+       "tnr": 0.8857078953254306,
+       "tp": 9,
+       "fp": 511,
+       "tn": 3960,
+       "fn": 152,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.07692307692307693,
+        "types": {
+         "feasible": 8,
+         "island": 83,
+         "non_converged": 13
+        }
+       },
+       "types": {
+        "feasible": 8,
+        "island": 83,
+        "non_converged": 13
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 161,
+       "fp": 0,
+       "tn": 4471,
+       "fn": 0,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.8846153846153846,
+        "types": {
+         "feasible": 92,
+         "non_converged": 11,
+         "island": 1
+        }
+       },
+       "types": {
+        "feasible": 92,
+        "non_converged": 11,
+        "island": 1
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5142394534272627,
+      "min": 0.4418474614180273,
+      "max": 0.676719257714658,
+      "values": [
+       0.46115199262049006,
+       0.5222830080949556,
+       0.47402168008879864,
+       0.4933262112912614,
+       0.49654363315833855,
+       0.676719257714658,
+       0.5029784768924928,
+       0.4418474614180273,
+       0.5480223830315727,
+       0.5255004299620327
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "5": {
+     "n": 104,
+     "methods": {
+      "SEP": {
+       "bacc": 0.8104351155742037,
+       "tpr": 0.7108433734939759,
+       "tnr": 0.9100268576544315,
+       "tp": 118,
+       "fp": 402,
+       "tn": 4066,
+       "fn": 48,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.057692307692307696,
+        "types": {
+         "island": 96,
+         "feasible": 6,
+         "non_converged": 2
+        }
+       },
+       "types": {
+        "island": 96,
+        "feasible": 6,
+        "non_converged": 2
+       }
+      },
+      "absQ": {
+       "bacc": 0.6761050468660676,
+       "tpr": 0.45180722891566266,
+       "tnr": 0.9004028648164727,
+       "tp": 75,
+       "fp": 445,
+       "tn": 4023,
+       "fn": 91,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "island": 92,
+         "non_converged": 12
+        }
+       },
+       "types": {
+        "island": 92,
+        "non_converged": 12
+       }
+      },
+      "absPQ": {
+       "bacc": 0.5292791578129887,
+       "tpr": 0.1686746987951807,
+       "tnr": 0.8898836168307968,
+       "tp": 28,
+       "fp": 492,
+       "tn": 3976,
+       "fn": 138,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "non_converged": 27,
+         "island": 77
+        }
+       },
+       "types": {
+        "non_converged": 27,
+        "island": 77
+       }
+      },
+      "random": {
+       "bacc": 0.4824198315194529,
+       "tpr": 0.0783132530120482,
+       "tnr": 0.8865264100268576,
+       "tp": 13,
+       "fp": 507,
+       "tn": 3961,
+       "fn": 153,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.09615384615384616,
+        "types": {
+         "island": 81,
+         "non_converged": 12,
+         "voltage": 1,
+         "feasible": 10
+        }
+       },
+       "types": {
+        "island": 81,
+        "non_converged": 12,
+        "voltage": 1,
+        "feasible": 10
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 166,
+       "fp": 0,
+       "tn": 4468,
+       "fn": 0,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.8653846153846154,
+        "types": {
+         "non_converged": 13,
+         "feasible": 90,
+         "island": 1
+        }
+       },
+       "types": {
+        "non_converged": 13,
+        "feasible": 90,
+        "island": 1
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5486476793476502,
+      "min": 0.44180841539838855,
+      "max": 0.6698571366935963,
+      "values": [
+       0.5855103493652317,
+       0.4543042357433314,
+       0.44180841539838855,
+       0.5542707985028745,
+       0.660485271434889,
+       0.5980061697101746,
+       0.5542707985028745,
+       0.6698571366935963,
+       0.526155202726753,
+       0.44180841539838855
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "6": {
+     "n": 104,
+     "methods": {
+      "SEP": {
+       "bacc": 0.7840707060668302,
+       "tpr": 0.6604938271604939,
+       "tnr": 0.9076475849731663,
+       "tp": 107,
+       "fp": 413,
+       "tn": 4059,
+       "fn": 55,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "island": 95,
+         "non_converged": 9
+        }
+       },
+       "types": {
+        "island": 95,
+        "non_converged": 9
+       }
+      },
+      "absQ": {
+       "bacc": 0.6657363236820601,
+       "tpr": 0.43209876543209874,
+       "tnr": 0.8993738819320215,
+       "tp": 70,
+       "fp": 450,
+       "tn": 4022,
+       "fn": 92,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "island": 92,
+         "non_converged": 12
+        }
+       },
+       "types": {
+        "island": 92,
+        "non_converged": 12
+       }
+      },
+      "absPQ": {
+       "bacc": 0.5346090350935312,
+       "tpr": 0.17901234567901234,
+       "tnr": 0.8902057245080501,
+       "tp": 29,
+       "fp": 491,
+       "tn": 3981,
+       "fn": 133,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.0,
+        "types": {
+         "non_converged": 28,
+         "island": 76
+        }
+       },
+       "types": {
+        "non_converged": 28,
+        "island": 76
+       }
+      },
+      "random": {
+       "bacc": 0.5090232226860134,
+       "tpr": 0.12962962962962962,
+       "tnr": 0.8884168157423972,
+       "tp": 21,
+       "fp": 499,
+       "tn": 3973,
+       "fn": 141,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.08653846153846154,
+        "types": {
+         "island": 82,
+         "feasible": 9,
+         "non_converged": 13
+        }
+       },
+       "types": {
+        "island": 82,
+        "feasible": 9,
+        "non_converged": 13
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 162,
+       "fp": 0,
+       "tn": 4472,
+       "fn": 0,
+       "pfr": {
+        "n": 104,
+        "PFR": 0.8846153846153846,
+        "types": {
+         "feasible": 92,
+         "non_converged": 11,
+         "island": 1
+        }
+       },
+       "types": {
+        "feasible": 92,
+        "non_converged": 11,
+        "island": 1
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5314108085425915,
+      "min": 0.4418604651162791,
+      "max": 0.7456919874555534,
+      "values": [
+       0.4418604651162791,
+       0.4482569182181585,
+       0.4482569182181585,
+       0.49623031648225446,
+       0.46104982442191744,
+       0.489833863380375,
+       0.7137097219461561,
+       0.4418604651162791,
+       0.7456919874555534,
+       0.6273576050707833
+      ],
+      "n_ge_sep": 0
+     }
+    }
+   }
+  },
+  "uk": {
+   "_meta": {
+    "dataset": "uk",
+    "root": ".",
+    "seeds": "2,3,4,5,6",
+    "num": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "shuffles": 10,
+    "output": "results_quality/uk_quality.json"
+   },
+   "seeds": {
+    "2": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.8766876381257782,
+       "tpr": 0.7787742899850523,
+       "tnr": 0.974600986266504,
+       "tp": 521,
+       "fp": 479,
+       "tn": 18380,
+       "fn": 148,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.7,
+        "types": {
+         "feasible": 140,
+         "island": 58,
+         "non_converged": 2
+        }
+       },
+       "types": {
+        "feasible": 140,
+        "island": 58,
+        "non_converged": 2
+       }
+      },
+      "absQ": {
+       "bacc": 0.47348745956837585,
+       "tpr": 0.0,
+       "tnr": 0.9469749191367517,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17859,
+       "fn": 669,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "absPQ": {
+       "bacc": 0.47348745956837585,
+       "tpr": 0.0,
+       "tnr": 0.9469749191367517,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17859,
+       "fn": 669,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "random": {
+       "bacc": 0.5005738439244394,
+       "tpr": 0.052316890881913304,
+       "tnr": 0.9488307969669654,
+       "tp": 35,
+       "fp": 965,
+       "tn": 17894,
+       "fn": 634,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 669,
+       "fp": 0,
+       "tn": 18859,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.81,
+        "types": {
+         "feasible": 162,
+         "island": 38
+        }
+       },
+       "types": {
+        "feasible": 162,
+        "island": 38
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5176769609035538,
+      "min": 0.47348745956837585,
+      "max": 0.6004065176939305,
+      "values": [
+       0.5423642655023659,
+       0.5802852036008548,
+       0.4812264265272511,
+       0.47348745956837585,
+       0.47348745956837585,
+       0.47348745956837585,
+       0.47348745956837585,
+       0.5973109309103803,
+       0.6004065176939305,
+       0.4812264265272511
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "3": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.8600239218875918,
+       "tpr": 0.7450704225352113,
+       "tnr": 0.9749774212399723,
+       "tp": 529,
+       "fp": 471,
+       "tn": 18352,
+       "fn": 181,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.61,
+        "types": {
+         "island": 64,
+         "feasible": 122,
+         "non_converged": 14
+        }
+       },
+       "types": {
+        "island": 64,
+        "feasible": 122,
+        "non_converged": 14
+       }
+      },
+      "absQ": {
+       "bacc": 0.47343675290867554,
+       "tpr": 0.0,
+       "tnr": 0.9468735058173511,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17823,
+       "fn": 710,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "absPQ": {
+       "bacc": 0.47343675290867554,
+       "tpr": 0.0,
+       "tnr": 0.9468735058173511,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17823,
+       "fn": 710,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "random": {
+       "bacc": 0.5026682968768356,
+       "tpr": 0.056338028169014086,
+       "tnr": 0.9489985655846571,
+       "tp": 40,
+       "fp": 960,
+       "tn": 17863,
+       "fn": 670,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 710,
+       "fp": 0,
+       "tn": 18823,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.735,
+        "types": {
+         "island": 53,
+         "feasible": 147
+        }
+       },
+       "types": {
+        "island": 53,
+        "feasible": 147
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5449078779108267,
+      "min": 0.47343675290867554,
+      "max": 0.6751344062889797,
+      "values": [
+       0.5063222398728555,
+       0.47343675290867554,
+       0.6751344062889797,
+       0.6707496746937557,
+       0.5297074750473836,
+       0.47343675290867554,
+       0.5260535320513636,
+       0.6108250095590276,
+       0.47562911870628755,
+       0.5077838170712635
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "4": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.8768492662395477,
+       "tpr": 0.7785923753665689,
+       "tnr": 0.9751061571125266,
+       "tp": 531,
+       "fp": 469,
+       "tn": 18371,
+       "fn": 151,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.675,
+        "types": {
+         "feasible": 135,
+         "island": 62,
+         "non_converged": 3
+        }
+       },
+       "types": {
+        "feasible": 135,
+        "island": 62,
+        "non_converged": 3
+       }
+      },
+      "absQ": {
+       "bacc": 0.4734607218683652,
+       "tpr": 0.0,
+       "tnr": 0.9469214437367304,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17840,
+       "fn": 682,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "absPQ": {
+       "bacc": 0.4734607218683652,
+       "tpr": 0.0,
+       "tnr": 0.9469214437367304,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17840,
+       "fn": 682,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "random": {
+       "bacc": 0.5038478061901115,
+       "tpr": 0.05865102639296188,
+       "tnr": 0.9490445859872612,
+       "tp": 40,
+       "fp": 960,
+       "tn": 17880,
+       "fn": 642,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 682,
+       "fp": 0,
+       "tn": 18840,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.78,
+        "types": {
+         "feasible": 156,
+         "island": 44
+        }
+       },
+       "types": {
+        "feasible": 156,
+        "island": 44
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5432750480975774,
+      "min": 0.4734607218683652,
+      "max": 0.6952864374171134,
+      "values": [
+       0.5995671218036125,
+       0.5266381194314212,
+       0.4924526495694566,
+       0.6664187073114544,
+       0.4734607218683652,
+       0.5023284519740242,
+       0.49397200378554396,
+       0.487134909813151,
+       0.49549135800163124,
+       0.6952864374171134
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "5": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.8869234385982687,
+       "tpr": 0.7985074626865671,
+       "tnr": 0.9753394145099703,
+       "tp": 535,
+       "fp": 465,
+       "tn": 18391,
+       "fn": 135,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.635,
+        "types": {
+         "feasible": 127,
+         "island": 61,
+         "non_converged": 12
+        }
+       },
+       "types": {
+        "feasible": 127,
+        "island": 61,
+        "non_converged": 12
+       }
+      },
+      "absQ": {
+       "bacc": 0.47348324140857023,
+       "tpr": 0.0,
+       "tnr": 0.9469664828171405,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17856,
+       "fn": 670,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "absPQ": {
+       "bacc": 0.47348324140857023,
+       "tpr": 0.0,
+       "tnr": 0.9469664828171405,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17856,
+       "fn": 670,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "random": {
+       "bacc": 0.499757945529037,
+       "tpr": 0.050746268656716415,
+       "tnr": 0.9487696224013576,
+       "tp": 34,
+       "fp": 966,
+       "tn": 17890,
+       "fn": 636,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 670,
+       "fp": 0,
+       "tn": 18856,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.79,
+        "types": {
+         "feasible": 158,
+         "island": 42
+        }
+       },
+       "types": {
+        "feasible": 158,
+        "island": 42
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5380108235867755,
+      "min": 0.47348324140857023,
+      "max": 0.677498591049842,
+      "values": [
+       0.5971289078578258,
+       0.677498591049842,
+       0.4750288122391859,
+       0.6071751182568279,
+       0.47348324140857023,
+       0.4804383101463408,
+       0.4812110955616487,
+       0.6033111911802886,
+       0.47348324140857023,
+       0.5113497267586548
+      ],
+      "n_ge_sep": 0
+     }
+    },
+    "6": {
+     "n": 200,
+     "methods": {
+      "SEP": {
+       "bacc": 0.848900590855743,
+       "tpr": 0.7241379310344828,
+       "tnr": 0.9736632506770031,
+       "tp": 504,
+       "fp": 496,
+       "tn": 18337,
+       "fn": 192,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.58,
+        "types": {
+         "feasible": 116,
+         "island": 73,
+         "non_converged": 11
+        }
+       },
+       "types": {
+        "feasible": 116,
+        "island": 73,
+        "non_converged": 11
+       }
+      },
+      "absQ": {
+       "bacc": 0.47345085753730154,
+       "tpr": 0.0,
+       "tnr": 0.9469017150746031,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17833,
+       "fn": 696,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "absPQ": {
+       "bacc": 0.47345085753730154,
+       "tpr": 0.0,
+       "tnr": 0.9469017150746031,
+       "tp": 0,
+       "fp": 1000,
+       "tn": 17833,
+       "fn": 696,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "random": {
+       "bacc": 0.4972889358432343,
+       "tpr": 0.04597701149425287,
+       "tnr": 0.9486008601922158,
+       "tp": 32,
+       "fp": 968,
+       "tn": 17865,
+       "fn": 664,
+       "pfr": {
+        "n": 200,
+        "PFR": 1.0,
+        "types": {
+         "feasible": 200
+        }
+       },
+       "types": {
+        "feasible": 200
+       }
+      },
+      "truth": {
+       "bacc": 1.0,
+       "tpr": 1.0,
+       "tnr": 1.0,
+       "tp": 696,
+       "fp": 0,
+       "tn": 18833,
+       "fn": 0,
+       "pfr": {
+        "n": 200,
+        "PFR": 0.755,
+        "types": {
+         "feasible": 151,
+         "island": 49
+        }
+       },
+       "types": {
+        "feasible": 151,
+        "island": 49
+       }
+      }
+     },
+     "shuffled_label_bacc": {
+      "n_models": 10,
+      "mean": 0.5194136522709282,
+      "min": 0.47345085753730154,
+      "max": 0.7066170609672067,
+      "values": [
+       0.47494073743142234,
+       0.5710379906022139,
+       0.7066170609672067,
+       0.4741957974843619,
+       0.47345085753730154,
+       0.4741957974843619,
+       0.47345085753730154,
+       0.4771755572726035,
+       0.5956210088552071,
+       0.47345085753730154
+      ],
+      "n_ge_sep": 0
+     }
+    }
+   }
+  }
+ },
+ "matched": {
+  "ieee39_sep_matched104_s2.json": {
+   "n": 104,
+   "sep": {
+    "n": 104,
+    "PFR": 0.009615384615384616,
+    "types": {
+     "island": 103,
+     "feasible": 1
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.08653846153846154,
+    "types": {
+     "island": 83,
+     "feasible": 9,
+     "non_converged": 11,
+     "voltage": 1
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+     "feasible": 92,
+     "non_converged": 11,
+     "island": 1
+    }
+   },
+   "wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "bacc_pergraph": 0.7686267877019138,
+   "replace": 0.3423076923076923
+  },
+  "ieee39_sep_matched104_s3.json": {
+   "n": 104,
+   "sep": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+     "island": 100,
+     "non_converged": 4
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.038461538461538464,
+    "types": {
+     "non_converged": 13,
+     "feasible": 4,
+     "island": 87
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.9038461538461539,
+    "types": {
+     "feasible": 94,
+     "non_converged": 10
+    }
+   },
+   "wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "bacc_pergraph": 0.7845058786458389,
+   "replace": 0.35961538461538467
+  },
+  "ieee39_sep_matched104_s4.json": {
+   "n": 104,
+   "sep": {
+    "n": 104,
+    "PFR": 0.057692307692307696,
+    "types": {
+     "island": 84,
+     "voltage": 14,
+     "feasible": 6
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.07692307692307693,
+    "types": {
+     "feasible": 8,
+     "island": 83,
+     "non_converged": 13
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+     "feasible": 92,
+     "non_converged": 11,
+     "island": 1
+    }
+   },
+   "wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "bacc_pergraph": 0.7894948111504244,
+   "replace": 0.1884615384615384
+  },
+  "ieee39_sep_matched104_s5.json": {
+   "n": 104,
+   "sep": {
+    "n": 104,
+    "PFR": 0.057692307692307696,
+    "types": {
+     "island": 96,
+     "feasible": 6,
+     "non_converged": 2
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.09615384615384616,
+    "types": {
+     "island": 81,
+     "non_converged": 12,
+     "voltage": 1,
+     "feasible": 10
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.8653846153846154,
+    "types": {
+     "non_converged": 13,
+     "feasible": 90,
+     "island": 1
+    }
+   },
+   "wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "bacc_pergraph": 0.8817109070491226,
+   "replace": 0.198076923076923
+  },
+  "ieee39_sep_matched104_s6.json": {
+   "n": 104,
+   "sep": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+     "island": 95,
+     "non_converged": 9
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.08653846153846154,
+    "types": {
+     "island": 82,
+     "feasible": 9,
+     "non_converged": 13
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+     "feasible": 92,
+     "non_converged": 11,
+     "island": 1
+    }
+   },
+   "wrapped": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "bacc_pergraph": 0.8188869069803695,
+   "replace": 0.29230769230769227
+  }
+ },
+ "conn": {
+  "ieee24_conn.json": {
+   "_meta": {
+    "dataset": "ieee24",
+    "root": ".",
+    "seeds": "2",
+    "num": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "output": "results_conn/ieee24_conn.json"
+   },
+   "seeds": {
+    "2": {
+     "n": 200,
+     "raw": {
+      "n": 200,
+      "PFR": 0.0,
+      "types": {
+       "island": 98,
+       "voltage": 102
+      }
+     },
+     "connected": {
+      "n": 200,
+      "PFR": 0.0,
+      "types": {
+       "voltage": 200
+      }
+     },
+     "raw_types": {
+      "island": 98,
+      "voltage": 102
+     },
+     "connected_types": {
+      "voltage": 200
+     },
+     "largest_connected_prefix": {
+      "mean": 5.0,
+      "min": 5,
+      "max": 5,
+      "reached_k": 200,
+      "distribution": {
+       "5": 200
+      }
+     }
+    }
+   }
+  },
+  "ieee39_conn.json": {
+   "_meta": {
+    "dataset": "ieee39",
+    "root": ".",
+    "seeds": "2",
+    "num": 50,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "output": "results_conn/ieee39_conn.json"
+   },
+   "seeds": {
+    "2": {
+     "n": 50,
+     "raw": {
+      "n": 50,
+      "PFR": 0.02,
+      "types": {
+       "island": 49,
+       "feasible": 1
+      }
+     },
+     "connected": {
+      "n": 50,
+      "PFR": 0.72,
+      "types": {
+       "non_converged": 7,
+       "voltage": 7,
+       "feasible": 36
+      }
+     },
+     "raw_types": {
+      "island": 49,
+      "feasible": 1
+     },
+     "connected_types": {
+      "non_converged": 7,
+      "voltage": 7,
+      "feasible": 36
+     },
+     "largest_connected_prefix": {
+      "mean": 5.0,
+      "min": 5,
+      "max": 5,
+      "reached_k": 50,
+      "distribution": {
+       "5": 50
+      }
+     }
+    }
+   }
+  },
+  "uk_conn.json": {
+   "_meta": {
+    "dataset": "uk",
+    "root": ".",
+    "seeds": "2",
+    "num": 50,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "output": "results_conn/uk_conn.json"
+   },
+   "seeds": {
+    "2": {
+     "n": 50,
+     "raw": {
+      "n": 50,
+      "PFR": 0.72,
+      "types": {
+       "feasible": 36,
+       "island": 14
+      }
+     },
+     "connected": {
+      "n": 50,
+      "PFR": 1.0,
+      "types": {
+       "feasible": 50
+      }
+     },
+     "raw_types": {
+      "feasible": 36,
+      "island": 14
+     },
+     "connected_types": {
+      "feasible": 50
+     },
+     "largest_connected_prefix": {
+      "mean": 5.0,
+      "min": 5,
+      "max": 5,
+      "reached_k": 50,
+      "distribution": {
+       "5": 50
+      }
+     }
+    }
+   }
+  }
+ },
+ "wrapper": {
+  "ieee24_wrapper.json": {
+   "_meta": {
+    "dataset": "ieee24",
+    "root": ".",
+    "seeds": "2",
+    "num": 50,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "thresholds": "0.85,0.90,0.95",
+    "output": "results_wrapper/ieee24_wrapper.json"
+   },
+   "seeds": {
+    "2": {
+     "n": 50,
+     "raw_pfr_by_threshold": {
+      "0.85": {
+       "n": 50,
+       "PFR": 0.0,
+       "types": {
+        "island": 21,
+        "voltage": 29
+       }
+      },
+      "0.90": {
+       "n": 50,
+       "PFR": 0.0,
+       "types": {
+        "island": 21,
+        "voltage": 29
+       }
+      },
+      "0.95": {
+       "n": 50,
+       "PFR": 0.0,
+       "types": {
+        "island": 21,
+        "voltage": 29
+       }
+      }
+     },
+     "raw_types_085": {
+      "island": 21,
+      "voltage": 29
+     },
+     "wrapper": {
+      "n": 50,
+      "PFR": 1.0,
+      "types": {
+       "feasible": 50
+      }
+     },
+     "ac_calls": {
+      "mean": 21.64,
+      "median": 21.0,
+      "p90": 22.0,
+      "p95": 22.549999999999997,
+      "max": 29,
+      "min": 21,
+      "values": [
+       21,
+       21,
+       22,
+       21,
+       21,
+       23,
+       21,
+       22,
+       29,
+       22,
+       22,
+       21,
+       22,
+       22,
+       21,
+       21,
+       21,
+       21,
+       21,
+       21,
+       22,
+       21,
+       21,
+       21,
+       21,
+       21,
+       21,
+       21,
+       21,
+       22,
+       21,
+       22,
+       21,
+       22,
+       21,
+       21,
+       22,
+       22,
+       21,
+       21,
+       21,
+       29,
+       21,
+       21,
+       21,
+       21,
+       22,
+       22,
+       21,
+       21
+      ]
+     },
+     "replace_rate_mean": 0.21999999999999992,
+     "replace_rate_sd": 0.06060915267313267,
+     "incomplete": 0
+    }
+   }
+  },
+  "ieee39_wrapper.json": {
+   "_meta": {
+    "dataset": "ieee39",
+    "root": ".",
+    "seeds": "2",
+    "num": 50,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "thresholds": "0.85,0.90,0.95",
+    "output": "results_wrapper/ieee39_wrapper.json"
+   },
+   "seeds": {
+    "2": {
+     "n": 50,
+     "raw_pfr_by_threshold": {
+      "0.85": {
+       "n": 50,
+       "PFR": 0.02,
+       "types": {
+        "island": 49,
+        "feasible": 1
+       }
+      },
+      "0.90": {
+       "n": 50,
+       "PFR": 0.02,
+       "types": {
+        "island": 49,
+        "feasible": 1
+       }
+      },
+      "0.95": {
+       "n": 50,
+       "PFR": 0.02,
+       "types": {
+        "island": 49,
+        "feasible": 1
+       }
+      }
+     },
+     "raw_types_085": {
+      "island": 49,
+      "feasible": 1
+     },
+     "wrapper": {
+      "n": 50,
+      "PFR": 1.0,
+      "types": {
+       "feasible": 50
+      }
+     },
+     "ac_calls": {
+      "mean": 26.48,
+      "median": 29.0,
+      "p90": 30.0,
+      "p95": 31.0,
+      "max": 31,
+      "min": 20,
+      "values": [
+       30,
+       30,
+       23,
+       29,
+       29,
+       29,
+       29,
+       23,
+       23,
+       22,
+       29,
+       23,
+       30,
+       23,
+       29,
+       30,
+       21,
+       31,
+       29,
+       29,
+       29,
+       22,
+       23,
+       30,
+       29,
+       23,
+       23,
+       30,
+       21,
+       21,
+       29,
+       23,
+       30,
+       29,
+       20,
+       21,
+       29,
+       22,
+       29,
+       31,
+       29,
+       30,
+       30,
+       22,
+       21,
+       23,
+       31,
+       22,
+       30,
+       31
+      ]
+     },
+     "replace_rate_mean": 0.32799999999999996,
+     "replace_rate_sd": 0.10505586463342993,
+     "incomplete": 0
+    }
+   }
+  },
+  "uk_wrapper.json": {
+   "_meta": {
+    "dataset": "uk",
+    "root": ".",
+    "seeds": "2",
+    "num": 50,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "thresholds": "0.85,0.90,0.95",
+    "output": "results_wrapper/uk_wrapper.json"
+   },
+   "seeds": {
+    "2": {
+     "n": 50,
+     "raw_pfr_by_threshold": {
+      "0.85": {
+       "n": 50,
+       "PFR": 0.72,
+       "types": {
+        "feasible": 36,
+        "island": 14
+       }
+      },
+      "0.90": {
+       "n": 50,
+       "PFR": 0.72,
+       "types": {
+        "feasible": 36,
+        "island": 14
+       }
+      },
+      "0.95": {
+       "n": 50,
+       "PFR": 0.72,
+       "types": {
+        "feasible": 36,
+        "island": 14
+       }
+      }
+     },
+     "raw_types_085": {
+      "feasible": 36,
+      "island": 14
+     },
+     "wrapper": {
+      "n": 50,
+      "PFR": 1.0,
+      "types": {
+       "feasible": 50
+      }
+     },
+     "ac_calls": {
+      "mean": 20.28,
+      "median": 20.0,
+      "p90": 21.0,
+      "p95": 21.0,
+      "max": 21,
+      "min": 20,
+      "values": [
+       20,
+       20,
+       20,
+       20,
+       20,
+       21,
+       20,
+       20,
+       20,
+       20,
+       21,
+       20,
+       20,
+       20,
+       21,
+       20,
+       20,
+       20,
+       20,
+       20,
+       21,
+       20,
+       20,
+       21,
+       20,
+       21,
+       21,
+       20,
+       20,
+       20,
+       20,
+       20,
+       21,
+       21,
+       21,
+       20,
+       20,
+       20,
+       20,
+       21,
+       20,
+       20,
+       20,
+       20,
+       20,
+       20,
+       21,
+       21,
+       20,
+       21
+      ]
+     },
+     "replace_rate_mean": 0.055999999999999994,
+     "replace_rate_sd": 0.09071147352221452,
+     "incomplete": 0
+    }
+   }
+  }
+ },
+ "op": {
+  "ieee24_op_raw.json": {
+   "public_raw": {
+    "n": 200,
+    "PFR": 0.0,
+    "types": {
+     "island": 98,
+     "voltage": 102
+    }
+   },
+   "sample_raw": {
+    "n": 200,
+    "PFR": 0.0,
+    "types": {
+     "island": 142,
+     "voltage": 58
+    }
+   },
+   "public_random": {
+    "n": 200,
+    "PFR": 0.52,
+    "types": {
+     "feasible": 104,
+     "island": 48,
+     "voltage": 28,
+     "non_converged": 20
+    }
+   },
+   "sample_random": {
+    "n": 200,
+    "PFR": 0.46,
+    "types": {
+     "feasible": 92,
+     "island": 77,
+     "voltage": 31
+    }
+   },
+   "sample_truth": {
+    "n": 200,
+    "PFR": 0.08,
+    "types": {
+     "island": 98,
+     "voltage": 86,
+     "feasible": 16
+    }
+   },
+   "sample_base": {
+    "n": 200,
+    "PFR": 0.97,
+    "types": {
+     "feasible": 194,
+     "island": 5,
+     "voltage": 1
+    }
+   },
+   "public_base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "_meta": {
+    "system": "ieee24",
+    "protocol": "raw-topk-public-vs-sample-conditioned",
+    "seed": 2,
+    "n": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "ranking_uses_eval_truth": false,
+    "bacc": 0.9128306595365419,
+    "mean_initiating_outage_branches": 1.15
+   }
+  },
+  "ieee39_op_raw.json": {
+   "public_raw": {
+    "n": 104,
+    "PFR": 0.009615384615384616,
+    "types": {
+     "island": 103,
+     "feasible": 1
+    }
+   },
+   "sample_raw": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+     "island": 104
+    }
+   },
+   "public_random": {
+    "n": 104,
+    "PFR": 0.08653846153846154,
+    "types": {
+     "island": 83,
+     "feasible": 9,
+     "non_converged": 11,
+     "voltage": 1
+    }
+   },
+   "sample_random": {
+    "n": 104,
+    "PFR": 0.009615384615384616,
+    "types": {
+     "island": 102,
+     "feasible": 1,
+     "voltage": 1
+    }
+   },
+   "sample_truth": {
+    "n": 104,
+    "PFR": 0.125,
+    "types": {
+     "island": 91,
+     "feasible": 13
+    }
+   },
+   "sample_base": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+     "feasible": 92,
+     "island": 12
+    }
+   },
+   "public_base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "_meta": {
+    "system": "ieee39",
+    "protocol": "raw-topk-public-vs-sample-conditioned",
+    "seed": 2,
+    "n": 104,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "ranking_uses_eval_truth": false,
+    "bacc": 0.7686267877019138,
+    "mean_initiating_outage_branches": 1.4711538461538463
+   }
+  },
+  "uk_op_raw.json": {
+   "public_raw": {
+    "n": 200,
+    "PFR": 0.7,
+    "types": {
+     "feasible": 140,
+     "island": 58,
+     "non_converged": 2
+    }
+   },
+   "sample_raw": {
+    "n": 200,
+    "PFR": 0.08,
+    "types": {
+     "island": 184,
+     "feasible": 16
+    }
+   },
+   "public_random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "sample_random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "sample_truth": {
+    "n": 200,
+    "PFR": 0.69,
+    "types": {
+     "island": 62,
+     "feasible": 138
+    }
+   },
+   "sample_base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "public_base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "_meta": {
+    "system": "uk",
+    "protocol": "raw-topk-public-vs-sample-conditioned",
+    "seed": 2,
+    "n": 200,
+    "train_num": 20,
+    "eval_start": 50,
+    "topk": 5,
+    "ranking_uses_eval_truth": false,
+    "bacc": 0.8888081380759063,
+    "mean_initiating_outage_branches": 1.36
+   }
+  }
+ },
+ "pg_quality": {
+  "ieee24_pg_s2.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.02,
+    "types": {
+     "island": 193,
+     "feasible": 4,
+     "non_converged": 3
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 0.515,
+    "types": {
+     "island": 56,
+     "feasible": 103,
+     "non_converged": 15,
+     "voltage": 26
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.075,
+    "types": {
+     "voltage": 176,
+     "non_converged": 9,
+     "feasible": 15
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.4318993441443326,
+    "tpr": 0.004048582995951417,
+    "tnr": 0.8597501052927138,
+    "tp": 1,
+    "fp": 999,
+    "tn": 6124,
+    "fn": 246
+   },
+   "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 2,
+    "epochs": 20,
+    "losses": [
+     0.7442303754389286,
+     0.03545056059956551,
+     0.032062781788408753,
+     0.031773410737514496,
+     0.03166854716837406,
+     0.031595577113330366,
+     0.03155931625515222,
+     0.03152322731912136,
+     0.03150995429605245,
+     0.031496104598045346,
+     0.031489799916744235,
+     0.031484625302255154,
+     0.03148287441581488,
+     0.03148146755993366,
+     0.031480229645967486,
+     0.03147996068000793,
+     0.031479667872190475,
+     0.031479496508836746,
+     0.03147936817258597,
+     0.03147933203727007
+    ],
+    "runtime_seconds": 0.739311695098877,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "ieee24_pg_s3.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.0,
+    "types": {
+     "island": 185,
+     "non_converged": 15
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 0.51,
+    "types": {
+     "feasible": 102,
+     "non_converged": 23,
+     "island": 50,
+     "voltage": 25
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.06,
+    "types": {
+     "voltage": 182,
+     "feasible": 12,
+     "non_converged": 6
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.4387575552608205,
+    "tpr": 0.017167381974248927,
+    "tnr": 0.860347728547392,
+    "tp": 4,
+    "fp": 996,
+    "tn": 6136,
+    "fn": 229
+   },
+   "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 3,
+    "epochs": 20,
+    "losses": [
+     0.12113306298851967,
+     0.031490663066506386,
+     0.03148827143013477,
+     0.03148546293377876,
+     0.031483756937086584,
+     0.03148331698030234,
+     0.0314831679686904,
+     0.0314825676381588,
+     0.031482558511197564,
+     0.031482501514256,
+     0.03148236069828272,
+     0.031482333317399025,
+     0.031482368148863314,
+     0.031482310779392716,
+     0.03148230277001858,
+     0.031482302024960516,
+     0.03148229960352182,
+     0.03148229829967022,
+     0.03148229904472828,
+     0.031482298672199246
+    ],
+    "runtime_seconds": 0.7971274852752686,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "ieee24_pg_s4.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.01,
+    "types": {
+     "island": 197,
+     "non_converged": 1,
+     "feasible": 2
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 0.57,
+    "types": {
+     "island": 42,
+     "feasible": 114,
+     "voltage": 18,
+     "non_converged": 26
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.055,
+    "types": {
+     "voltage": 183,
+     "feasible": 11,
+     "non_converged": 6
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.43427093928534083,
+    "tpr": 0.00847457627118644,
+    "tnr": 0.8600673022994952,
+    "tp": 2,
+    "fp": 998,
+    "tn": 6134,
+    "fn": 234
+   },
+   "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 4,
+    "epochs": 20,
+    "losses": [
+     1.6408720940351487,
+     0.2020106755197048,
+     0.04970044922083616,
+     0.03992911167442799,
+     0.03656516559422016,
+     0.035339725017547605,
+     0.034022939018905164,
+     0.033241071924567225,
+     0.03302917424589395,
+     0.032419192045927046,
+     0.032130223140120505,
+     0.03216574229300022,
+     0.0319792527705431,
+     0.03173773661255837,
+     0.03170995861291885,
+     0.03166349064558745,
+     0.031647620908916,
+     0.031569983996450904,
+     0.031593690440058705,
+     0.03156253900378943
+    ],
+    "runtime_seconds": 0.8151676654815674,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "ieee24_pg_s5.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.0,
+    "types": {
+     "island": 181,
+     "non_converged": 19
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 0.585,
+    "types": {
+     "feasible": 117,
+     "non_converged": 20,
+     "island": 38,
+     "voltage": 25
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.045,
+    "types": {
+     "voltage": 182,
+     "non_converged": 9,
+     "feasible": 9
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.4319031187867018,
+    "tpr": 0.00411522633744856,
+    "tnr": 0.859691011235955,
+    "tp": 1,
+    "fp": 999,
+    "tn": 6121,
+    "fn": 242
+   },
+   "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 5,
+    "epochs": 20,
+    "losses": [
+     0.8302548326551914,
+     0.09707946386188268,
+     0.051610523089766505,
+     0.04050793927162886,
+     0.036125065945088866,
+     0.0344997713342309,
+     0.03370117023587227,
+     0.032781118713319304,
+     0.03223323430866003,
+     0.032093355618417266,
+     0.031988750025629994,
+     0.03178360052406788,
+     0.03167016338557005,
+     0.031669017486274244,
+     0.0315843028947711,
+     0.03155666794627905,
+     0.031540777161717416,
+     0.0315277960151434,
+     0.03151214309036732,
+     0.03150498922914267
+    ],
+    "runtime_seconds": 0.6890285015106201,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "ieee24_pg_s6.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.0,
+    "types": {
+     "island": 190,
+     "non_converged": 10
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 0.575,
+    "types": {
+     "voltage": 17,
+     "feasible": 115,
+     "island": 47,
+     "non_converged": 21
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.045,
+    "types": {
+     "voltage": 178,
+     "non_converged": 13,
+     "feasible": 9
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.4380223220362052,
+    "tpr": 0.016129032258064516,
+    "tnr": 0.859915611814346,
+    "tp": 4,
+    "fp": 996,
+    "tn": 6114,
+    "fn": 244
+   },
+   "_meta": {
+    "system": "ieee24",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 6,
+    "epochs": 20,
+    "losses": [
+     2.8307755798101426,
+     0.07815517093986273,
+     0.043843514658510684,
+     0.03454154152423143,
+     0.03253132738173008,
+     0.03203162457793951,
+     0.03181360885500908,
+     0.03167856894433498,
+     0.03158943485468626,
+     0.031573683768510816,
+     0.03152981270104647,
+     0.03151832409203052,
+     0.031498678773641584,
+     0.03149667587131262,
+     0.03148764222860336,
+     0.03148477487266064,
+     0.03148541077971458,
+     0.031481491029262544,
+     0.03148056995123625,
+     0.03148042131215334
+    ],
+    "runtime_seconds": 0.6254143714904785,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "ieee39_pg_s2.json": {
+   "base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "pgexplainer": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+     "non_converged": 89,
+     "island": 15
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.09615384615384616,
+    "types": {
+     "island": 84,
+     "feasible": 10,
+     "non_converged": 10
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+     "feasible": 92,
+     "non_converged": 11,
+     "island": 1
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.4418214365629895,
+    "tpr": 0.0,
+    "tnr": 0.883642873125979,
+    "tp": 0,
+    "fp": 520,
+    "tn": 3949,
+    "fn": 162
+   },
+   "_meta": {
+    "system": "ieee39",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 104,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 2,
+    "epochs": 20,
+    "losses": [
+     1.4118248462677,
+     0.0790684649720788,
+     0.045027870871126655,
+     0.03946020398288965,
+     0.03657204154878855,
+     0.034588387422263625,
+     0.033776945620775226,
+     0.03299036081880331,
+     0.03259630855172872,
+     0.03223027773201466,
+     0.03192373514175415,
+     0.03189177066087723,
+     0.031736380979418756,
+     0.03167035188525915,
+     0.031601807475090025,
+     0.03156350329518318,
+     0.031543345935642716,
+     0.03151911813765764,
+     0.031502837873995305,
+     0.03149825017899275
+    ],
+    "runtime_seconds": 0.3127727508544922,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "ieee39_pg_s3.json": {
+   "base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "pgexplainer": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+     "non_converged": 43,
+     "island": 61
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.125,
+    "types": {
+     "island": 78,
+     "non_converged": 11,
+     "feasible": 13,
+     "voltage": 2
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.9038461538461539,
+    "types": {
+     "feasible": 94,
+     "non_converged": 10
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.4419383653416704,
+    "tpr": 0.0,
+    "tnr": 0.8838767306833408,
+    "tp": 0,
+    "fp": 520,
+    "tn": 3958,
+    "fn": 156
+   },
+   "_meta": {
+    "system": "ieee39",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 104,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 3,
+    "epochs": 20,
+    "losses": [
+     0.9442052051424981,
+     0.09606626871973276,
+     0.05416897982358933,
+     0.04417209848761559,
+     0.03964814431965351,
+     0.037592674046754836,
+     0.03568053003400564,
+     0.0343799164518714,
+     0.03363480400294065,
+     0.03286945652216673,
+     0.03263620175421238,
+     0.032359530217945576,
+     0.031969192624092105,
+     0.03195559289306402,
+     0.03176454324275255,
+     0.03172252587974071,
+     0.03166125677525997,
+     0.03159753456711769,
+     0.031553914211690424,
+     0.03152945563197136
+    ],
+    "runtime_seconds": 0.4872245788574219,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "ieee39_pg_s4.json": {
+   "base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "pgexplainer": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+     "non_converged": 83,
+     "island": 21
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.038461538461538464,
+    "types": {
+     "island": 83,
+     "non_converged": 17,
+     "feasible": 4
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+     "feasible": 92,
+     "non_converged": 11,
+     "island": 1
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.4418474614180273,
+    "tpr": 0.0,
+    "tnr": 0.8836949228360546,
+    "tp": 0,
+    "fp": 520,
+    "tn": 3951,
+    "fn": 161
+   },
+   "_meta": {
+    "system": "ieee39",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 104,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 4,
+    "epochs": 20,
+    "losses": [
+     1.358358631283045,
+     0.06623148284852505,
+     0.03891397640109062,
+     0.03585669659078121,
+     0.0341862116008997,
+     0.03340284507721662,
+     0.0328283803537488,
+     0.03256858959794044,
+     0.032178538665175435,
+     0.03196865059435368,
+     0.031803295575082303,
+     0.031779715232551096,
+     0.03165794033557177,
+     0.0316257419064641,
+     0.03158050831407309,
+     0.031548718363046645,
+     0.03151920456439257,
+     0.03150522038340568,
+     0.031509135477244855,
+     0.03150665182620287
+    ],
+    "runtime_seconds": 0.36351823806762695,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "ieee39_pg_s5.json": {
+   "base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "pgexplainer": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+     "island": 26,
+     "non_converged": 78
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.09615384615384616,
+    "types": {
+     "feasible": 10,
+     "island": 75,
+     "non_converged": 19
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.8653846153846154,
+    "types": {
+     "non_converged": 13,
+     "feasible": 90,
+     "island": 1
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.44180841539838855,
+    "tpr": 0.0,
+    "tnr": 0.8836168307967771,
+    "tp": 0,
+    "fp": 520,
+    "tn": 3948,
+    "fn": 166
+   },
+   "_meta": {
+    "system": "ieee39",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 104,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 5,
+    "epochs": 20,
+    "losses": [
+     0.14957850705832243,
+     0.03162861354649067,
+     0.0315295135602355,
+     0.031513629108667375,
+     0.03149951100349426,
+     0.03149147350341082,
+     0.03148964829742908,
+     0.03148482944816351,
+     0.031482576951384546,
+     0.031481281481683256,
+     0.031480643153190616,
+     0.031479838863015176,
+     0.03147954270243645,
+     0.031479284167289734,
+     0.03147933110594749,
+     0.03147914353758097,
+     0.03147910144180059,
+     0.03147907592356205,
+     0.031479069218039515,
+     0.031479062512516975
+    ],
+    "runtime_seconds": 0.378767728805542,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "ieee39_pg_s6.json": {
+   "base": {
+    "n": 104,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 104
+    }
+   },
+   "pgexplainer": {
+    "n": 104,
+    "PFR": 0.0,
+    "types": {
+     "non_converged": 91,
+     "island": 13
+    }
+   },
+   "random": {
+    "n": 104,
+    "PFR": 0.07692307692307693,
+    "types": {
+     "island": 86,
+     "non_converged": 10,
+     "feasible": 8
+    }
+   },
+   "truth": {
+    "n": 104,
+    "PFR": 0.8846153846153846,
+    "types": {
+     "feasible": 92,
+     "non_converged": 11,
+     "island": 1
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.4450586916672188,
+    "tpr": 0.006172839506172839,
+    "tnr": 0.8839445438282647,
+    "tp": 1,
+    "fp": 519,
+    "tn": 3953,
+    "fn": 161
+   },
+   "_meta": {
+    "system": "ieee39",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 104,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 6,
+    "epochs": 20,
+    "losses": [
+     1.6535319581627845,
+     0.04719964805990458,
+     0.03331971596926451,
+     0.032042911648750304,
+     0.03181603327393532,
+     0.03163064979016781,
+     0.03158840201795101,
+     0.0315433170646429,
+     0.03151932694017887,
+     0.031497782282531264,
+     0.03149501774460077,
+     0.03148815035820007,
+     0.03148565366864205,
+     0.031482885032892226,
+     0.03148153368383646,
+     0.031480262987315655,
+     0.031480283662676814,
+     0.031479666009545326,
+     0.03147948570549488,
+     0.031479533202946185
+    ],
+    "runtime_seconds": 0.4357888698577881,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "uk_pg_s2.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.54,
+    "types": {
+     "island": 92,
+     "feasible": 108
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.81,
+    "types": {
+     "feasible": 162,
+     "island": 38
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.7830461379233873,
+    "tpr": 0.5979073243647235,
+    "tnr": 0.968184951482051,
+    "tp": 400,
+    "fp": 600,
+    "tn": 18259,
+    "fn": 269
+   },
+   "_meta": {
+    "system": "uk",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 2,
+    "epochs": 20,
+    "losses": [
+     3.315453979372978,
+     0.27175615131855013,
+     0.19523004293441773,
+     0.18439935743808747,
+     0.18073540478944777,
+     0.17886079251766204,
+     0.1779704637825489,
+     0.17751192227005957,
+     0.17723962515592576,
+     0.17706874758005142,
+     0.1769697055220604,
+     0.17689957618713378,
+     0.176863893866539,
+     0.17685117721557617,
+     0.17682644128799438,
+     0.17681843936443328,
+     0.17681157737970352,
+     0.17680950164794923,
+     0.1768041171133518,
+     0.17680294886231424
+    ],
+    "runtime_seconds": 1.5437500476837158,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "uk_pg_s3.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.5,
+    "types": {
+     "island": 100,
+     "feasible": 100
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.735,
+    "types": {
+     "island": 53,
+     "feasible": 147
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.7986376795544559,
+    "tpr": 0.6267605633802817,
+    "tnr": 0.9705147957286299,
+    "tp": 445,
+    "fp": 555,
+    "tn": 18268,
+    "fn": 265
+   },
+   "_meta": {
+    "system": "uk",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 3,
+    "epochs": 20,
+    "losses": [
+     3.221739447116852,
+     0.30733387395739553,
+     0.07765997387468815,
+     0.05945957656949759,
+     0.05436510220170021,
+     0.05176901165395975,
+     0.05055347327142954,
+     0.04983697962015867,
+     0.04940357133746147,
+     0.04911330491304398,
+     0.04895288608968258,
+     0.048852435871958734,
+     0.04879300445318222,
+     0.04875171165913343,
+     0.04872145708650351,
+     0.048708663880825044,
+     0.04870030712336302,
+     0.048695383593440056,
+     0.04868953358381987,
+     0.04868718814104796
+    ],
+    "runtime_seconds": 1.6055750846862793,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "uk_pg_s4.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.91,
+    "types": {
+     "feasible": 182,
+     "island": 18
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.78,
+    "types": {
+     "feasible": 156,
+     "island": 44
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.7021235313895063,
+    "tpr": 0.4413489736070381,
+    "tnr": 0.9628980891719745,
+    "tp": 301,
+    "fp": 699,
+    "tn": 18141,
+    "fn": 381
+   },
+   "_meta": {
+    "system": "uk",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 4,
+    "epochs": 20,
+    "losses": [
+     1.7409203723073006,
+     0.10732638314366341,
+     0.08212186247110367,
+     0.07790459096431732,
+     0.07667680680751801,
+     0.07632617056369781,
+     0.07617426849901676,
+     0.0760875802487135,
+     0.07604695297777653,
+     0.07602237686514854,
+     0.07600639350712299,
+     0.07599605731666088,
+     0.07599094100296497,
+     0.07598848640918732,
+     0.07598668932914734,
+     0.07598564885556698,
+     0.07598499357700347,
+     0.07598470561206341,
+     0.07598449289798737,
+     0.0759843833744526
+    ],
+    "runtime_seconds": 2.1403181552886963,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "uk_pg_s5.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.465,
+    "types": {
+     "island": 107,
+     "feasible": 93
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.79,
+    "types": {
+     "feasible": 158,
+     "island": 42
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.7802790512857858,
+    "tpr": 0.5925373134328358,
+    "tnr": 0.9680207891387357,
+    "tp": 397,
+    "fp": 603,
+    "tn": 18253,
+    "fn": 273
+   },
+   "_meta": {
+    "system": "uk",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 5,
+    "epochs": 20,
+    "losses": [
+     1.213840514421463,
+     0.4617387935519218,
+     0.44462245255708693,
+     0.4411615803837776,
+     0.4395630210638046,
+     0.43837775737047197,
+     0.4378757461905479,
+     0.43745860606431963,
+     0.43710130304098127,
+     0.43703212291002275,
+     0.4368719086050987,
+     0.43677028864622114,
+     0.43673417866230013,
+     0.4367037728428841,
+     0.43665473610162736,
+     0.43664371073246,
+     0.4366325482726097,
+     0.4366173133254051,
+     0.43660561591386793,
+     0.43660546839237213
+    ],
+    "runtime_seconds": 0.7799842357635498,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  },
+  "uk_pg_s6.json": {
+   "base": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "pgexplainer": {
+    "n": 200,
+    "PFR": 0.5,
+    "types": {
+     "island": 100,
+     "feasible": 100
+    }
+   },
+   "random": {
+    "n": 200,
+    "PFR": 1.0,
+    "types": {
+     "feasible": 200
+    }
+   },
+   "truth": {
+    "n": 200,
+    "PFR": 0.755,
+    "types": {
+     "feasible": 151,
+     "island": 49
+    }
+   },
+   "edge_label_agreement": {
+    "pooled_bacc": 0.7677021366261594,
+    "tpr": 0.5675287356321839,
+    "tnr": 0.9678755376201349,
+    "tp": 395,
+    "fp": 605,
+    "tn": 18228,
+    "fn": 301
+   },
+   "_meta": {
+    "system": "uk",
+    "model": "gin",
+    "method": "pgexplainer",
+    "protocol": "v3r",
+    "explanation_type": "phenomenon",
+    "train_num": 20,
+    "n": 200,
+    "eval_start": 50,
+    "max_graphs": 0,
+    "topk": 5,
+    "seed": 6,
+    "epochs": 20,
+    "losses": [
+     1.2259068358689547,
+     0.05259808413684368,
+     0.04470433965325356,
+     0.0427994254976511,
+     0.042055445909500125,
+     0.04144946150481701,
+     0.041034501418471335,
+     0.040830419212579724,
+     0.04073367528617382,
+     0.04059210624545813,
+     0.04048534017056227,
+     0.04044856913387775,
+     0.04041685126721859,
+     0.04039362296462059,
+     0.040372698195278646,
+     0.040362690761685374,
+     0.040356696397066114,
+     0.04035139251500368,
+     0.040348599292337896,
+     0.04034684970974922
+    ],
+    "runtime_seconds": 2.933082342147827,
+    "physical_wrapper": false,
+    "wrapper_strategy": "greedy",
+    "beam_width": 3,
+    "candidate_pool": 8,
+    "wrapper_mean_edges": null,
+    "random_wrapper_mean_edges": null,
+    "wrapper_mean_replace_rate": null,
+    "wrapper_raw_bacc": null,
+    "wrapper_bacc": null,
+    "random_wrapper_bacc": null,
+    "wrapper_bacc_valid_n": 0
+   }
+  }
+ }
+}

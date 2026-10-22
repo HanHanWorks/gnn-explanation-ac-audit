@@ -159,8 +159,10 @@ def audit(net, injections, disconnect, cont_edges=(), volt_min=VOLT_MIN, volt_ma
     for kind, idx in list(cont_edges) + list(disconnect):
         if kind == "line":
             n.line.loc[idx, "in_service"] = False
-        else:
+        elif kind == "trafo":
             n.trafo.loc[idx, "in_service"] = False
+        else:
+            n.impedance.loc[idx, "in_service"] = False
     try:
         pp.runpp(n, algorithm="nr", numba=False)
     except Exception:
@@ -168,6 +170,8 @@ def audit(net, injections, disconnect, cont_edges=(), volt_min=VOLT_MIN, volt_ma
     if not n.converged:
         return False, "non_converged", {}
     v = n.res_bus.vm_pu.values
+    if np.isnan(v).any():
+        return False, "island", {}
     if v.min() < volt_min or v.max() > volt_max:
         return False, "voltage", {"vmin": float(v.min()), "vmax": float(v.max())}
     lmax = max(n.res_line.loading_percent.max(), n.res_trafo.loading_percent.max())

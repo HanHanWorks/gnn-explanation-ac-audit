@@ -24,7 +24,7 @@ datasets/PowerGraph-Node/13_Power_system/{IEEE24,IEEE39,UK}/System.m
 | Table 9 | `results_*_v7r_sensitivity_v10_*`, `results_*_dc_ac_v10_*`, `data/results_revision/results_op/*.json` |
 | Table 10 | `data/results_revision/results_wrapper/*.json`, `results_matched/*.json` |
 | Appendix C | `data/results_json/results_*_supervised_v9_contingency_*.json` |
-| Appendix D | `data/results_revision/results_heldout/*.json` |
+| Appendix D | `data/results_revision/results_heldout/*.json` (four original methods plus `*_heldout_gsat_s2.json` and `*_heldout_subgraphx_s2.json`) |
 | Figures 2-5 | `data/figure_csv/*.csv` |
 | Section 3.8 (Wilcoxon / effect sizes) | `data/results_revision/results_statistics/ress_statistical_revision.json` |
 
@@ -33,8 +33,9 @@ datasets/PowerGraph-Node/13_Power_system/{IEEE24,IEEE39,UK}/System.m
 ```bash
 python code/verify_archive.py
 python code/export_figure_csv.py
-python code/build_revision_summary.py
+python code/build_revision_summary.py     # writes revision_summary.md/json
 python code/make_figures.py
+python code/run_heldout_extra.py --help
 ```
 
 `build_revision_summary.py` and `make_figures.py` read the archive root from

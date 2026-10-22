@@ -15,12 +15,13 @@ data/results_revision/    new results generated for this revision
   results_matched/        IEEE 39 matched 104-graph SEP runs (seeds 2-6)
   results_conn/           joint-connectivity-preserving control (seed 2)
   results_conn5/          joint-connectivity-preserving control (five seeds, 50 samples/seed)
-  results_heldout/        held-out-backbone audit on the exact GIN random-test partition (seed 2)
+  results_heldout/        held-out-backbone audit on the exact GIN random-test partition (seed 2); includes all six methods, with GSAT retrained on non-test graphs
   results_wrapper/        wrapper AC-call distributions and threshold checks
   results_op/             identical raw top-k sets under public vs sample-conditioned protocols
   results_statistics/      effect-size and Wilcoxon tables used in Section 3.8
   results_split_indices.json  exact per-seed train/eval indices
 data/figure_csv/          CSV files used to draw Figures 2-5
+revision_summary.md/json   generated aggregation digest used for the revision
 figures/Figure1_source.svg  vector source for Figure 1
 code/                     analysis, aggregation, figure, and verification scripts
 code/build_figure1.sh       regenerates the Figure 1 PDF from the SVG
@@ -42,7 +43,7 @@ repository root); set it to a checkout containing `server_data/phase1` and
 
 The reported run used Python 3.11.13, numpy 1.26.4, scipy 1.16.3, pandas 2.3.3,
 scikit-learn 1.3.2, pandapower 3.5.4, PyTorch 2.2.2, torch-geometric 2.8.0,
-matplotlib 3.11.2, statsmodels 0.15.0, networkx 3.6.1. The pinned environment is in
+matplotlib 3.11.2, statsmodels 0.15.0, networkx 3.6.1, PyYAML 6.0.1, tensorboard 2.21.0. The pinned environment is in
 `requirements.txt` and `environment_powergraph.yml`.
 
 The raw PowerGraph data and the MATPOWER case files are public and are not
@@ -69,7 +70,7 @@ The supported check is:
 python code/verify_archive.py
 ```
 
-The aggregation, table, and figure scripts are under `code/`. They read the
+The aggregation, table, and figure scripts are under `code/`. `code/run_heldout_extra.py` reruns the GSAT/SubgraphX exact-test-partition audit; `code/make_figures.py` regenerates Figures 2--5. They read the
 archive root from the `RESS_ROOT` environment variable and default to the archive
 root, so the commands above run from a clean extraction. The mapping from each
 manuscript table and figure to its source files, and the commands used in the

@@ -1,0 +1,38 @@
+{
+  "method": {
+    "n": 50,
+    "PFR": 0.96,
+    "types": {
+      "feasible": 48,
+      "island": 2
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 1.0,
+    "types": {
+      "feasible": 50
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.74,
+    "types": {
+      "island": 13,
+      "feasible": 37
+    }
+  },
+  "_meta": {
+    "system": "uk",
+    "method": "subgraphx",
+    "seed": 2,
+    "n": 50,
+    "n_test_explainable_positive": 225,
+    "train_num": 500,
+    "topk": 5,
+    "split": "random 85/5/10 test partition",
+    "checkpoint": "gin_3l_32h_s2_best.pth",
+    "explanation_seconds": 87.0178952217102,
+    "note": "training-free on test graphs"
+  }
+}

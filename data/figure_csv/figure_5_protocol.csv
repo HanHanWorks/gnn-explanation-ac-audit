@@ -24,11 +24,11 @@ a,UK,random_k3,1.0
 a,UK,random_k5,1.0
 a,UK,random_k8,1.0
 c,IEEE 24,public_raw,0.0
-c,IEEE 24,sample_raw,0.71
-c,IEEE 24,sample_base,0.995
+c,IEEE 24,sample_raw,0.0
+c,IEEE 24,sample_base,0.97
 c,IEEE 39,public_raw,0.009615384615384616
-c,IEEE 39,sample_raw,1.0
-c,IEEE 39,sample_base,1.0
+c,IEEE 39,sample_raw,0.0
+c,IEEE 39,sample_base,0.8846153846153846
 c,UK,public_raw,0.7
-c,UK,sample_raw,0.915
-c,UK,sample_base,0.915
+c,UK,sample_raw,0.08
+c,UK,sample_base,1.0

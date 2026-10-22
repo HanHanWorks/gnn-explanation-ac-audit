@@ -416,11 +416,11 @@ def fig_protocol():
     sps = []
     for s_ in systems:
         if s_ == "ieee24":
-            dcs.append(0.510 - 0.0); sps.append(0.710 - 0.0)
+            dcs.append(0.510 - 0.0); sps.append(0.000 - 0.000)
         elif s_ == "ieee39":
-            dcs.append(0.0096 - 0.0096); sps.append(1.0 - 0.0096)
+            dcs.append(0.0096 - 0.0096); sps.append(0.000 - 0.0096)
         else:
-            dcs.append(0.710 - 0.700); sps.append(0.915 - 0.700)
+            dcs.append(0.710 - 0.700); sps.append(0.080 - 0.700)
     y = np.arange(len(systems))
     ax.scatter(dcs, y + 0.10, marker="o", s=26, c=[cols[s_] for s_ in systems], label="DC - AC")
     ax.scatter(sps, y - 0.10, marker="s", s=24, c=[cols[s_] for s_ in systems], alpha=0.7, label="Sample - public")

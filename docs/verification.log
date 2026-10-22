@@ -1,6 +1,3 @@
-# Verification log
-# Interpreter: Python 3.11.13
-# Date: 2026-10-20
 PASS manifest lists 137 formal artefacts (found 137)
 PASS all 137 formal artefacts present (found 137)
 PASS all Python files compile (0 failures)
@@ -13,8 +10,8 @@ PASS figure_3_null.csv has required columns
 PASS figure_4_transfer.csv has required columns
 PASS figure_5_protocol.csv has required columns
 PASS MANIFEST.sha256 exists
-PASS checksum manifest has 428 entries
-PASS all 428 checksums match
+PASS checksum manifest has 438 entries
+PASS all 438 checksums match
 PASS population denominators present for all three systems
 
 RESULT: PASS

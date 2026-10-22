@@ -1,0 +1,42 @@
+{
+  "method": {
+    "n": 50,
+    "PFR": 0.0,
+    "types": {
+      "island": 49,
+      "non_converged": 1
+    }
+  },
+  "random": {
+    "n": 50,
+    "PFR": 0.7,
+    "types": {
+      "feasible": 35,
+      "voltage": 4,
+      "island": 8,
+      "non_converged": 3
+    }
+  },
+  "truth": {
+    "n": 50,
+    "PFR": 0.04,
+    "types": {
+      "voltage": 47,
+      "feasible": 2,
+      "non_converged": 1
+    }
+  },
+  "_meta": {
+    "system": "ieee24",
+    "method": "subgraphx",
+    "seed": 2,
+    "n": 50,
+    "n_test_explainable_positive": 363,
+    "train_num": 500,
+    "topk": 5,
+    "split": "random 85/5/10 test partition",
+    "checkpoint": "gin_3l_32h_s2_best.pth",
+    "explanation_seconds": 6.405143737792969,
+    "note": "training-free on test graphs"
+  }
+}

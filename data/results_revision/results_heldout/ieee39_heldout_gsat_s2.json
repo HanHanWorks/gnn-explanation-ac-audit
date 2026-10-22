@@ -1,0 +1,38 @@
+{
+  "method": {
+    "n": 16,
+    "PFR": 0.0,
+    "types": {
+      "island": 16
+    }
+  },
+  "random": {
+    "n": 16,
+    "PFR": 0.1875,
+    "types": {
+      "island": 13,
+      "feasible": 3
+    }
+  },
+  "truth": {
+    "n": 16,
+    "PFR": 0.875,
+    "types": {
+      "non_converged": 2,
+      "feasible": 14
+    }
+  },
+  "_meta": {
+    "system": "ieee39",
+    "method": "gsat",
+    "seed": 2,
+    "n": 16,
+    "n_test_explainable_positive": 16,
+    "train_num": 500,
+    "topk": 5,
+    "split": "random 85/5/10 test partition",
+    "checkpoint": "gin_3l_32h_s2_best.pth",
+    "explanation_seconds": 53.213648080825806,
+    "note": "GSAT trained only on non-test graphs"
+  }
+}

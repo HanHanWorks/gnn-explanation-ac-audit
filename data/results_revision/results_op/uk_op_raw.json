@@ -10,10 +10,10 @@
   },
   "sample_raw": {
     "n": 200,
-    "PFR": 0.915,
+    "PFR": 0.08,
     "types": {
-      "feasible": 183,
-      "non_converged": 17
+      "island": 184,
+      "feasible": 16
     }
   },
   "public_random": {
@@ -25,26 +25,24 @@
   },
   "sample_random": {
     "n": 200,
-    "PFR": 0.75,
+    "PFR": 1.0,
     "types": {
-      "feasible": 150,
-      "non_converged": 50
+      "feasible": 200
     }
   },
   "sample_truth": {
     "n": 200,
-    "PFR": 0.8,
+    "PFR": 0.69,
     "types": {
-      "feasible": 160,
-      "non_converged": 40
+      "island": 62,
+      "feasible": 138
     }
   },
   "sample_base": {
     "n": 200,
-    "PFR": 0.915,
+    "PFR": 1.0,
     "types": {
-      "feasible": 183,
-      "non_converged": 17
+      "feasible": 200
     }
   },
   "public_base": {
